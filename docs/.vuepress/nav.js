@@ -1,9 +1,8 @@
 module.exports = [
   {
-    text: 'Guide',
-    link: '/guide/',
+    text: '脚手架',
     items: [
-      { text: 'vue-template', link: '/guide/vue-template/' }
+      { text: 'vue-template', link: '/vue-template/' }
     ]
   }
 ]

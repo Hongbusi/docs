@@ -9,7 +9,6 @@ module.exports = {
   themeConfig: {
     repo: 'Hongbusi',
     docsRepo: 'Hongbusi/docs',
-    editLinks: true,
     copyright: 'Copyright © 2021 Hongbusi',
     record: '浙ICP备2020035758号-2',
     recordLink: 'https://beian.miit.gov.cn',
