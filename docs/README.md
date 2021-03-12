@@ -1,15 +1,15 @@
 ---
 home: true
+heroText: A Personal Blog
 heroImage: /logo.png
-title: a
-actionText: 快速上手 →
-actionLink: /
+actionText: 开始 →
+actionLink: /vue-template/
 features:
-  - title: 丰富功能
-    details: 提炼了典型的业务模型，提供了丰富的功能组件
-  - title: 最佳实践
-    details: 合理的框架选择，良好的工程实践助你持续产出高质量代码
-  - title: 国际化
-    details: 内建业界通用的国际化方案
+  - title: A Blog
+    details: 专注前端技术，记录学习日常。
+  - title: For Me
+    details: 桃李不言，下自成蹊！
+  - title: For Future
+    details: 记录个人博客，见证成长之路。
 ---
 <Footer />

@@ -2,7 +2,7 @@ let nav = require('./nav.js')
 
 module.exports = {
   title: 'Hongbusi',
-  description: '桃李不言，下自成蹊！',
+  description: 'Hongbusi',
   head: [
     ['link', {rel: 'icon', href: 'logo.png'}],
   ],
