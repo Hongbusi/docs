@@ -11,5 +11,5 @@ features:
     details: 合理的框架选择，良好的工程实践助你持续产出高质量代码
   - title: 国际化
     details: 内建业界通用的国际化方案
-footer: © 2021 - Hongbusi
+footer: Copyright © 2021 Hongbusi
 ---
