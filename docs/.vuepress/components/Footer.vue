@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     <p>{{ $themeConfig.copyright }}</p>
-    <a :href="$themeConfig.recordLink">{{ $themeConfig.record }}</a>
+    <a :href="$themeConfig.recordLink" target="_blank">{{ $themeConfig.record }}</a>
   </div>
 </template>
 
