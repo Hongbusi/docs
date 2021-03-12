@@ -5,13 +5,14 @@ module.exports = {
   description: '桃李不言，下自成蹊！',
   head: [
     ['link', {rel: 'icon', href: 'logo.png'}],
-    ['link', {rel: 'stylesheet', href: 'styles/index.css'}],
-    ['script', {src: 'js/index.js'}]
   ],
   themeConfig: {
     repo: 'Hongbusi',
     docsRepo: 'Hongbusi/docs',
     editLinks: true,
+    copyright: 'Copyright © 2021 Hongbusi',
+    record: '浙ICP备2020035758号-2',
+    recordLink: 'https://beian.miit.gov.cn',
     nav: nav,
     sidebar: {
     }
