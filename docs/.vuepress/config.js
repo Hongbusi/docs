@@ -8,7 +8,7 @@ module.exports = {
   ],
   themeConfig: {
     repo: 'Hongbusi/docs',
-    docsRepo: 'docs',
+    docsDir: 'docs',
     editLinks: true,
     lastUpdated: 'Last Updated',
     copyright: 'Copyright © 2021 Hongbusi',
