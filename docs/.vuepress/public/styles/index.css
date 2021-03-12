@@ -1,12 +1,15 @@
-.footer div {
+.footer p {
   margin-top: 10px;
+  margin-bottom: 0;
 }
 
-.footer a {
+.footer p a {
+  font-weight: 400;
   color: #4e6e8e;
   transition: all 0.3s;
 }
 
-.footer a:hover {
+.footer p a:hover {
   color: red;
+  text-decoration: underline;
 }
