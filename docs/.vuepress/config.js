@@ -7,13 +7,20 @@ module.exports = {
     ['link', {rel: 'icon', href: 'logo.png'}],
   ],
   themeConfig: {
-    repo: 'Hongbusi',
-    docsRepo: 'Hongbusi/docs',
+    repo: 'Hongbusi/docs',
+    docsRepo: 'docs',
+    editLinks: true,
+    lastUpdated: 'Last Updated',
     copyright: 'Copyright © 2021 Hongbusi',
     record: '浙ICP备2020035758号-2',
     recordLink: 'https://beian.miit.gov.cn',
     nav: nav,
     sidebar: {
+      '/vue-template/': [
+        '',
+        'tree',
+        'iconfont'
+      ]
     }
   }
 }
