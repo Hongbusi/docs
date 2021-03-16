@@ -1,7 +1,14 @@
 const sidebar = {
   vueTemplate: [
-    '/vue-template/tree',
-    '/vue-template/iconfont'
+    {
+      title: 'vue-template',
+      path: '/client/vue-template',
+      collapsable: false,
+      children: [
+        '/client/vue-template-tree',
+        '/client/vue-template-iconfont'
+      ]
+    },
   ]
 };
 
@@ -21,19 +28,27 @@ module.exports = {
     recordLink: 'https://beian.miit.gov.cn',
     nav: [
       {
-        text: '脚手架',
-        ariaLabel: '脚手架菜单',
+        text: '工具',
         items: [
           {
-            text: 'vue-template',
-            link: '/vue-template/'
+            text: '脚手架',
+            link: '/client/'
+          }
+        ]
+      },
+      {
+        text: '学习笔记',
+        items: [
+          {
+            text: 'vuepress',
+            link: '/vuepress/'
           }
         ]
       },
     ],
     sidebar: {
       collapsable: false,
-      '/vue-template/': sidebar.vueTemplate
+      '/client/': sidebar.vueTemplate
     }
   }
 }
