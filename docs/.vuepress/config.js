@@ -9,6 +9,15 @@ const sidebar = {
         '/client/vue-template-iconfont'
       ]
     },
+  ],
+  vuepress: [
+    {
+      title: 'vuepress',
+      collapsable: false,
+      children: [
+        '/vuepress/guide'
+      ]
+    },
   ]
 };
 
@@ -48,7 +57,8 @@ module.exports = {
     ],
     sidebar: {
       collapsable: false,
-      '/client/': sidebar.vueTemplate
+      '/client/': sidebar.vueTemplate,
+      '/vuepress/': sidebar.vuepress
     }
   }
 }
