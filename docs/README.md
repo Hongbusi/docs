@@ -3,7 +3,7 @@ home: true
 heroText: A Personal Blog
 heroImage: /logo.png
 actionText: 开始 →
-actionLink: /vue-template/
+actionLink: /vuepress/
 features:
   - title: A Blog
     details: 专注前端技术，记录学习日常。
