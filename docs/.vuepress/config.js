@@ -11,7 +11,8 @@ const sidebar = {
       collapsable: false,
       children: [
         '/client/vue-template/tree',
-        '/client/vue-template/iconfont'
+        '/client/vue-template/iconfont',
+        '/client/vue-template/plop-template'
       ]
     },
   ],
