@@ -10,8 +10,8 @@ const sidebar = {
       path: '/client/vue-template',
       collapsable: false,
       children: [
-        '/client/vue-template-tree',
-        '/client/vue-template-iconfont'
+        '/client/vue-template/tree',
+        '/client/vue-template/iconfont'
       ]
     },
   ],
