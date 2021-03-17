@@ -1,15 +1,17 @@
 const sidebar = {
   vueTemplate: [
     {
-      title: '介绍',
-      path: '/client/',
-      collapsable: false
+      title: '前言',
+      collapsable: false,
+      children: [
+        '/client/'
+      ]
     },
     {
       title: 'vue-template',
-      path: '/client/vue-template',
       collapsable: false,
       children: [
+        '/client/vue-template/',
         '/client/vue-template/tree',
         '/client/vue-template/iconfont',
         '/client/vue-template/plop-template'
@@ -18,9 +20,11 @@ const sidebar = {
   ],
   vuepress: [
     {
-      title: '介绍',
-      path: '/vuepress/',
-      collapsable: false
+      title: '前言',
+      collapsable: false,
+      children: [
+        '/vuepress/'
+      ]
     },
     {
       title: 'vuepress',
