@@ -14,7 +14,8 @@ const sidebar = {
         '/client/vue-template/',
         '/client/vue-template/tree',
         '/client/vue-template/iconfont',
-        '/client/vue-template/plop-template'
+        '/client/vue-template/plop-template',
+        '/client/vue-template/i18n'
       ]
     },
   ],

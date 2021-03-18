@@ -1,6 +1,8 @@
 # plop-template
 
-在开发过程中，无论我们添加页面还是添加组件，都需要新建文件，但每个人新建的文件内容规范可能都不太一样。于是乎，引入了 [plop](https://github.com/plopjs/plop) 来解决这个问题，使用命名行一键创建模板，更好的遵守规范。
+平时日常工作中，做最多的就是写业务模块和组件。当每次新开一个 view 或者 component 的时候都需要手动创建一个新 .vue 文件，然后再创建 template、script、style 这些标签，还是有些麻烦的。
+
+基于plop，提供了几个基础模板，方便创建新的 view、component 或者 store。
 
 ## plop
 
