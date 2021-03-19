@@ -1,24 +1,4 @@
 const sidebar = {
-  vueTemplate: [
-    {
-      title: '前言',
-      collapsable: false,
-      children: [
-        '/client/'
-      ]
-    },
-    {
-      title: 'vue-template',
-      collapsable: false,
-      children: [
-        '/client/vue-template/',
-        '/client/vue-template/tree',
-        '/client/vue-template/iconfont',
-        '/client/vue-template/plop-template',
-        '/client/vue-template/i18n'
-      ]
-    },
-  ],
   vuepress: [
     {
       title: '前言',
@@ -33,7 +13,38 @@ const sidebar = {
       children: [
         '/vuepress/guide'
       ]
-    },
+    }
+  ],
+  vueTemplate: [
+    {
+      title: 'vue-template',
+      collapsable: false,
+      children: [
+        '/templates/vue-template/',
+        '/templates/vue-template/tree',
+        '/templates/vue-template/iconfont',
+        '/templates/vue-template/plop-template',
+        '/templates/vue-template/i18n'
+      ]
+    }
+  ],
+  hbsCreate: [
+    {
+      title: 'hbs-create',
+      collapsable: false,
+      children: [
+        '/packages/hbs-create/'
+      ]
+    }
+  ],
+  hbsStyles: [
+    {
+      title: 'hbs-styles',
+      collapsable: false,
+      children: [
+        '/packages/hbs-styles/'
+      ]
+    }
   ]
 };
 
@@ -53,15 +64,6 @@ module.exports = {
     recordLink: 'https://beian.miit.gov.cn',
     nav: [
       {
-        text: '工具',
-        items: [
-          {
-            text: '脚手架',
-            link: '/client/'
-          }
-        ]
-      },
-      {
         text: '学习笔记',
         items: [
           {
@@ -70,11 +72,35 @@ module.exports = {
           }
         ]
       },
+      {
+        text: 'Templates',
+        items: [
+          {
+            text: 'vue-template',
+            link: '/templates/vue-template/'
+          }
+        ]
+      },
+      {
+        text: 'Packages',
+        items: [
+          {
+            text: 'hbs-create',
+            link: '/packages/hbs-create/'
+          },
+          {
+            text: 'hbs-styles',
+            link: '/packages/hbs-styles/'
+          }
+        ]
+      }
     ],
     sidebar: {
       collapsable: false,
-      '/client/': sidebar.vueTemplate,
-      '/vuepress/': sidebar.vuepress
+      '/vuepress/': sidebar.vuepress,
+      '/templates/vue-template/': sidebar.vueTemplate,
+      '/packages/hbs-create/': sidebar.hbsCreate,
+      '/packages/hbs-styles/': sidebar.hbsStyles
     }
   }
 }
