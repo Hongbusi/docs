@@ -24,7 +24,8 @@ const sidebar = {
         '/templates/vue-template/tree',
         '/templates/vue-template/iconfont',
         '/templates/vue-template/plop-template',
-        '/templates/vue-template/i18n'
+        '/templates/vue-template/i18n',
+        '/templates/vue-template/dayjs'
       ]
     }
   ],
