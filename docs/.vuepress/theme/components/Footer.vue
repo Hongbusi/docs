@@ -1,26 +1,18 @@
 <template>
   <div class="footer-wrapper">
     <span>
-      <reco-icon icon="reco-theme" />
-      <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
-    </span>
-    <span v-if="$themeConfig.record">
-      <reco-icon icon="reco-beian" />
-      <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
-    </span>
-    <span>
-      <reco-icon icon="reco-copyright" />
-      <a>
-        <span v-if="$themeConfig.author">{{ $themeConfig.author }}</span>
-        &nbsp;&nbsp;
-        <span v-if="$themeConfig.startYear && $themeConfig.startYear != (new Date().getFullYear())">{{ $themeConfig.startYear }} - </span>
-        {{ new Date().getFullYear() }}
-      </a>
+      Copyright ©
+      <span v-if="$themeConfig.startYear && $themeConfig.startYear != (new Date().getFullYear())">{{ $themeConfig.startYear }} - </span>
+      {{ new Date().getFullYear() }}
+      <span v-if="$themeConfig.author">{{ $themeConfig.author }}</span>
     </span>
     <span v-show="showAccessNumber">
       <reco-icon icon="reco-eye" />
       <AccessNumber idVal="/" />
     </span>
+    <p v-if="$themeConfig.record">
+      <a :href="$themeConfig.recordLink || '#'" target="_blank">{{ $themeConfig.record }}</a>
+    </p>
     <p class="cyber-security" v-if="$themeConfig.cyberSecurityRecord">
       <img src="https://img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png" alt="">
       <a :href="$themeConfig.cyberSecurityLink || '#'">{{ $themeConfig.cyberSecurityRecord }}</a>
@@ -59,7 +51,14 @@ export default defineComponent({
     text-align: center;
     color: lighten($textColor, 25%);
     a {
-      font-size 14px
+      font-weight: normal;
+      font-size: 14px;
+      color: lighten($textColor, 25%);
+
+      &:hover {
+        color: $accentColor;
+        text-decoration: underline;
+      }
     }
     > span {
       margin-left 1rem
