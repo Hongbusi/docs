@@ -1,59 +1,9 @@
-const sidebar = {
-  vuepress: [
-    {
-      title: '前言',
-      collapsable: false,
-      children: [
-        '/vuepress/'
-      ]
-    },
-    {
-      title: 'vuepress',
-      collapsable: false,
-      children: [
-        '/vuepress/guide'
-      ]
-    }
-  ],
-  vueTemplate: [
-    {
-      title: 'vue-template',
-      collapsable: false,
-      children: [
-        '/templates/vue-template/',
-        '/templates/vue-template/tree',
-        '/templates/vue-template/iconfont',
-        '/templates/vue-template/plop-template',
-        '/templates/vue-template/i18n',
-        '/templates/vue-template/dayjs'
-      ]
-    }
-  ],
-  hbsCreate: [
-    {
-      title: 'hbs-create',
-      collapsable: false,
-      children: [
-        '/packages/hbs-create/'
-      ]
-    }
-  ],
-  hbsStyles: [
-    {
-      title: 'hbs-styles',
-      collapsable: false,
-      children: [
-        '/packages/hbs-styles/'
-      ]
-    }
-  ]
-};
-
 module.exports = {
   title: 'Hongbusi',
-  description: 'Hongbusi',
+  description: '洪布斯',
   head: [
     ['link', {rel: 'icon', href: 'logo.png'}],
+    ['link', {rel: 'stylesheet', href: 'index.css'}]
   ],
   themeConfig: {
     repo: 'Hongbusi/docs',
@@ -63,45 +13,7 @@ module.exports = {
     copyright: 'Copyright © 2021 Hongbusi',
     record: '浙ICP备2020035758号-2',
     recordLink: 'https://beian.miit.gov.cn',
-    nav: [
-      {
-        text: 'Notes',
-        items: [
-          {
-            text: 'vuepress',
-            link: '/vuepress/'
-          }
-        ]
-      },
-      {
-        text: 'Templates',
-        items: [
-          {
-            text: 'vue-template',
-            link: '/templates/vue-template/'
-          }
-        ]
-      },
-      {
-        text: 'Packages',
-        items: [
-          {
-            text: 'hbs-create',
-            link: '/packages/hbs-create/'
-          },
-          {
-            text: 'hbs-styles',
-            link: '/packages/hbs-styles/'
-          }
-        ]
-      }
-    ],
-    sidebar: {
-      collapsable: false,
-      '/vuepress/': sidebar.vuepress,
-      '/templates/vue-template/': sidebar.vueTemplate,
-      '/packages/hbs-create/': sidebar.hbsCreate,
-      '/packages/hbs-styles/': sidebar.hbsStyles
-    }
+    nav: require('./nav'),
+    sidebar: require('./sidebar')
   }
 }

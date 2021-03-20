@@ -1,0 +1,11 @@
+button {
+  outline: none;
+}
+
+.dropdown-wrapper .dropdown-title {
+  transition: all 0.3s;
+}
+
+.dropdown-wrapper .dropdown-title:hover {
+  color: #3eaf7c !important;
+}
