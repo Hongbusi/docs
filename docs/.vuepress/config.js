@@ -65,7 +65,7 @@ module.exports = {
     recordLink: 'https://beian.miit.gov.cn',
     nav: [
       {
-        text: '学习笔记',
+        text: 'Notes',
         items: [
           {
             text: 'vuepress',
