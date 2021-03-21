@@ -19,11 +19,14 @@
         </ModuleTransition>
 
         <ModuleTransition delay="0.08">
-          <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description">
+          <p v-if="recoShowModule && $frontmatter.tagline !== null" class="description swingHorizontal">
             {{ $frontmatter.tagline || $description || 'Welcome to your vuePress-theme-reco site' }}
           </p>
         </ModuleTransition>
+        <a class="home-more arrowScrollDown" href="#home-blog"></a>
       </div>
+      <bubbles></bubbles>
+      <div id="home-blog"></div>
     </div>
 
     <ModuleTransition delay="0.16">
@@ -67,8 +70,10 @@ import { ModuleTransition, RecoIcon } from '@vuepress-reco/core/lib/components'
 import PersonalInfo from '@theme/components/PersonalInfo'
 import { getOneColor } from '@theme/helpers/other'
 
+import Bubbles from '@theme/components/Bubbles'
+
 export default defineComponent({
-  components: { NoteAbstract, TagList, FriendLink, ModuleTransition, PersonalInfo, RecoIcon },
+  components: { NoteAbstract, TagList, FriendLink, ModuleTransition, PersonalInfo, RecoIcon, Bubbles },
   setup (props, ctx) {
     const instance = getCurrentInstance().proxy
 
@@ -84,8 +89,7 @@ export default defineComponent({
     const bgImageStyle = computed(() => {
       const url = instance.$frontmatter.bgImage
         ? instance.$withBase(instance.$frontmatter.bgImage)
-        : require('../../images/bg.svg')
-
+        : `${Math.floor(Math.random() * 10)}.jpg`
       const initBgImageStyle = {
         textAlign: 'center',
         overflow: 'hidden',
@@ -135,6 +139,11 @@ export default defineComponent({
       margin: 0 auto 1.5rem
     }
 
+    > div {
+      position relative
+      z-index 10
+    }
+
     h1 {
       display: block;
       margin:0 auto 1.8rem;
@@ -143,8 +152,10 @@ export default defineComponent({
 
     .description {
       margin: 1.8rem auto;
-      font-size: 1.6rem;
+      font-size: 2rem;
       line-height: 1.3;
+      color: #fff;
+      cursor pointer
     }
   }
   .home-blog-wrapper {
@@ -301,5 +312,91 @@ export default defineComponent({
       }
     }
   }
+}
+
+.swingHorizontal{
+  color:hsl(222, 25%, 14%);
+}
+
+.swingHorizontal:hover
+{
+  animation: swingHorizontal 1s ease;
+  animation-iteration-count: 1;
+}
+
+@keyframes swingHorizontal
+{
+  15%
+  {
+      transform: translateX(5px);
+  }
+  30%
+  {
+      transform: translateX(-5px);
+  }
+  50%
+  {
+      transform: translateX(3px);
+  }
+  65%
+  {
+      transform: translateX(-3px);
+  }
+  80%
+  {
+      transform: translateX(2px);
+  }
+  100%
+  {
+      transform: translateX(0);
+  }
+}
+
+.home-more {
+  display: inline-block;
+  margin-top: 10rem;
+}
+
+.home-more:after {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  content: "";
+  display: block;
+  border-right: 3px solid #d3d3d3;
+  border-top: 3px solid #d3d3d3;
+  transform: translateX(-50%) rotate(135deg);
+}
+
+.arrowScrollDown {
+  fill: hsl(243, 80%, 62%);
+  animation: arrowAnimation 1.5s infinite ease-out;
+}
+
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0
+  }
+  30% {
+    opacity: 1
+  }
+  60% {
+    opacity: 1
+  }
+  to {
+    -webkit-transform: translateY(10px);
+    transform: translateY(10px);
+    opacity: 0
+  }
+}
+
+#home-blog {
+  position absolute
+  bottom -2px
+  left 0
+  width: 100%;
 }
 </style>
