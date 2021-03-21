@@ -1,3 +1,13 @@
+---
+title: vue-template plop
+date: 2021-03-12
+tags: 
+- vue
+- plop
+categories:
+- vue-template
+---
+
 # plop-template
 
 平时日常工作中，做最多的就是写业务模块和组件。当每次新开一个 view 或者 component 的时候都需要手动创建一个新 .vue 文件，然后再创建 template、script、style 这些标签，还是有些麻烦的。

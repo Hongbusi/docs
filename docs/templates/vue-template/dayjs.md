@@ -1,6 +1,11 @@
 ---
 title: vue-template day.js
 date: 2021-03-20
+tags: 
+- vue
+- dayjs
+categories:
+- vue-template
 ---
 
 # 时间处理
