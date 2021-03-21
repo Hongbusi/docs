@@ -15,6 +15,8 @@ module.exports = {
         showText: '(/≧▽≦/)欢迎回来！',
         hideText: '(●—●)不要走啊，再看看！'
     }],
+    ['go-top'],
+    ['cursor-effects'],
     ['meting', {
       meting: {
           server: 'netease',
