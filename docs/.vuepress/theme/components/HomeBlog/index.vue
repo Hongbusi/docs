@@ -25,7 +25,7 @@
         </ModuleTransition>
         <a class="home-more arrowScrollDown" href="#home-blog"></a>
       </div>
-      <bubbles></bubbles>
+      <component v-if="currentView" :is="currentView"></component>
       <div id="home-blog"></div>
     </div>
 
@@ -70,10 +70,8 @@ import { ModuleTransition, RecoIcon } from '@vuepress-reco/core/lib/components'
 import PersonalInfo from '@theme/components/PersonalInfo'
 import { getOneColor } from '@theme/helpers/other'
 
-import Bubbles from '@theme/components/Bubbles'
-
 export default defineComponent({
-  components: { NoteAbstract, TagList, FriendLink, ModuleTransition, PersonalInfo, RecoIcon, Bubbles },
+  components: { NoteAbstract, TagList, FriendLink, ModuleTransition, PersonalInfo, RecoIcon },
   setup (props, ctx) {
     const instance = getCurrentInstance().proxy
 
@@ -117,6 +115,16 @@ export default defineComponent({
     getPagesByTags (tagInfo) {
       this.$router.push({ path: tagInfo.path })
     }
+  },
+  data() {
+    return {
+      currentView: null
+    }
+  },
+  mounted () {
+    import('../Bubbles').then(module => {
+      this.currentView = module.default;
+    })
   }
 })
 </script>
