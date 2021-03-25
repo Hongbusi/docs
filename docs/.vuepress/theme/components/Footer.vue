@@ -81,7 +81,7 @@ export default defineComponent({
 
 @media (max-width: $MQMobile) {
   .footer {
-    text-align: left!important;
+    text-align: center!important;
     > span {
       display block
       margin-left 0
