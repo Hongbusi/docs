@@ -10,36 +10,36 @@ module.exports = {
     }
   },
   plugins: [
-    ['@vuepress-reco/vuepress-plugin-kan-ban-niang', { clean: true }],
-    ['dynamic-title', {
-        showText: '(/≧▽≦/)欢迎回来！',
-        hideText: '(●—●)不要走啊，再看看！'
-    }],
-    ['go-top'],
-    ['cursor-effects'],
-    ['meting', {
-      meting: {
-          server: 'netease',
-          type: 'playlist',
-          mid: '696441716',
-          // auto: 'https://music.163.com/#/playlist?id=6670996920'
-      },
-      aplayer: {
-        fixed: true,
-        mini: true,
-        autoplay: false,
-        listFolded: true,
-        theme: '#f9bcdd',
-        order: 'random',
-        volume: 0.1,
-        lrcType: 0
-      },
-      mobile :{
-        cover: false,
-      }
-    }]
+    // ['@vuepress-reco/vuepress-plugin-kan-ban-niang', { clean: true }],
+    // ['dynamic-title', {
+    //     showText: '(/≧▽≦/)欢迎回来！',
+    //     hideText: '(●—●)不要走啊，再看看！'
+    // }],
+    // ['go-top'],
+    // ['cursor-effects'],
+    // ['meting', {
+    //   meting: {
+    //       server: 'netease',
+    //       type: 'playlist',
+    //       mid: '696441716',
+    //       // auto: 'https://music.163.com/#/playlist?id=6670996920'
+    //   },
+    //   aplayer: {
+    //     fixed: true,
+    //     mini: true,
+    //     autoplay: false,
+    //     listFolded: true,
+    //     theme: '#f9bcdd',
+    //     order: 'random',
+    //     volume: 0.1,
+    //     lrcType: 0
+    //   },
+    //   mobile :{
+    //     cover: false,
+    //   }
+    // }]
   ],
-  theme: 'reco',
+  theme:  require.resolve('../../../vuepress-theme-hbs'),
   themeConfig: {
     lastUpdated: '上次更新',
     record: '浙ICP备2020035758号-2',
