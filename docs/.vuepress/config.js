@@ -39,7 +39,7 @@ module.exports = {
     //   }
     // }]
   ],
-  theme:  require.resolve('../../../vuepress-theme-hbs'),
+  theme:  require.resolve('../../../vuepress-theme-hbs/packages'),
   themeConfig: {
     lastUpdated: '上次更新',
     record: '浙ICP备2020035758号-2',
