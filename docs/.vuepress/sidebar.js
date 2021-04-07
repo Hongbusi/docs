@@ -8,5 +8,13 @@ module.exports = {
         'markdown'
       ]
     }
+  ],
+  '/guide/theme/': [
+    {
+      title: 'vuepress-theme-hbs',
+      children: [
+        ''
+      ]
+    }
   ]
 }

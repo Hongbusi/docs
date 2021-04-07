@@ -7,5 +7,14 @@ module.exports = [
         link: '/notes/vuepress/'
       }
     ]
+  },
+  {
+    text: '文档',
+    items: [
+      {
+        text: 'vuepress-theme-hbs',
+        link: '/guide/theme/'
+      }
+    ]
   }
 ];
