@@ -9,6 +9,14 @@ module.exports = {
       ]
     }
   ],
+  '/notes/lodash/': [
+    {
+      title: 'Lodash',
+      children: [
+        ''
+      ]
+    }
+  ],
   '/guide/theme/': [
     {
       title: 'vuepress-theme-hbs',

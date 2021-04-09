@@ -5,6 +5,10 @@ module.exports = [
       {
         text: 'vuepress',
         link: '/notes/vuepress/'
+      },
+      {
+        text: 'Lodash',
+        link: '/notes/lodash/'
       }
     ]
   },
