@@ -16,6 +16,13 @@ module.exports = {
       children: [
         ''
       ]
+    },
+    {
+      title: '数组',
+      collapsable: false,
+      children: [
+        'array/chunk',
+      ]
     }
   ],
   '/guide/theme/': [
