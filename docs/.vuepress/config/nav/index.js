@@ -20,5 +20,9 @@ module.exports = [
         link: '/guide/theme/'
       }
     ]
+  },
+  {
+    text: '留言板',
+    link: '/other/message-board'
   }
 ];

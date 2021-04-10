@@ -42,7 +42,6 @@
 ::: right
 来自 [维基百科](https://zh.wikipedia.org/wiki/牛顿运动定律)
 :::
-:::
 
 ## vuepress-plugin-smooth-scroll <Badge text="优化"/>
 
