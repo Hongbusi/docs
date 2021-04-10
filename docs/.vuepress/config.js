@@ -5,13 +5,5 @@ module.exports = {
     ['link', {rel: 'icon', href: 'logo.png'}]
   ],
   plugins: [],
-  themeConfig: {
-    lastUpdated: '上次更新',
-    record: '浙ICP备2020035758号-2',
-    recordLink: 'https://beian.miit.gov.cn',
-    startYear: '2021',
-    author: 'Hongbusi',
-    nav: require('./nav'),
-    sidebar: require('./sidebar')
-  }
+  themeConfig: require('./config/themeConfig')
 }

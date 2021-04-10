@@ -1,8 +1,8 @@
 module.exports = {
-  collapsable: false,
   '/notes/vuepress/': [
     {
-      title: 'vuepress',
+      title: 'VuePress',
+      collapsable: false,
       children: [
         '',
         'markdown'
@@ -12,6 +12,7 @@ module.exports = {
   '/notes/lodash/': [
     {
       title: 'Lodash',
+      collapsable: false,
       children: [
         ''
       ]
@@ -20,6 +21,7 @@ module.exports = {
   '/guide/theme/': [
     {
       title: 'vuepress-theme-hbs',
+      collapsable: false,
       children: [
         ''
       ]
