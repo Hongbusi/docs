@@ -3,7 +3,7 @@ module.exports = [
     text: '笔记',
     items: [
       {
-        text: 'vuepress',
+        text: 'VuePress',
         link: '/notes/vuepress/'
       },
       {
