@@ -37,7 +37,8 @@ module.exports = {
       title: '进阶',
       collapsable: false,
       children: [
-        'record'
+        'record',
+        'no-found'
       ]
     }
   ]
