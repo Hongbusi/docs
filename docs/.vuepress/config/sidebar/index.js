@@ -38,6 +38,7 @@ module.exports = {
       collapsable: false,
       children: [
         'record',
+        'valine',
         'no-found',
         'home',
         'plugins'
