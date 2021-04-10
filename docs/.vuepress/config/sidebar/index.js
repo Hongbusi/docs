@@ -39,7 +39,8 @@ module.exports = {
       children: [
         'record',
         'no-found',
-        'home'
+        'home',
+        'plugins'
       ]
     }
   ]
