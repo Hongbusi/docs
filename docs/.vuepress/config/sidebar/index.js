@@ -27,10 +27,17 @@ module.exports = {
   ],
   '/guide/theme/': [
     {
-      title: 'vuepress-theme-hbs',
+      title: '基础',
       collapsable: false,
       children: [
         ''
+      ]
+    },
+    {
+      title: '进阶',
+      collapsable: false,
+      children: [
+        'record'
       ]
     }
   ]
