@@ -38,7 +38,8 @@ module.exports = {
       collapsable: false,
       children: [
         'record',
-        'no-found'
+        'no-found',
+        'home'
       ]
     }
   ]
