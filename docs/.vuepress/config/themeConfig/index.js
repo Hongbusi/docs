@@ -1,4 +1,8 @@
 module.exports = {
+  repo: 'Hongbusi/vuepress-theme-hbs',
+  docsRepo: 'Hongbusi/docs',
+  docsDir: 'docs',
+  editLinks: true,
   type: 'blog',
   author: 'Hongbusi',
   record: '浙ICP备2020035758号-2',
