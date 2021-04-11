@@ -3,9 +3,21 @@ title: '评价'
 date: 2021-04-10
 ---
 
-[valine](https://valine.js.org/)
+## 介绍
 
-**options**
+主题内置评价功能，基于 [valine](https://valine.js.org/) 实现。
+
+需要在某篇文章开启评论，在 `front-matter` 设置 `isShowComments: true`。
+
+``` md
+---
+isShowComments: true
+---
+```
+
+## Options
+
+**评价**
 
 ``` js
 // .vuepress/config.js
@@ -13,16 +25,23 @@ date: 2021-04-10
 module.exports = {
   themeConfig: {
     valineConfig: {
-      // 默认配置
-      placeholder: '填写邮箱可以收到回复提醒哦！', // 评论框占位提示符
-      avatar: 'Gravatar', // 头像展示方式
-      meta: ['nick', 'mail'], // 评论者相关属性
-      visitor: true, // 文章访问量统计
-      recordIP: false, // 是否记录评论者 IP
-      requiredFields: ['nick', 'mail'], // 设置必填项，默认匿名
-      // 仅需配置
+      visitor: true, // 如需文章访问量统计
       appId: 'Your appId', // 从 LeanCloud 的应用中得到的 appId
       appKey: 'Your appKey' // 从 LeanCloud 的应用中得到的 appKey
+    }
+  }  
+}
+```
+
+**访问量统计**
+
+``` js
+// .vuepress/config.js
+
+module.exports = {
+  themeConfig: {
+    valineConfig: {
+      visitor: true, // 文章访问量统计
     }
   }  
 }
