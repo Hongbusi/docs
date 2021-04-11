@@ -1,4 +1,7 @@
-# 介绍
+---
+title: '介绍'
+date: 2021-04-10
+---
 
 Welcome to `vuepress-theme-hbs`。
 

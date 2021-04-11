@@ -1,4 +1,7 @@
-# plugins
+---
+title: 'plugins'
+date: 2021-04-10
+---
 
 ## vuepress-plugin-container
 
