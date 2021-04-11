@@ -20,6 +20,6 @@
   "homepage": "https://github.com/Hongbusi/docs#readme",
   "devDependencies": {
     "vuepress": "^1.8.2",
-    "vuepress-theme-hbs": "^1.0.2"
+    "vuepress-theme-hbs": "^1.0.3"
   }
 }
