@@ -5,6 +5,10 @@ date: 2021-04-11
 
 ## 介绍
 
+``` js
+_.isObject(value)
+```
+
 检查 `value` 是否为 `Object` 的 language type。
 
 ::: danger
@@ -18,10 +22,6 @@ date: 2021-04-11
 
 返回：如果 `value` 为一个对象，那么返回 `true`，否则返回 `false`
 :::
-
-``` js
-_.isObject(value)
-```
 
 ## 例子
 
