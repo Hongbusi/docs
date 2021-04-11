@@ -21,7 +21,13 @@ module.exports = {
     {
       title: '数组',
       children: [
-        'array/chunk',
+        'array/chunk'
+      ]
+    },
+    {
+      title: '语言',
+      children: [
+        'lang/isObject'
       ]
     }
   ]

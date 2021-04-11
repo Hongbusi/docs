@@ -1,5 +1,5 @@
 ---
-title: 'plugins'
+title: plugins
 date: 2021-04-10
 ---
 
