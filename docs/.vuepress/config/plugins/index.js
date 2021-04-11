@@ -5,5 +5,6 @@ module.exports = [
         hour12: false
       }
     }
-  ]
+  ],
+  '@vuepress/pwa'
 ]
