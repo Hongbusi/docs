@@ -3,7 +3,7 @@ title: 学习计划
 date: 2021-04-11
 ---
 
-## Flag
+## 目标
 
 ::: theorem Flag
 
@@ -12,6 +12,8 @@ date: 2021-04-11
 目标拆分：平均每周完成 25 个左右
 
 目标周期：2021-04-11 ~ 2021-07-12
+
+[source-code](https://github.com/Hongbusi/source-code/tree/master/Lodash)
 
 ::: right
 —— Hongbusi
@@ -48,9 +50,10 @@ Methods：1 个
 ## 实施情况 <Badge text="持续更新..." />
 
 ::: tip
-array: 0/65
+语言：5/56
 :::
 
 ::: details 第 1 周（2021-04-12 ~ 2021-04-18）
-目标：0/25
+目标：5/25
+isObject、isNull、isNil、isFunction、isLength
 :::

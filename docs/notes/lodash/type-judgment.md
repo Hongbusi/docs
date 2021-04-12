@@ -1,52 +1,7 @@
 ---
-title: isObject
-date: 2021-04-11
+title: 判断数据类型
+date: 2021-04-12
 ---
-
-## 介绍
-
-``` js
-_.isObject(value)
-```
-
-检查 `value` 是否为 `Object` 的 language type。
-
-::: danger
-例如：arrays, functions, objects, regexes, new Number(0), new String('')
-:::
-
-::: tip
-版本: 0.1.0
-
-参数：要检查的值
-
-返回：如果 `value` 为一个对象，那么返回 `true`，否则返回 `false`
-:::
-
-## 例子
-
-``` js
-_.isObject({});
-// => true
- 
-_.isObject([1, 2, 3]);
-// => true
- 
-_.isObject(_.noop);
-// => true
- 
-_.isObject(null);
-// => false
-```
-
-## 源码
-
-``` js
-function isObject(value) {
-  const type = typeof value;
-  return value != null && (type === 'object' || type === 'function');
-}
-```
 
 ## typeof
 

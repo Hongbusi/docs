@@ -13,21 +13,11 @@ module.exports = {
   '/notes/lodash/': [
     {
       title: 'Lodash',
+      collapsable: false,
       children: [
         '',
-        'plan'
-      ]
-    },
-    {
-      title: '数组',
-      children: [
-        'array/chunk'
-      ]
-    },
-    {
-      title: '语言',
-      children: [
-        'lang/isObject'
+        'plan',
+        'type-judgment'
       ]
     }
   ]
