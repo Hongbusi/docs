@@ -3,6 +3,8 @@ title: plugins
 date: 2021-04-10
 ---
 
+# plugins
+
 ## vuepress-plugin-container
 
 ### 取消了容器默认标题 <Badge text="优化"/>

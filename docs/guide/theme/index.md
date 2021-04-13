@@ -3,6 +3,8 @@ title: 介绍
 date: 2021-04-10
 ---
 
+# 介绍
+
 Welcome to `vuepress-theme-hbs`。
 
 `vuepress-theme-hbs` 是一个基于 [vuepress](https://www.vuepress.cn/) 开发的一个简单博客主题。

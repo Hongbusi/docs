@@ -3,6 +3,8 @@ title: 首页配置
 date: 2021-04-10
 ---
 
+# 首页配置
+
 ::: tip
 `vuepress-theme-hbs` 主题首页，默认是使用 `vuepress` 的首页配置，如果还想沿用之前的 `vuepress` 首页，则不需要更改任何配置。
 :::
