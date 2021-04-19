@@ -6,10 +6,10 @@ module.exports = [
         text: 'VuePress',
         link: '/notes/vuepress/'
       },
-      {
-        text: 'Lodash',
-        link: '/notes/lodash/'
-      }
+      // {
+      //   text: 'Lodash',
+      //   link: '/notes/lodash/'
+      // }
     ]
   },
   {

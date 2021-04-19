@@ -10,15 +10,15 @@ module.exports = {
     }
   ],
 
-  '/notes/lodash/': [
-    {
-      title: 'Lodash',
-      collapsable: false,
-      children: [
-        '',
-        'plan',
-        'type-judgment'
-      ]
-    }
-  ]
+  // '/notes/lodash/': [
+  //   {
+  //     title: 'Lodash',
+  //     collapsable: false,
+  //     children: [
+  //       '',
+  //       'plan',
+  //       'type-judgment'
+  //     ]
+  //   }
+  // ]
 }
