@@ -1,14 +1,14 @@
 module.exports = {
-  '/notes/vuepress/': [
-    {
-      title: 'VuePress',
-      collapsable: false,
-      children: [
-        '',
-        'markdown'
-      ]
-    }
-  ],
+  // '/notes/vuepress/': [
+  //   {
+  //     title: 'VuePress',
+  //     collapsable: false,
+  //     children: [
+  //       '',
+  //       'markdown'
+  //     ]
+  //   }
+  // ],
 
   // '/notes/lodash/': [
   //   {
