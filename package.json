@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
+    "doc:deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/Hongbusi/docs#readme",
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.8.2",
+    "gh-pages": "^3.2.1",
     "vuepress": "^1.8.2",
     "vuepress-theme-hbs": "^1.0.6"
   }

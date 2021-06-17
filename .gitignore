@@ -2,7 +2,7 @@
 node_modules
 node_cache
 
-docs/.vuepress/dist
+dist
 package-lock.json
 yarn.lock
 

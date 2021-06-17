@@ -2,14 +2,14 @@ module.exports = [
   {
     text: '笔记',
     items: [
-      // {
-      //   text: 'VuePress',
-      //   link: '/notes/vuepress/'
-      // },
-      // {
-      //   text: 'Lodash',
-      //   link: '/notes/lodash/'
-      // }
+      {
+        text: 'VuePress',
+        link: '/notes/vuepress/'
+      },
+      {
+        text: 'Lodash',
+        link: '/notes/lodash/'
+      }
     ]
   },
   {
