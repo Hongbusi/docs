@@ -5,8 +5,5 @@ module.exports = {
   description: '桃李不言，下自成蹊！',
   head: [
     ['link', {rel: 'icon', href: 'logo.png'}]
-  ],
-  theme: 'hbs',
-  themeConfig: require('./config/themeConfig'),
-  plugins: require('./config/plugins')
+  ]
 }
