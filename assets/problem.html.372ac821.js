@@ -1,0 +1,1 @@
+const e={key:"v-488f91a3",path:"/guide/git/problem.html",title:"常见问题",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:".gitignore 不生效",slug:"gitignore-不生效",children:[]}],filePathRelative:"guide/git/problem.md",git:{updatedTime:1625733898e3,contributors:[{name:"Hongbusi",email:"q951686662@qq.com",commits:1}]}};export{e as data};
