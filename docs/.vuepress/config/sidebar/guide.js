@@ -11,7 +11,8 @@ module.exports = {
   '/guide/vuepress/': [
     {
       children: [
-        ''
+        'index.md',
+        'plugins.md'
       ]
     }
   ],
