@@ -1,7 +1,15 @@
 module.exports = {
+  '/guide/git/': [
+    {
+      children: [
+        'index.md',
+        'command.md',
+        'problem.md'
+      ]
+    }
+  ],
   '/guide/vuepress/': [
     {
-      collapsable: false,
       children: [
         ''
       ]
@@ -9,7 +17,6 @@ module.exports = {
   ],
   '/guide/nuxtjs/': [
     {
-      collapsable: false,
       children: [
         ''
       ]
