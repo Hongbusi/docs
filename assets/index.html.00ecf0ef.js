@@ -1,1 +1,0 @@
-import{o as a,c as e,a as r,b as t}from"./app.ce160d24.js";const i={},d={id:"git",tabindex:"-1"},n=r("a",{class:"header-anchor",href:"#git","aria-hidden":"true"},"#",-1),s=t(" Git");i.render=function(r,t){return a(),e("h1",d,[n,s])};export default i;

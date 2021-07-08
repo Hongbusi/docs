@@ -1,1 +1,0 @@
-import{o as a,c as e,a as r,b as d}from"./app.ce160d24.js";const n={},s={id:"常用命令",tabindex:"-1"},t=r("a",{class:"header-anchor",href:"#常用命令","aria-hidden":"true"},"#",-1),o=d(" 常用命令");n.render=function(r,d){return a(),e("h1",s,[t,o])};export default n;

@@ -1,1 +1,0 @@
-import{o as e,c as r,a,b as s}from"./app.ce160d24.js";const d={},n={id:"vuepress",tabindex:"-1"},t=a("a",{class:"header-anchor",href:"#vuepress","aria-hidden":"true"},"#",-1),o=s(" Vuepress");d.render=function(a,s){return e(),r("h1",n,[t,o])};export default d;
