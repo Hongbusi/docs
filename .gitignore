@@ -3,6 +3,8 @@ node_modules
 node_cache
 
 dist
+docs/.vuepress/.cache
+docs/.vuepress/.temp
 package-lock.json
 yarn.lock
 
