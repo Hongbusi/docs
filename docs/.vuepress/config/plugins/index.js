@@ -12,11 +12,13 @@ module.exports = [
     }
   ],
   [
-    '@vuepress/plugin-search',
+    '@vuepress/docsearch',
     {
+      apiKey: '<API_KEY>',
+      indexName: '<INDEX_NAME>',
       locales: {
         '/': {
-          placeholder: '搜索'
+          placeholder: '搜索文档'
         }
       }
     }
