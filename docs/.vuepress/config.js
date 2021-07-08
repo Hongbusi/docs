@@ -4,7 +4,7 @@ module.exports = {
   title: '洪布斯',
   description: '桃李不言，下自成蹊！',
   head: [
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['link', { rel: 'manifest', href: '/docs/manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   themeConfig: {
