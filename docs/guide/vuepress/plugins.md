@@ -2,10 +2,12 @@
 
 ## pwa
 
+使你的 Vuepress 站点成为一个渐进式 Web 应用。
+
 1. 安装
 
 ``` shell
-yarn add @vuepress/plugin-pwa
+yarn add @vuepress/plugin-pwa@next
 ```
 
 2. 创建 Manifest 文件
