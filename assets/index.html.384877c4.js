@@ -1,0 +1,1 @@
+import{o as a,c as r,a as e,b as t}from"./app.6fabd081.js";const i={},d={id:"git",tabindex:"-1"},n=e("a",{class:"header-anchor",href:"#git","aria-hidden":"true"},"#",-1),s=t(" Git");i.render=function(e,t){return a(),r("h1",d,[n,s])};export default i;
