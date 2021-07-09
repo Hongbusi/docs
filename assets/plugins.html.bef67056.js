@@ -1,0 +1,1 @@
+const e={key:"v-29dae61f",path:"/guide/vuepress/plugins.html",title:"插件",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"pwa",slug:"pwa",children:[]}],filePathRelative:"guide/vuepress/plugins.md",git:{updatedTime:1625796758e3,contributors:[{name:"Hongbusi",email:"q951686662@qq.com",commits:2}]}};export{e as data};

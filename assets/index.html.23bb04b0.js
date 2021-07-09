@@ -1,1 +1,0 @@
-import{o as a,c as r,a as e,b as s}from"./app.6fabd081.js";const t={},n={id:"nuxt-js",tabindex:"-1"},d=e("a",{class:"header-anchor",href:"#nuxt-js","aria-hidden":"true"},"#",-1),o=s(" Nuxt.js");t.render=function(e,s){return a(),r("h1",n,[d,o])};export default t;
