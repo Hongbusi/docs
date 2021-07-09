@@ -11,16 +11,23 @@ module.exports = [
       }
     }
   ],
-  [
-    '@vuepress/docsearch',
-    {
-      apiKey: '<API_KEY>',
-      indexName: '<INDEX_NAME>',
-      locales: {
-        '/': {
-          placeholder: '搜索文档'
-        }
+  // [
+  //   '@vuepress/docsearch',
+  //   {
+  //     apiKey: '<API_KEY>',
+  //     indexName: '<INDEX_NAME>',
+  //     locales: {
+  //       '/': {
+  //         placeholder: '搜索文档'
+  //       }
+  //     }
+  //   }
+  // ],
+  ['@vuepress/plugin-search', {
+    locales: {
+      '/': {
+        placeholder: '搜索',
       }
     }
-  ]
+  }]
 ]

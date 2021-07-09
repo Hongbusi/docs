@@ -11,7 +11,7 @@ module.exports = {
     repo: 'Hongbusi/docs', // 项目仓库的 url
     logo: '/images/logo.png',
     navbar: require('./config/navbar'),
-    sidebar: require('./config/sidebar'),
-    plugins: require('./config/plugins')
-  }
+    sidebar: require('./config/sidebar')
+  },
+  plugins: require('./config/plugins')
 }
