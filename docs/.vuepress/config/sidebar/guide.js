@@ -19,7 +19,8 @@ module.exports = {
   '/guide/nuxtjs/': [
     {
       children: [
-        ''
+        'index.md',
+        'getting-started.md'
       ]
     }
   ]
