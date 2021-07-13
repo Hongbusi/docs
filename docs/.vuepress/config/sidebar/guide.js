@@ -20,7 +20,8 @@ module.exports = {
     {
       children: [
         'index.md',
-        'getting-started.md'
+        'getting-started.md',
+        'problem.md'
       ]
     }
   ]
