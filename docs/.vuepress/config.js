@@ -7,6 +7,7 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/docs/manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
+  bundler: '@vuepress/webpack',
   themeConfig: {
     repo: 'Hongbusi/docs', // 项目仓库的 url
     logo: '/images/logo.png',
