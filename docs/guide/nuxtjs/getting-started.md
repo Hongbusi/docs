@@ -4,19 +4,19 @@
 
 确保安装了 npx（npx 在 NPM 版本 5.2.0 默认安装了）：
 
-``` shell
+``` shell:no-line-numbers
 npx create-nuxt-app <项目名>
 ```
 
 或者用 yarn ：<Badge text="推荐" />
 
-``` shell
+``` shell:no-line-numbers
 yarn create nuxt-app <项目名>
 ```
 
 ## 目录结构
 
-``` js
+``` js:no-line-numbers
 assets // 用于组织未编译的静态资源如 LESS、SASS 或 JavaScript。
 components // 用于组织应用的 Vue.js 组件。
 layouts // 用于组织应用的布局组件。
@@ -31,7 +31,7 @@ package.json //用于描述应用的依赖关系和对外暴露的脚本接口�
 
 ## 别名
 
-``` js
+``` js:no-line-numbers
 ~ === srcDir
 @ === srcDir
 
@@ -55,7 +55,7 @@ Nuxt.js 依据 `pages` 目录结构自动生成 `vue-router` 模块的路由配�
 
 例如：
 
-``` vue
+``` vue:no-line-numbers
 <template>
   <nuxt-link to="/">首页</nuxt-link>
 </template>
@@ -65,7 +65,7 @@ Nuxt.js 依据 `pages` 目录结构自动生成 `vue-router` 模块的路由配�
 
 假设 `pages` 的目录结构如下：
 
-``` md
+``` md:no-line-numbers
 pages/
 --| user/
 -----| index.vue
@@ -75,7 +75,7 @@ pages/
 
 那么，Nuxt.js 自动生成的路由配置如下：
 
-``` js
+``` js:no-line-numbers
 router: {
   routes: [
     {
@@ -103,7 +103,7 @@ router: {
 
 以下目录结构：
 
-``` md
+``` md:no-line-numbers
 pages/
 --| _slug/
 -----| comments.vue
@@ -115,7 +115,7 @@ pages/
 
 Nuxt.js 生成对应的路由配置表为：
 
-``` js
+``` js:no-line-numbers
 router: {
   routes: [
     {
