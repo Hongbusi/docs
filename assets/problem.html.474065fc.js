@@ -1,0 +1,1 @@
+const e={key:"v-d3bd325e",path:"/guide/nuxtjs/problem.html",title:"常见问题",lang:"en-US",frontmatter:{},excerpt:"",headers:[{level:2,title:"使用 less",slug:"使用-less",children:[]}],filePathRelative:"guide/nuxtjs/problem.md",git:{updatedTime:1626144414e3,contributors:[{name:"Hongbusi",email:"q951686662@qq.com",commits:1}]}};export{e as data};

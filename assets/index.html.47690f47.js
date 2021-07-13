@@ -1,1 +1,0 @@
-const e={key:"v-6889f7b7",path:"/guide/nuxtjs/",title:"Nuxt.js",lang:"en-US",frontmatter:{},excerpt:"",headers:[],filePathRelative:"guide/nuxtjs/index.md",git:{updatedTime:1625732684e3,contributors:[{name:"Hongbusi",email:"q951686662@qq.com",commits:1}]}};export{e as data};
