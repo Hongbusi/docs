@@ -8,6 +8,11 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   bundler: '@vuepress/webpack',
+  markdown: {
+    code: {
+      lineNumbers: false
+    }
+  },
   themeConfig: {
     repo: 'Hongbusi/docs', // 项目仓库的 url
     docsDir: 'docs',

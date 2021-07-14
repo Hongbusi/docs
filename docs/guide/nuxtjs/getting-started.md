@@ -4,19 +4,19 @@
 
 确保安装了 npx（npx 在 NPM 版本 5.2.0 默认安装了）：
 
-``` shell:no-line-numbers
+``` shell
 npx create-nuxt-app <项目名>
 ```
 
 或者用 yarn ：<Badge text="推荐" />
 
-``` shell:no-line-numbers
+``` shell
 yarn create nuxt-app <项目名>
 ```
 
 ## 目录结构
 
-``` js:no-line-numbers
+``` js
 assets // 用于组织未编译的静态资源如 LESS、SASS 或 JavaScript。
 components // 用于组织应用的 Vue.js 组件。
 layouts // 用于组织应用的布局组件。
@@ -31,7 +31,7 @@ package.json //用于描述应用的依赖关系和对外暴露的脚本接口�
 
 ## 别名
 
-``` js:no-line-numbers
+``` js
 ~ === srcDir
 @ === srcDir
 
@@ -55,7 +55,7 @@ Nuxt.js 依据 `pages` 目录结构自动生成 `vue-router` 模块的路由配�
 
 例如：
 
-``` vue:no-line-numbers
+``` vue
 <template>
   <nuxt-link to="/">首页</nuxt-link>
 </template>
@@ -65,7 +65,7 @@ Nuxt.js 依据 `pages` 目录结构自动生成 `vue-router` 模块的路由配�
 
 假设 `pages` 的目录结构如下：
 
-``` md:no-line-numbers
+``` md
 pages/
 --| user/
 -----| index.vue
@@ -75,7 +75,7 @@ pages/
 
 那么，Nuxt.js 自动生成的路由配置如下：
 
-``` js:no-line-numbers
+``` js
 router: {
   routes: [
     {
@@ -103,7 +103,7 @@ router: {
 
 以下目录结构：
 
-``` md:no-line-numbers
+``` md
 pages/
 --| _slug/
 -----| comments.vue
@@ -115,7 +115,7 @@ pages/
 
 Nuxt.js 生成对应的路由配置表为：
 
-``` js:no-line-numbers
+``` js
 router: {
   routes: [
     {
@@ -154,7 +154,7 @@ router: {
 
 第一步：确保您的服务器上安装了 pm2。如果没有，只需从 yarn 或 npm 全局安装它。
 
-``` shell:no-line-numbers
+``` shell
 yarn global add pm2
 
 npm install pm2 -g
@@ -162,7 +162,7 @@ npm install pm2 -g
 
 第二步：需要添加  `ecosystem.config.js` 的文件到您的通用 Nuxt 应用程序来为其提供服务。在您的项目根目录中创建一个具有该名称的新文件并添加以下内容：
 
-``` js:no-line-numbers
+``` js
 module.exports = {
   apps: [
     {
