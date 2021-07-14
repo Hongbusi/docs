@@ -10,6 +10,8 @@ module.exports = {
   bundler: '@vuepress/webpack',
   themeConfig: {
     repo: 'Hongbusi/docs', // 项目仓库的 url
+    docsDir: 'docs',
+    docsBranch: 'master',
     logo: '/images/logo.png',
     navbar: require('./config/navbar'),
     sidebar: require('./config/sidebar')
