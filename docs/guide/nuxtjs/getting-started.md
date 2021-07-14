@@ -151,3 +151,33 @@ router: {
 ::: tip
 [pm2 部署参考教程](https://www.nuxtjs.cn/faq/deployment-pm2)
 :::
+
+第一步：确保您的服务器上安装了 pm2。如果没有，只需从 yarn 或 npm 全局安装它。
+
+``` shell:no-line-numbers
+yarn add pm2 -g
+
+npm install pm2 -g
+```
+
+第二步：需要添加  `ecosystem.config.js` 的文件到您的通用 Nuxt 应用程序来为其提供服务。在您的项目根目录中创建一个具有该名称的新文件并添加以下内容：
+
+``` js:no-line-numbers
+module.exports = {
+  apps: [
+    {
+      name: 'edusoho-website',
+      exec_mode: 'cluster',
+      instances: 'max', // Or a number of instances
+      script: './node_modules/nuxt/bin/nuxt.js',
+      args: 'start'
+    }
+  ]
+}
+```
+
+第三步：
+1. 现在使用 npm run build 构建您的应用程序。 
+2. 并使用 pm2 start 服务它。 
+3. 检查状态 pm2 ls。 
+4. 您的 Nuxt.js 应用程序现在可以使用了！
