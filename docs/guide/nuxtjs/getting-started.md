@@ -155,7 +155,7 @@ router: {
 第一步：确保您的服务器上安装了 pm2。如果没有，只需从 yarn 或 npm 全局安装它。
 
 ``` shell:no-line-numbers
-yarn add pm2 -g
+yarn global add pm2
 
 npm install pm2 -g
 ```
