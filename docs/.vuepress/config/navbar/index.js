@@ -13,6 +13,10 @@ module.exports = [
       {
         text: 'nuxtjs',
         link: '/guide/nuxtjs/'
+      },
+      {
+        text: 'utils',
+        link: '/guide/utils/'
       }
     ]
   }

@@ -24,5 +24,13 @@ module.exports = {
         'problem.md'
       ]
     }
+  ],
+  '/guide/utils/': [
+    {
+      children: [
+        'index.md',
+        'pm2.md'
+      ]
+    }
   ]
 }
