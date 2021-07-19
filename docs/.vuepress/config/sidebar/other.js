@@ -4,7 +4,8 @@ module.exports = {
       children: [
         'index.md',
         'article.md',
-        'project.md'
+        'project.md',
+        'website.md'
       ]
     }
   ]
