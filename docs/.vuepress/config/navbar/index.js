@@ -19,5 +19,9 @@ module.exports = [
         link: '/guide/utils/'
       }
     ]
+  },
+  {
+    text: '其他',
+    link: '/other/'
   }
 ];

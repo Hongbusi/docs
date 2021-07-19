@@ -1,3 +1,4 @@
 module.exports = {
-  ...require('./guide')
+  ...require('./guide'),
+  ...require('./other')
 }
