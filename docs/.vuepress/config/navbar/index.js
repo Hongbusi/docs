@@ -21,7 +21,7 @@ module.exports = [
     ]
   },
   {
-    text: '外部场景积累',
+    text: '其他',
     link: '/other/'
   }
 ];
