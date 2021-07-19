@@ -1,9 +1,13 @@
 # 学习
 
-[git](./git/)
+## Git
 
-[vuepress](./vuepress/)
+git 常用命令以及解决方案。[前往](./git/)
 
-[nuxtjs](./nuxtjs/)
+## Vuepress
 
-[utils](./utils/)
+基本配置总结。[前往](./vuepress/)
+
+## Nuxt.js
+
+Nuxt.js 项目搭建。[前往](./nuxtjs/)
