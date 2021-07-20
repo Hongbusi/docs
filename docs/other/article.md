@@ -1,5 +1,7 @@
 # 文章
 
+VSCode 写代码效率更高的技巧：[https://mp.weixin.qq.com/s/E7n32-k-uLL5DpQjPDesKA](https://mp.weixin.qq.com/s/E7n32-k-uLL5DpQjPDesKA)
+
 一次搞定九大排序策略：[https://mp.weixin.qq.com/s/jyquxruVcxGnOO7xklkICA](https://mp.weixin.qq.com/s/jyquxruVcxGnOO7xklkICA)
 
 前端组件库搭建：[https://mp.weixin.qq.com/s/q7Zf-wv-Tjq6R88QaRxrMQ](https://mp.weixin.qq.com/s/q7Zf-wv-Tjq6R88QaRxrMQ)

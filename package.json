@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "push": "gh-pages -d dist",
-    "release": "vuepress build docs && gh-pages -d dist"
+    "add": "git add .",
+    "commit": "git commit -m 'update'",
+    "push": "git push",
+    "gh-pages": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
