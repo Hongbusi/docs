@@ -1,4 +1,11 @@
 module.exports = {
+  '/guide/vue/': [
+    {
+      children: [
+        'index.md'
+      ]
+    }
+  ],
   '/guide/git/': [
     {
       children: [
@@ -22,14 +29,6 @@ module.exports = {
         'index.md',
         'getting-started.md',
         'problem.md'
-      ]
-    }
-  ],
-  '/guide/utils/': [
-    {
-      children: [
-        'index.md',
-        'pm2.md'
       ]
     }
   ]
