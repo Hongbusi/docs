@@ -2,7 +2,9 @@ module.exports = {
   '/guide/vue/': [
     {
       children: [
-        'index.md'
+        'index.md',
+        'style-guide.md',
+        'best-practices.md'
       ]
     }
   ],
