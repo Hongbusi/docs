@@ -1,5 +1,7 @@
 # 文章
 
+这样优化 if-else 更易读：[https://mp.weixin.qq.com/s/si7sFf-nCebbCxuCgBZPSw](https://mp.weixin.qq.com/s/si7sFf-nCebbCxuCgBZPSw)
+
 VSCode 写代码效率更高的技巧：[https://mp.weixin.qq.com/s/E7n32-k-uLL5DpQjPDesKA](https://mp.weixin.qq.com/s/E7n32-k-uLL5DpQjPDesKA)
 
 一次搞定九大排序策略：[https://mp.weixin.qq.com/s/jyquxruVcxGnOO7xklkICA](https://mp.weixin.qq.com/s/jyquxruVcxGnOO7xklkICA)
