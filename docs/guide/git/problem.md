@@ -10,7 +10,7 @@
 
 先把本地缓存删除（改变成未 track 状态），然后再提交。
 
-``` shell
+``` bash
 git rm -r --cached .
 
 git add .

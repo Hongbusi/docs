@@ -4,7 +4,7 @@
 
 Nuxt2 使用的是 Webpack4，需要安装 v7 版本的 `less-loader`（v8 是使用 Webpack5）。
 
-``` shell
+``` bash
 yarn add less less-loader@^7.3.0
 ```
 

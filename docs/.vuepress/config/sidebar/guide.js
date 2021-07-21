@@ -3,6 +3,7 @@ module.exports = {
     {
       children: [
         'index.md',
+        'vue-cli.md',
         'style-guide.md',
         'best-practices.md'
       ]

@@ -6,7 +6,7 @@
 
 1. 安装
 
-``` shell
+``` bash
 yarn add @vuepress/plugin-pwa@next
 ```
 

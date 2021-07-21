@@ -4,13 +4,13 @@
 
 确保安装了 npx（npx 在 NPM 版本 5.2.0 默认安装了）：
 
-``` shell
+``` bash
 npx create-nuxt-app <项目名>
 ```
 
 或者用 yarn ：<Badge text="推荐" />
 
-``` shell
+``` bash
 yarn create nuxt-app <项目名>
 ```
 
@@ -154,7 +154,7 @@ router: {
 
 第一步：确保您的服务器上安装了 pm2。如果没有，只需从 yarn 或 npm 全局安装它。
 
-``` shell
+``` bash
 yarn global add pm2
 
 npm install pm2 -g
