@@ -29,3 +29,9 @@ npm update -g @vue/cli
 # OR
 yarn global upgrade --latest @vue/cli
 ```
+
+## 创建一个项目
+
+``` bash
+vue create <project-name>
+```
