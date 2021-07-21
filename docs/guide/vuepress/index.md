@@ -3,10 +3,9 @@
 [Vuepress 官方文档](https://v2.vuepress.vuejs.org/zh/)
 
 
-Example:
+常用配置介绍:
 
 ``` js
-// docs/.vuepress/config.js
 module.exports = {
   base: '/docs/',
   dest: 'dist',

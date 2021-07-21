@@ -14,7 +14,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    repo: 'Hongbusi/docs', // 项目仓库的 url
+    repo: 'Hongbusi/docs',
     docsDir: 'docs',
     docsBranch: 'master',
     logo: '/images/logo.png',
