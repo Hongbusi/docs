@@ -1,5 +1,7 @@
 # 文章
 
+一行可以让项目启动快 70% 以上的代码：[https://mp.weixin.qq.com/s/uRF3jm5e3uU7PiMW_e0RXQ](https://mp.weixin.qq.com/s/uRF3jm5e3uU7PiMW_e0RXQ)
+
 这样优化 if-else 更易读：[https://mp.weixin.qq.com/s/si7sFf-nCebbCxuCgBZPSw](https://mp.weixin.qq.com/s/si7sFf-nCebbCxuCgBZPSw)
 
 VSCode 写代码效率更高的技巧：[https://mp.weixin.qq.com/s/E7n32-k-uLL5DpQjPDesKA](https://mp.weixin.qq.com/s/E7n32-k-uLL5DpQjPDesKA)
