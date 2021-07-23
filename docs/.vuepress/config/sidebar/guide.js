@@ -1,4 +1,12 @@
 module.exports = {
+  '/guide/vue3/': [
+    {
+      children: [
+        'index.md',
+        'install.md'
+      ]
+    }
+  ],
   '/guide/vue/': [
     {
       children: [
