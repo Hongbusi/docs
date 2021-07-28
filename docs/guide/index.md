@@ -1,5 +1,9 @@
 # 学习
 
+## JS
+
+JavaScript。[前往](./js/)
+
 ## Vue3
 
 Vue3 + TS + Vite 快速上手。[前往](./vue3/)
