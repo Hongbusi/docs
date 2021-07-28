@@ -59,3 +59,89 @@ export default = {
   plugins: [{ src: '~/plugins/iconfont', ssr: false }]
 }
 ```
+
+## components
+
+Nuxt.js 2.13+ 可以在您的模板中使用时自动导入您的组件。要激活此功能，请在您的配置中设置：
+
+``` js
+export default {
+  components: true
+}
+```
+
+在 components 目录中创建组件后，它们就可以自动导入了。
+
+```
+components/
+  TheHeader.vue
+  TheFooter.vue
+```
+
+``` vue
+<template>
+  <div>
+    <TheHeader />
+    <Nuxt />
+    <TheFooter />
+  </div>
+</template>
+```
+
+#### 动态导入
+
+要动态导入组件，也称为延迟加载组件，您需要做的就是在模板中添加 Lazy 前缀。
+
+``` vue
+<template>
+  <div>
+    <TheHeader />
+    <Nuxt />
+    <LazyTheFooter />
+  </div>
+</template>
+```
+
+#### 嵌套目录
+
+如果嵌套目录中有组件，例如：
+
+```
+components/
+  base/
+      foo/
+         Button.vue
+```
+
+组件名称将基于其自己的路径目录和文件名。因此，该组件将是：
+
+``` vue
+<BaseFooButton />
+```
+
+但是，如果要使用不应成为组件名称一部分的自定义目录结构，则可以明确指定这些目录：
+
+```
+components/
+  base/
+      foo/
+         Button.vue
+```
+
+
+``` js
+export default {
+  components: {
+    dirs: [
+      '~/components',
+      '~/components/base'
+    ]
+  }
+}
+```
+
+现在在您的模板中，您可以使用 FooButton 而不是 BaseFooButton。
+
+``` vue
+<FooButton />
+```
