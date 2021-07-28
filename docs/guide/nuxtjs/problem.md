@@ -128,7 +128,6 @@ components/
          Button.vue
 ```
 
-
 ``` js
 export default {
   components: {
