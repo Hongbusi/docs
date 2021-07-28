@@ -47,3 +47,15 @@ export default {
   // other configs
 }
 ```
+
+## 使用 iconfont
+
+`plugins` 下新建 `iconfont.js` 文件，存放 iconfont 生成的 js 代码。
+
+在 nuxt.config.js 添加：
+
+``` js
+export default = {
+  plugins: [{ src: '~/plugins/iconfont', ssr: false }]
+}
+```
