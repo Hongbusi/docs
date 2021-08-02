@@ -47,6 +47,7 @@ module.exports = {
       children: [
         'index.md',
         'getting-started.md',
+        'swiper.md',
         'problem.md'
       ]
     }
