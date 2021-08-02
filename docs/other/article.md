@@ -1,5 +1,7 @@
 # 文章
 
+熬夜总结50个Vue知识点，全都会你就是神：[https://mp.weixin.qq.com/s/kVKFCgA-wwR3FpVJac4dJw](https://mp.weixin.qq.com/s/kVKFCgA-wwR3FpVJac4dJw)
+
 开好一场会，比写1000行代码更重要：[https://zhuanlan.zhihu.com/p/33370262](https://zhuanlan.zhihu.com/p/33370262)
 
 尤大是如何发布 vuejs 的：[https://mp.weixin.qq.com/s/BHPbrKr1fQaoJyQFZVO3Kg](https://mp.weixin.qq.com/s/BHPbrKr1fQaoJyQFZVO3Kg)
