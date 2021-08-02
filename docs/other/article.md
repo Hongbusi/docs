@@ -1,5 +1,7 @@
 # 文章
 
+开好一场会，比写1000行代码更重要：[https://zhuanlan.zhihu.com/p/33370262](https://zhuanlan.zhihu.com/p/33370262)
+
 尤大是如何发布 vuejs 的：[https://mp.weixin.qq.com/s/BHPbrKr1fQaoJyQFZVO3Kg](https://mp.weixin.qq.com/s/BHPbrKr1fQaoJyQFZVO3Kg)
 
 25个 Vue 技巧：[https://mp.weixin.qq.com/s/D9csJDQLAUfzx_76QzuQnw](https://mp.weixin.qq.com/s/D9csJDQLAUfzx_76QzuQnw)
