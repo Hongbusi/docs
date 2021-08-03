@@ -1,5 +1,11 @@
 # 文章
 
+如何写好技术文档：[https://segmentfault.com/a/1190000040409082](https://segmentfault.com/a/1190000040409082)
+
+2021 年前端该了解什么？：[https://www.yuque.com/chenshuai/web/vp1msd](https://www.yuque.com/chenshuai/web/vp1msd)
+
+程序员如何在业余时间提升自己？：[https://mp.weixin.qq.com/s/Gxvrw78_Nvp8o_Y4ChfF1g](https://mp.weixin.qq.com/s/Gxvrw78_Nvp8o_Y4ChfF1g)
+
 熬夜总结50个Vue知识点，全都会你就是神：[https://mp.weixin.qq.com/s/kVKFCgA-wwR3FpVJac4dJw](https://mp.weixin.qq.com/s/kVKFCgA-wwR3FpVJac4dJw)
 
 开好一场会，比写1000行代码更重要：[https://zhuanlan.zhihu.com/p/33370262](https://zhuanlan.zhihu.com/p/33370262)
