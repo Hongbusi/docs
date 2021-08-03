@@ -2,7 +2,7 @@
 
 ## vuex
 
-#### src/store/index.js
+### src/store/index.js
 
 ``` js
 import Vue from 'vue';
@@ -36,7 +36,7 @@ export default store;
 
 [Vue I18n](https://kazupon.github.io/vue-i18n/zh/) 是 Vue.js 的国际化插件。它可以轻松地将一些本地化功能集成到你的 Vue.js 应用程序中。
 
-#### src/lang/index.js
+### src/lang/index.js
 
 ``` js
 import Vue from 'vue';

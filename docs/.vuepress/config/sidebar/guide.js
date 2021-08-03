@@ -21,7 +21,8 @@ module.exports = {
         'index.md',
         'vue-cli.md',
         'style-guide.md',
-        'best-practices.md'
+        'best-practices.md',
+        'technical-selection.md'
       ]
     }
   ],

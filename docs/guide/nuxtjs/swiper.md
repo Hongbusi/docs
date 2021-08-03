@@ -12,13 +12,13 @@ Swiper 最新为 6.x 版本，但已经全面不兼容 IE，详见 [Swiper 兼�
 
 ## 全局引入
 
-#### 1. 安装
+### 1. 安装
 
 ``` bash
 yarn add swiper@3.4.2 vue-awesome-swiper@2.6.7
 ```
 
-#### 2. plugins 文件夹新建 vue-swiper.js 文件
+### 2. plugins 文件夹新建 vue-swiper.js 文件
 
 ``` js
 import Vue from 'vue';
@@ -27,7 +27,7 @@ import VueAwesomeSwiper from 'vue-awesome-swiper';
 Vue.use(VueAwesomeSwiper);
 ```
 
-#### 3. 在 nuxt.config.js 中配置
+### 3. 在 nuxt.config.js 中配置
 
 ``` js
 css: ['swiper/dist/css/swiper.css'],
@@ -36,4 +36,4 @@ plugins: [
 ]
 ```
 
-#### 4. 使用 directive 模式
+### 4. 使用 directive 模式
