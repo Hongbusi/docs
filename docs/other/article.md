@@ -14,8 +14,6 @@
 
 25个 Vue 技巧：[https://mp.weixin.qq.com/s/D9csJDQLAUfzx_76QzuQnw](https://mp.weixin.qq.com/s/D9csJDQLAUfzx_76QzuQnw)
 
-vue 组件注册、权限按钮判断：[https://mp.weixin.qq.com/s/pBXNfpjZqYF1ZcVHZM2qsQ](https://mp.weixin.qq.com/s/pBXNfpjZqYF1ZcVHZM2qsQ)
-
 Vue 组件通信的 8 种方式：[https://mp.weixin.qq.com/s/sO7Czy03waWnz05IxOCjLw](https://mp.weixin.qq.com/s/sO7Czy03waWnz05IxOCjLw)
 
 一行可以让项目启动快 70% 以上的代码：[https://mp.weixin.qq.com/s/uRF3jm5e3uU7PiMW_e0RXQ](https://mp.weixin.qq.com/s/uRF3jm5e3uU7PiMW_e0RXQ)
