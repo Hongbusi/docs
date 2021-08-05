@@ -7,6 +7,13 @@ module.exports = {
       ]
     }
   ],
+  '/guide/ts/': [
+    {
+      children: [
+        'index.md'
+      ]
+    }
+  ],
   '/guide/vue3/': [
     {
       children: [
