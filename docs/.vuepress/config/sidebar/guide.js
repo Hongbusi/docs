@@ -10,7 +10,10 @@ module.exports = {
   '/guide/ts/': [
     {
       children: [
-        'index.md'
+        'index.md',
+        'install.md',
+        'webpack.md',
+        'base-type.md'
       ]
     }
   ],

@@ -18,7 +18,7 @@ module.exports = {
     docsDir: 'docs',
     docsBranch: 'master',
     logo: '/images/logo.png',
-    sidebarDepth: 1,
+    // sidebarDepth: 1,
     navbar: require('./config/navbar'),
     sidebar: require('./config/sidebar')
   },
