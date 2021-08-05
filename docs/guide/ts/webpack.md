@@ -11,6 +11,12 @@ yarn add ts-loader -D
 yarn add cross-env -D
 ```
 
+## 生成 tsconfig.json 文件
+
+``` bash
+tsc --init
+```
+
 ## 入口 js：src/main.ts
 
 ``` ts
