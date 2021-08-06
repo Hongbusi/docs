@@ -16,3 +16,6 @@
 - **使用 Proxy 代替 defineProperty 实现数据响应式；**
 - **重写虚拟 DOM 的实现和 Tree-Shaking。**
 
+::: warning 写在前面
+仅记录在使用 vue3 + TS + Vite + Ant Design Vue 中的问题。
+:::

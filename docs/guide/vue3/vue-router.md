@@ -12,7 +12,7 @@ npm install vue-router@4
 yarn add vue-router@4
 ```
 
-## src/router/index.ts 中配置
+## router/index.ts 中配置
 
 ``` ts
 import { createRouter, createWebHashHistory } from 'vue-router';
