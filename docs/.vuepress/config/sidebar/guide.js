@@ -21,7 +21,8 @@ module.exports = {
     {
       children: [
         'index.md',
-        'install.md'
+        'install.md',
+        'pro-layout.md'
       ]
     }
   ],
