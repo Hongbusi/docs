@@ -22,6 +22,7 @@ module.exports = {
       children: [
         'index.md',
         'install.md',
+        'vue-router.md',
         'pro-layout.md'
       ]
     }
