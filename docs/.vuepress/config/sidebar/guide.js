@@ -23,7 +23,7 @@ module.exports = {
         'index.md',
         'install.md',
         'vue-router.md',
-        'pro-layout.md'
+        'ant-design-vue.md'
       ]
     }
   ],
