@@ -57,6 +57,13 @@ yarn add vue-cropperjs
 - 类型：`Boolean`
 - 默认值：`true`
 
+#### autoCropArea
+
+> 它应该是一个介于 0 和 1 之间的数字。定义自动裁剪区域大小（百分比）。
+
+- 类型：`Number`
+- 默认值：`0.8`
+
 ### 使用
 
 ``` vue
