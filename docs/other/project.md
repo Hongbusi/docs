@@ -1,5 +1,9 @@
 # 开源项目
 
+## Typed.js
+
+[typed.js](https://github.com/mattboldt/typed.js) 是一个类型库。输入任何字符串，并观察它以您设置的速度键入，退格输入的内容，然后为您设置的字符串开始一个新句子。
+
 ## petite-vue
 
 [petite-vue](https://github.com/vuejs/petite-vue) 是一款针对渐进增强（progressive enhancement）进行优化的 Vue 发行版，大小仅有约 5kb。与标准 Vue 相比，petite-vue 具备相同的模板语法和响应式心理模型，而二者的差别在于 petite-vue 专门针对在服务器框架渲染的一个现有 HTML 页面上 “sprinkle” 少量交互进行了优化。

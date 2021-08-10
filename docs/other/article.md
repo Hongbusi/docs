@@ -1,5 +1,15 @@
 # 文章
 
+Nginx 最全操作总结：[https://zhuanlan.zhihu.com/p/384752564](https://zhuanlan.zhihu.com/p/384752564)
+
+从打字机效果的 N 种实现看 JS 定时器机制和前端动画：[https://juejin.cn/post/6916290543307718669](https://juejin.cn/post/6916290543307718669)
+
+winter：代码无捷径，只怕有心人：[https://www.ituring.com.cn/article/507557](https://www.ituring.com.cn/article/507557)
+
+30 个极大提高开发效率的 VSCode 插件：[https://zhuanlan.zhihu.com/p/40417719](https://zhuanlan.zhihu.com/p/40417719)
+
+一个优秀前端的工具修养：[https://www.yuque.com/surfacew/fe/uqr4ug](https://www.yuque.com/surfacew/fe/uqr4ug)
+
 重构于 Vite：我如何做 SSG、静态资源发布以及自动化部署：[https://mp.weixin.qq.com/s/geqqs6Q6sHmiQkzc8HOTQA](https://mp.weixin.qq.com/s/geqqs6Q6sHmiQkzc8HOTQA)
 
 分享几个 Webpack 实用分析工具：[https://mp.weixin.qq.com/s/XvjDwAATmwzGCXMBleD1GA](https://mp.weixin.qq.com/s/XvjDwAATmwzGCXMBleD1GA)
