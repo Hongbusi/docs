@@ -69,18 +69,15 @@ module.exports = {
     {
       children: [
         'index.md',
-        'array.md',
-        'collection.md',
-        'date.md',
-        'function.md',
-        'lang.md',
-        'math.md',
-        'number.md',
-        'object.md',
-        'seq.md',
         'string.md',
+        'number.md',
+        'array.md',
+        'function.md',
+        'object.md',
+        'type-judgment.md',
+        'date.md',
+        'math.md',
         'util.md',
-        'properties.md',
         'methods.md'
       ]
     }
