@@ -64,5 +64,25 @@ module.exports = {
         'problem.md'
       ]
     }
+  ],
+  '/guide/lodash/': [
+    {
+      children: [
+        'index.md',
+        'array.md',
+        'collection.md',
+        'date.md',
+        'function.md',
+        'lang.md',
+        'math.md',
+        'number.md',
+        'object.md',
+        'seq.md',
+        'string.md',
+        'util.md',
+        'properties.md',
+        'methods.md'
+      ]
+    }
   ]
 }

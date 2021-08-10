@@ -1,5 +1,9 @@
 # 学习
 
+## Lodash
+
+Lodash 常用方法。[前往](./lodash/)
+
 ## JS
 
 JavaScript。[前往](./js/)
