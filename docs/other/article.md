@@ -1,5 +1,7 @@
 # 文章
 
+重构于 Vite：我如何做 SSG、静态资源发布以及自动化部署：[https://mp.weixin.qq.com/s/geqqs6Q6sHmiQkzc8HOTQA](https://mp.weixin.qq.com/s/geqqs6Q6sHmiQkzc8HOTQA)
+
 分享几个 Webpack 实用分析工具：[https://mp.weixin.qq.com/s/XvjDwAATmwzGCXMBleD1GA](https://mp.weixin.qq.com/s/XvjDwAATmwzGCXMBleD1GA)
 
 新一代Web建站技术栈的演进：SSR、SSG、ISR、DPR都在做什么？[https://zhuanlan.zhihu.com/p/365113639](https://zhuanlan.zhihu.com/p/365113639)
