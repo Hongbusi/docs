@@ -123,6 +123,37 @@ export default {
 </script>
 ```
 
+### 兼容 IE
+
+参考文档：[https://www.canvasapi.cn/HTMLCanvasElement/toBlob](https://www.canvasapi.cn/HTMLCanvasElement/toBlob)
+
+首先，`toBlob()` 方法 IE9 浏览器不支持，因为 Blob 数据格式 IE10+ 才支持。
+
+然后，对于 IE 浏览器，`toBlob()` 的兼容性有些奇怪，IE10 浏览器支持 `ms` 私有前缀的 `toBlob()` 方法，完整方法名称是 `msToBlob()`。而 IE11+，`toBlob()` 方法却不支持。
+
+但是，我们可以基于 `toDataURL()` 方法进行 polyfill，性能相对会差一些，JavaScript 代码如下，参考自 MDN：
+
+``` js
+if (!HTMLCanvasElement.prototype.toBlob) {
+  Object.defineProperty(HTMLCanvasElement.prototype, 'toBlob', {
+    value: function (callback, type, quality) {
+      var canvas = this;
+      setTimeout(function() {
+        var binStr = atob( canvas.toDataURL(type, quality).split(',')[1] );
+        var len = binStr.length;
+        var arr = new Uint8Array(len);
+
+        for (var i = 0; i < len; i++) {
+          arr[i] = binStr.charCodeAt(i);
+        }
+
+        callback(new Blob([arr], { type: type || 'image/png' }));
+      });
+    }
+  });
+}
+```
+
 ## 图片懒加载
 
 [vue-lazyload](https://github.com/hilongjw/vue-lazyload)用于在应用程序中延迟加载图像的 Vue 模块。
