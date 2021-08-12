@@ -1,5 +1,9 @@
 # 文章
 
+我优化了进度条，页面性能竟提高了70%：[https://mp.weixin.qq.com/s/AaYrXQl39yT0FI_oRcnwaw](https://mp.weixin.qq.com/s/AaYrXQl39yT0FI_oRcnwaw)
+
+CSS 即将支持嵌套，SASS/LESS 等预处理器已无用武之地？[https://mp.weixin.qq.com/s/OGHX_bSwdyDz87pAzQ-ygQ](https://mp.weixin.qq.com/s/OGHX_bSwdyDz87pAzQ-ygQ)
+
 Nginx 最全操作总结：[https://zhuanlan.zhihu.com/p/384752564](https://zhuanlan.zhihu.com/p/384752564)
 
 从打字机效果的 N 种实现看 JS 定时器机制和前端动画：[https://juejin.cn/post/6916290543307718669](https://juejin.cn/post/6916290543307718669)
