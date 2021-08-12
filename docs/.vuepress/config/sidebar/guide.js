@@ -3,6 +3,7 @@ module.exports = {
     {
       children: [
         'index.md',
+        'reg-exp.md',
         'problem.md'
       ]
     }
