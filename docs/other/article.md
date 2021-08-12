@@ -1,5 +1,13 @@
 # 文章
 
+业务前端的困境：[https://segmentfault.com/a/1190000022571107](https://segmentfault.com/a/1190000022571107)
+
+10 种跨域解决方案（附终极方案）：[https://mp.weixin.qq.com/s/H0I5-gRkZKjm0h-3yhcqnQ](https://mp.weixin.qq.com/s/H0I5-gRkZKjm0h-3yhcqnQ)
+
+你不可能知道的骨架屏玩法：[https://juejin.cn/post/6994678354200756238](https://juejin.cn/post/6994678354200756238)
+
+前端如何解决跨域问题？[https://mp.weixin.qq.com/s/UZN1JWALkTKLFZUE-6ApNA](https://mp.weixin.qq.com/s/UZN1JWALkTKLFZUE-6ApNA)
+
 我优化了进度条，页面性能竟提高了70%：[https://mp.weixin.qq.com/s/AaYrXQl39yT0FI_oRcnwaw](https://mp.weixin.qq.com/s/AaYrXQl39yT0FI_oRcnwaw)
 
 CSS 即将支持嵌套，SASS/LESS 等预处理器已无用武之地？[https://mp.weixin.qq.com/s/OGHX_bSwdyDz87pAzQ-ygQ](https://mp.weixin.qq.com/s/OGHX_bSwdyDz87pAzQ-ygQ)
