@@ -1,5 +1,13 @@
 # 文章
 
+手把手教你实现 web 文本划线的功能：[https://mp.weixin.qq.com/s/78aD2vJw0S13d0rGtN6O4A](https://mp.weixin.qq.com/s/78aD2vJw0S13d0rGtN6O4A)
+
+利用 filter 生成不规则边框：[https://mp.weixin.qq.com/s/fOHxGMZTSic_HNlgh8OgPg](https://mp.weixin.qq.com/s/fOHxGMZTSic_HNlgh8OgPg)
+
+axios 源码简读：[https://mp.weixin.qq.com/s/ENlwEbGlp3_Ps6ozj4x3rQ](https://mp.weixin.qq.com/s/ENlwEbGlp3_Ps6ozj4x3rQ)
+
+Webpack HMR 原理解析：[https://zhuanlan.zhihu.com/p/30669007](https://zhuanlan.zhihu.com/p/30669007)
+
 业务前端的困境：[https://segmentfault.com/a/1190000022571107](https://segmentfault.com/a/1190000022571107)
 
 10 种跨域解决方案（附终极方案）：[https://mp.weixin.qq.com/s/H0I5-gRkZKjm0h-3yhcqnQ](https://mp.weixin.qq.com/s/H0I5-gRkZKjm0h-3yhcqnQ)
