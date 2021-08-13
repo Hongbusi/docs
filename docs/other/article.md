@@ -1,5 +1,9 @@
 # 文章
 
+你为什么迟迟进不去大厂：[https://juejin.cn/post/6924860368393076749](https://juejin.cn/post/6924860368393076749)
+
+寻找技术合伙人的那些坑：[https://www.iteye.com/blog/zwchen-2269887](https://www.iteye.com/blog/zwchen-2269887)
+
 手把手教你实现 web 文本划线的功能：[https://mp.weixin.qq.com/s/78aD2vJw0S13d0rGtN6O4A](https://mp.weixin.qq.com/s/78aD2vJw0S13d0rGtN6O4A)
 
 利用 filter 生成不规则边框：[https://mp.weixin.qq.com/s/fOHxGMZTSic_HNlgh8OgPg](https://mp.weixin.qq.com/s/fOHxGMZTSic_HNlgh8OgPg)
