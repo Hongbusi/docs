@@ -1,5 +1,13 @@
 # 文章
 
+## 8 月 16 日
+
+npm init @vitejs/app的背后，仅是npm CLI的冰山一角：[https://juejin.cn/post/6950817077670182943](https://juejin.cn/post/6950817077670182943)
+
+这还是我最熟悉的package.json吗？[https://mp.weixin.qq.com/s/9E98U3yfAe6PzS9pD3KoPw](https://mp.weixin.qq.com/s/9E98U3yfAe6PzS9pD3KoPw)
+
+## 8 月
+
 你为什么迟迟进不去大厂：[https://juejin.cn/post/6924860368393076749](https://juejin.cn/post/6924860368393076749)
 
 寻找技术合伙人的那些坑：[https://www.iteye.com/blog/zwchen-2269887](https://www.iteye.com/blog/zwchen-2269887)
