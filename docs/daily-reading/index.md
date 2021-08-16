@@ -8,6 +8,8 @@ npm init @vitejs/app的背后，仅是npm CLI的冰山一角：[https://juejin.c
 
 10个实现炫酷UI设计效果的CSS生成工具：[https://mp.weixin.qq.com/s/GCDMUD0zYjPZvfu03AI22g](https://mp.weixin.qq.com/s/GCDMUD0zYjPZvfu03AI22g)
 
+如何给 git 命令配置别名：[https://www.liaoxuefeng.com/wiki/896043488029600/898732837407424](https://www.liaoxuefeng.com/wiki/896043488029600/898732837407424)
+
 ## 8 月
 
 你为什么迟迟进不去大厂：[https://juejin.cn/post/6924860368393076749](https://juejin.cn/post/6924860368393076749)
