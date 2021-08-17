@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 8 月 17 日
+
+我是如何调试 Webpack 问题的：[https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw](https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw)
+浅谈前端 JavaScript 代码保护：[https://zhuanlan.zhihu.com/p/376451458](https://zhuanlan.zhihu.com/p/376451458)
+Github 居然可以这么玩：[https://tw93.github.io/2020-07-17/markdown.html](https://tw93.github.io/2020-07-17/markdown.html)
+
 ## 8 月 16 日
 
 npm init @vitejs/app的背后，仅是npm CLI的冰山一角：[https://juejin.cn/post/6950817077670182943](https://juejin.cn/post/6950817077670182943)
@@ -9,6 +15,8 @@ npm init @vitejs/app的背后，仅是npm CLI的冰山一角：[https://juejin.c
 10个实现炫酷UI设计效果的CSS生成工具：[https://mp.weixin.qq.com/s/GCDMUD0zYjPZvfu03AI22g](https://mp.weixin.qq.com/s/GCDMUD0zYjPZvfu03AI22g)
 
 如何给 git 命令配置别名：[https://www.liaoxuefeng.com/wiki/896043488029600/898732837407424](https://www.liaoxuefeng.com/wiki/896043488029600/898732837407424)
+
+揭秘 Vue.js 九个性能优化技巧：[https://juejin.cn/post/6922641008106668045](https://juejin.cn/post/6922641008106668045)
 
 ## 8 月
 
