@@ -5,6 +5,7 @@
 我是如何调试 Webpack 问题的：[https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw](https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw)
 浅谈前端 JavaScript 代码保护：[https://zhuanlan.zhihu.com/p/376451458](https://zhuanlan.zhihu.com/p/376451458)
 Github 居然可以这么玩：[https://tw93.github.io/2020-07-17/markdown.html](https://tw93.github.io/2020-07-17/markdown.html)
+多图详解，一次性搞懂Webpack Loader：[https://mp.weixin.qq.com/s/V7l742HJcPcLcVSC3DRNDQ](https://mp.weixin.qq.com/s/V7l742HJcPcLcVSC3DRNDQ)
 
 ## 8 月 16 日
 
