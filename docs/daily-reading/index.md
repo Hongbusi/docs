@@ -7,6 +7,7 @@
 Github 居然可以这么玩：[https://tw93.github.io/2020-07-17/markdown.html](https://tw93.github.io/2020-07-17/markdown.html)
 多图详解，一次性搞懂Webpack Loader：[https://mp.weixin.qq.com/s/V7l742HJcPcLcVSC3DRNDQ](https://mp.weixin.qq.com/s/V7l742HJcPcLcVSC3DRNDQ)
 yarn.lock 你锁明白了吗？[https://mp.weixin.qq.com/s/bpkAx2nId_GiKpNKOIgf4A](https://mp.weixin.qq.com/s/bpkAx2nId_GiKpNKOIgf4A)
+居然可以用 js 写 PPT？[https://mp.weixin.qq.com/s/xoHMvqg_tThgSjdEtZ5ahQ](https://mp.weixin.qq.com/s/xoHMvqg_tThgSjdEtZ5ahQ)
 
 ## 8 月 16 日
 
