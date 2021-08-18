@@ -8,6 +8,8 @@
 
 104 道 CSS 面试题，助你查漏补缺：[https://mp.weixin.qq.com/s/vyDOHgoHcjAWwddt6tZ3aw](https://mp.weixin.qq.com/s/vyDOHgoHcjAWwddt6tZ3aw)
 
+JavaScript 开发者 2021 调研报告：[https://www.jetbrains.com/lp/devecosystem-2021/javascript](https://www.jetbrains.com/lp/devecosystem-2021/javascript)
+
 ## 8 月 17 日
 
 我是如何调试 Webpack 问题的：[https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw](https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw)
