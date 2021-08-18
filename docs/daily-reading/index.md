@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 8 月 18 日
+
+书写一个好的 JavaScript 变量命名：[https://mp.weixin.qq.com/s/yzsfzMjPn0TchSkuPzT9yw](https://mp.weixin.qq.com/s/yzsfzMjPn0TchSkuPzT9yw)
+前端性能优化之雅虎 35 条军规：[https://juejin.cn/post/6844903657318645767](https://juejin.cn/post/6844903657318645767)
+104 道 CSS 面试题，助你查漏补缺：[https://mp.weixin.qq.com/s/vyDOHgoHcjAWwddt6tZ3aw](https://mp.weixin.qq.com/s/vyDOHgoHcjAWwddt6tZ3aw)
+
 ## 8 月 17 日
 
 我是如何调试 Webpack 问题的：[https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw](https://mp.weixin.qq.com/s/RExi2XnpstChIPIjhhmXhw)
