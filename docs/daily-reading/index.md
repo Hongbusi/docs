@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 8 月 19 日
+
+你需要知道的项目管理知识：[https://juejin.cn/post/6997536906967777316](https://juejin.cn/post/6997536906967777316)
+
 ## 8 月 18 日
 
 书写一个好的 JavaScript 变量命名：[https://mp.weixin.qq.com/s/yzsfzMjPn0TchSkuPzT9yw](https://mp.weixin.qq.com/s/yzsfzMjPn0TchSkuPzT9yw)
