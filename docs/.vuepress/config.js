@@ -1,10 +1,10 @@
 module.exports = {
-  base: '/docs/',
+  // base: '/docs/',
   dest: 'dist',
   title: '洪布斯',
   description: '桃李不言，下自成蹊！',
   head: [
-    ['link', { rel: 'manifest', href: '/docs/manifest.webmanifest' }],
+    ['link', { rel: 'manifest', href: 'manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   bundler: '@vuepress/webpack',
