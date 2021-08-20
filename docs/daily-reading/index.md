@@ -4,7 +4,15 @@
 
 史上最全 Vue 前端代码风格指南：[https://mp.weixin.qq.com/s/J8GqSr04LI3usgTLI6saIw](https://mp.weixin.qq.com/s/J8GqSr04LI3usgTLI6saIw)
 
-【HTML】meta 标签到底是做什么的：[https://mp.weixin.qq.com/s/bIcNVIGQ7H29_vAAP2SJaQ](https://mp.weixin.qq.com/s/bIcNVIGQ7H29_vAAP2SJaQ)
+meta 标签到底是做什么的：[https://mp.weixin.qq.com/s/bIcNVIGQ7H29_vAAP2SJaQ](https://mp.weixin.qq.com/s/bIcNVIGQ7H29_vAAP2SJaQ)
+
+总结了 38 个 ES6 - ES12 的开发技巧：[https://juejin.cn/post/6995334897065787422](https://juejin.cn/post/6995334897065787422)
+
+12 个评估 JS 库你需要关心的事：[https://zhuanlan.zhihu.com/p/45264866](https://zhuanlan.zhihu.com/p/45264866)
+
+前端如何赋能业务：[https://mp.weixin.qq.com/s/_H6X6k_ppdyhP7cP1uusfg](https://mp.weixin.qq.com/s/_H6X6k_ppdyhP7cP1uusfg)
+
+有了这些轮子库，我的工作效率提升了 n 倍：[https://mp.weixin.qq.com/s/3u1HHGjBaxzMoMkkVAqk-A](https://mp.weixin.qq.com/s/3u1HHGjBaxzMoMkkVAqk-A)
 
 ## 8 月 19 日
 
