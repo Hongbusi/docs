@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 8 月 20 日
+
+史上最全 Vue 前端代码风格指南：[https://mp.weixin.qq.com/s/J8GqSr04LI3usgTLI6saIw](https://mp.weixin.qq.com/s/J8GqSr04LI3usgTLI6saIw)
+
+【HTML】meta 标签到底是做什么的：[https://mp.weixin.qq.com/s/bIcNVIGQ7H29_vAAP2SJaQ](https://mp.weixin.qq.com/s/bIcNVIGQ7H29_vAAP2SJaQ)
+
 ## 8 月 19 日
 
 你需要知道的项目管理知识：[https://juejin.cn/post/6997536906967777316](https://juejin.cn/post/6997536906967777316)
