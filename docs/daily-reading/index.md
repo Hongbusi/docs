@@ -1,5 +1,19 @@
 # 每日阅读
 
+## 8 月 23 日
+
+我用 10000 张图片合成我们美好的瞬间：[https://juejin.cn/post/6996431901623844894](https://juejin.cn/post/6996431901623844894)
+
+提升代码质量的方法：领域模型、设计原则、设计模式：[https://zhuanlan.zhihu.com/p/401729743](https://zhuanlan.zhihu.com/p/401729743)
+
+移动端 - 表单设计有方法：[https://zhuanlan.zhihu.com/p/389730795](https://zhuanlan.zhihu.com/p/389730795)
+
+AlloyTeam 代码规范：[http://alloyteam.github.io/CodeGuide](http://alloyteam.github.io/CodeGuide)
+
+Object.keys() 的顺序是如何定义的？[https://zhuanlan.zhihu.com/p/389201653](https://zhuanlan.zhihu.com/p/389201653)
+
+【程序员必读】经验：编程的智慧：[https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&](https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&)
+
 ## 8 月 20 日
 
 史上最全 Vue 前端代码风格指南：[https://mp.weixin.qq.com/s/J8GqSr04LI3usgTLI6saIw](https://mp.weixin.qq.com/s/J8GqSr04LI3usgTLI6saIw)
