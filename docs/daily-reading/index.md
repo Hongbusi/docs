@@ -1,5 +1,17 @@
 # 每日阅读
 
+## 8 月 24 日
+
+Vue Router 10 条高级技巧：[https://mp.weixin.qq.com/s/j0dROmwJl6BF60JHxidELQ](https://mp.weixin.qq.com/s/j0dROmwJl6BF60JHxidELQ)
+
+Linux 系统下文件操作常用的命令有哪些？[https://mp.weixin.qq.com/s/Toh6XeoTZr-Oemh0h8CPdg](https://mp.weixin.qq.com/s/Toh6XeoTZr-Oemh0h8CPdg)
+
+图解常见的九种设计模式：[https://mp.weixin.qq.com/s/daidAfjSfs2JG14M65uyJw](https://mp.weixin.qq.com/s/daidAfjSfs2JG14M65uyJw)
+
+盘点 Vue3 那些有趣的 API：[https://mp.weixin.qq.com/s/fq7JltIFW-O4jFjbN824XQ](https://mp.weixin.qq.com/s/fq7JltIFW-O4jFjbN824XQ)
+
+你或许不知道 Vue 的这些小技巧：[https://juejin.cn/post/6844903616101220365](https://juejin.cn/post/6844903616101220365)
+
 ## 8 月 23 日
 
 我用 10000 张图片合成我们美好的瞬间：[https://juejin.cn/post/6996431901623844894](https://juejin.cn/post/6996431901623844894)
