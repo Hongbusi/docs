@@ -62,7 +62,8 @@ module.exports = {
         'index.md',
         'getting-started.md',
         'swiper.md',
-        'problem.md'
+        'problem.md',
+        'performance-optimization.md'
       ]
     }
   ],
