@@ -6,6 +6,8 @@ Stanford CS107 Programming Paradigms 编程范式：[https://www.bilibili.com/vi
 
 async/await 是把双刃剑：[https://zhuanlan.zhihu.com/p/36521539](https://zhuanlan.zhihu.com/p/36521539)
 
+7 个简单的 VueJS 小技巧，助力你成为更好的开发者：[https://mp.weixin.qq.com/s/d46h2eby-L8sxB85fPw7UA](https://mp.weixin.qq.com/s/d46h2eby-L8sxB85fPw7UA)
+
 ## 8 月 24 日
 
 Vue Router 10 条高级技巧：[https://mp.weixin.qq.com/s/j0dROmwJl6BF60JHxidELQ](https://mp.weixin.qq.com/s/j0dROmwJl6BF60JHxidELQ)
