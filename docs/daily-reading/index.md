@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 8 月 25 日
+
+Stanford CS107 Programming Paradigms 编程范式：[https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389](https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389)
+
+async/await 是把双刃剑：[https://zhuanlan.zhihu.com/p/36521539](https://zhuanlan.zhihu.com/p/36521539)
+
 ## 8 月 24 日
 
 Vue Router 10 条高级技巧：[https://mp.weixin.qq.com/s/j0dROmwJl6BF60JHxidELQ](https://mp.weixin.qq.com/s/j0dROmwJl6BF60JHxidELQ)
@@ -24,7 +30,7 @@ AlloyTeam 代码规范：[http://alloyteam.github.io/CodeGuide](http://alloyteam
 
 Object.keys() 的顺序是如何定义的？[https://zhuanlan.zhihu.com/p/389201653](https://zhuanlan.zhihu.com/p/389201653)
 
-【程序员必读】经验：编程的智慧：[https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&](https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&)
+<!-- 【程序员必读】经验：编程的智慧：[https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&](https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&) -->
 
 ## 8 月 20 日
 
