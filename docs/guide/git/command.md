@@ -11,6 +11,10 @@ git branch
 
 git branch -d <branchName>
 
+# or
+
+git branch -D <branchName>
+
 # 查看分支（本地和远程）
 
 git branch -a
