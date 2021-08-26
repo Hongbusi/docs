@@ -1,9 +1,17 @@
 # 常用命令
 
-## 删除远程分支
+## 删除分支
 
 ``` bash
-# 查看远程分支
+# 查看本地分支
+
+git branch
+
+# 删除本地分支
+
+git branch -d <branchName>
+
+# 查看分支（本地和远程）
 
 git branch -a
 
