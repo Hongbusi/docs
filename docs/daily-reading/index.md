@@ -4,6 +4,8 @@
 
 从 ElementUI 之死聊开源项目如何站着挣钱：[https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ](https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ)
 
+前端工程化实战 - 可配置的模板管理：[https://mp.weixin.qq.com/s/xN-olFIY5-TfynP1QOa4tQ](https://mp.weixin.qq.com/s/xN-olFIY5-TfynP1QOa4tQ)
+
 ## 8 月 25 日
 
 Stanford CS107 Programming Paradigms 编程范式：[https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389](https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389)
