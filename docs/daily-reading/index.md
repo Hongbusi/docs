@@ -6,6 +6,8 @@
 
 前端工程化实战 - 可配置的模板管理：[https://mp.weixin.qq.com/s/xN-olFIY5-TfynP1QOa4tQ](https://mp.weixin.qq.com/s/xN-olFIY5-TfynP1QOa4tQ)
 
+Vite + Vue3 + TS 搭建通用后台管理系统：[https://mp.weixin.qq.com/s/-5ywGLTh8ncXfu_SC73OeQ](https://mp.weixin.qq.com/s/-5ywGLTh8ncXfu_SC73OeQ)
+
 ## 8 月 25 日
 
 Stanford CS107 Programming Paradigms 编程范式：[https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389](https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389)
