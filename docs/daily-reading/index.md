@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 8 月 26 日
+
+从 ElementUI 之死聊开源项目如何站着挣钱：[https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ](https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ)
+
 ## 8 月 25 日
 
 Stanford CS107 Programming Paradigms 编程范式：[https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389](https://www.bilibili.com/video/av9789206?from=search&seid=7870899690746118389)
