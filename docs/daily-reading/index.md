@@ -1,5 +1,15 @@
 # 每日阅读
 
+## 8 月 27 日
+
+前端打工人需要知道的项目管理知识：[https://mp.weixin.qq.com/s/OCxxwookZJxYo3i_48kveg](https://mp.weixin.qq.com/s/OCxxwookZJxYo3i_48kveg)
+
+49 个常用 CSS 样式清单整理：[https://mp.weixin.qq.com/s/rdt0VS6-I5XI1gEFh2Zs9g](https://mp.weixin.qq.com/s/rdt0VS6-I5XI1gEFh2Zs9g)
+
+仅使用 CSS 能制作出多惊艳的动画？[https://mp.weixin.qq.com/s/U4RCL-DZEvhX51U4ww3UCQ](https://mp.weixin.qq.com/s/U4RCL-DZEvhX51U4ww3UCQ)
+
+精选 10 款谷歌浏览器插件：[https://hungryturbo.com/pages/355fad/](https://hungryturbo.com/pages/355fad/)
+
 ## 8 月 26 日
 
 从 ElementUI 之死聊开源项目如何站着挣钱：[https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ](https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ)
