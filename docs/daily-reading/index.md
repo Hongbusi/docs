@@ -14,6 +14,28 @@ GitHub 上有什么好玩又有挑战的前端项目？[https://www.zhihu.com/qu
 
 JavaScript 断点调试技巧：[https://mp.weixin.qq.com/s/UJMed_WwdIsYVVL0zoMF5w](https://mp.weixin.qq.com/s/UJMed_WwdIsYVVL0zoMF5w)
 
+解密国内 BAT 等大厂前端技术体系 - 腾讯篇：[https://mp.weixin.qq.com/s/hisqcnv8g5XMOF6bzFV7pw](https://mp.weixin.qq.com/s/hisqcnv8g5XMOF6bzFV7pw)
+
+解密国内 BAT 等大厂前端技术体系 - 阿里篇：[https://mp.weixin.qq.com/s?__biz=MzI5MjYyODYyNQ==&mid=2247483961&idx=1&sn=3135b655656189abbe1d07b2d81bba5c&chksm=ec7f33c7db08bad1358244263701f518f618354eca4dd4d31f045ab7b389853bdd908222e901&scene=21#wechat_redirect](https://mp.weixin.qq.com/s?__biz=MzI5MjYyODYyNQ==&mid=2247483961&idx=1&sn=3135b655656189abbe1d07b2d81bba5c&chksm=ec7f33c7db08bad1358244263701f518f618354eca4dd4d31f045ab7b389853bdd908222e901&scene=21#wechat_redirect)
+
+解密国内 BAT 等大厂前端技术体系 - 百度篇：[https://mp.weixin.qq.com/s?__biz=MzI5MjYyODYyNQ==&mid=2247483972&idx=1&sn=717de03ea3e9c95fecaac91f7f9e5795&chksm=ec7f33badb08baacc9eab74dd2da22c02da500b93639f4f161c867e711f8a52ac03e48d770eb&scene=21#wechat_redirect](https://mp.weixin.qq.com/s?__biz=MzI5MjYyODYyNQ==&mid=2247483972&idx=1&sn=717de03ea3e9c95fecaac91f7f9e5795&chksm=ec7f33badb08baacc9eab74dd2da22c02da500b93639f4f161c867e711f8a52ac03e48d770eb&scene=21#wechat_redirect)
+
+解密国内 BAT 等大厂前端技术体系 - 美团点评之上篇：[https://juejin.cn/post/6844904014522351624](https://juejin.cn/post/6844904014522351624)
+
+解密国内 BAT 等大厂前端技术体系 - 美团点评之下篇：[https://juejin.cn/post/6844904019706511373](https://juejin.cn/post/6844904019706511373)
+
+解密国内 BAT 等大厂前端技术体系 - 完结篇：[https://juejin.cn/post/6844904031798689806](https://juejin.cn/post/6844904031798689806)
+
+提问的智慧：[https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way](https://github.com/tvvocold/How-To-Ask-Questions-The-Smart-Way)
+
+字节跳动大规模埋点数据治理最佳实践：[https://zhuanlan.zhihu.com/p/396582298](https://zhuanlan.zhihu.com/p/396582298)
+
+async/await 优雅的错误处理方法：[https://juejin.cn/post/6844903767129718791](https://juejin.cn/post/6844903767129718791)
+
+前端 9 种图片格式基础知识, 你应该知道的：[https://juejin.cn/post/7000154907156152327](https://juejin.cn/post/7000154907156152327)
+
+npm 发包 -- tag 重要性：[https://www.yuque.com/docs/share/620c0da0-3e12-4473-b2e7-51ee52cf3e66?#%20%E3%80%8Anpm%20%E5%8F%91%E5%8C%85%20--%20tag%20%E9%87%8D%E8%A6%81%E6%80%A7%E3%80%8B](https://www.yuque.com/docs/share/620c0da0-3e12-4473-b2e7-51ee52cf3e66?#%20%E3%80%8Anpm%20%E5%8F%91%E5%8C%85%20--%20tag%20%E9%87%8D%E8%A6%81%E6%80%A7%E3%80%8B)
+
 ## 8 月 26 日
 
 从 ElementUI 之死聊开源项目如何站着挣钱：[https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ](https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ)
