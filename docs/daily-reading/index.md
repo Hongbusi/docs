@@ -10,6 +10,8 @@
 
 精选 10 款谷歌浏览器插件：[https://hungryturbo.com/pages/355fad/](https://hungryturbo.com/pages/355fad/)
 
+GitHub 上有什么好玩又有挑战的前端项目？[https://www.zhihu.com/question/30470886/answer/2068242772](https://www.zhihu.com/question/30470886/answer/2068242772)
+
 ## 8 月 26 日
 
 从 ElementUI 之死聊开源项目如何站着挣钱：[https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ](https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ)
