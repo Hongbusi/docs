@@ -12,6 +12,8 @@
 
 GitHub 上有什么好玩又有挑战的前端项目？[https://www.zhihu.com/question/30470886/answer/2068242772](https://www.zhihu.com/question/30470886/answer/2068242772)
 
+JavaScript 断点调试技巧：[https://mp.weixin.qq.com/s/UJMed_WwdIsYVVL0zoMF5w](https://mp.weixin.qq.com/s/UJMed_WwdIsYVVL0zoMF5w)
+
 ## 8 月 26 日
 
 从 ElementUI 之死聊开源项目如何站着挣钱：[https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ](https://mp.weixin.qq.com/s/pyXQp7BITJ6ba54elVq3QQ)
