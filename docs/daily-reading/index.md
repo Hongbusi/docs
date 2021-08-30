@@ -1,5 +1,15 @@
 # 每日阅读
 
+## 8 月 30 日
+
+基于 Lerna 管理 packages 的 Monorepo 项目最佳实践：[https://juejin.cn/post/6844903911095025678](https://juejin.cn/post/6844903911095025678)
+
+pnpm: 最先进的包管理工具：[https://mp.weixin.qq.com/s/5Zo576QFpdAfwXmhfTwWZQ](https://mp.weixin.qq.com/s/5Zo576QFpdAfwXmhfTwWZQ)
+
+TypeScript 中提升幸福感的 10 个高级技巧：[https://mp.weixin.qq.com/s/B1oQ7vv20ukuYz6YeLeIog](https://mp.weixin.qq.com/s/B1oQ7vv20ukuYz6YeLeIog)
+
+调试技巧：如何快速知道页面上所有元素的轮廓跟位置：[https://mp.weixin.qq.com/s/giHvYIGbSl8Wj6WeOUcS3A](https://mp.weixin.qq.com/s/giHvYIGbSl8Wj6WeOUcS3A)
+
 ## 8 月 27 日
 
 前端打工人需要知道的项目管理知识：[https://mp.weixin.qq.com/s/OCxxwookZJxYo3i_48kveg](https://mp.weixin.qq.com/s/OCxxwookZJxYo3i_48kveg)
