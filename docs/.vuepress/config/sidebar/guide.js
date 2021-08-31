@@ -1,4 +1,12 @@
 module.exports = {
+  '/guide/css/': [
+    {
+      children: [
+        'index.md',
+        'name.md'
+      ]
+    }
+  ],
   '/guide/js/': [
     {
       children: [
