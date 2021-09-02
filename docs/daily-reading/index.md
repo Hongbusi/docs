@@ -1,5 +1,15 @@
 # 每日阅读
 
+## 9 月 2 日
+
+开源富文本编辑器技术的演进：[https://zhuanlan.zhihu.com/p/268366406](https://zhuanlan.zhihu.com/p/268366406)
+
+如何在 Vue 中使用 Lodash：[https://dev.to/samanthaming/how-to-use-lodash-with-vue-gao](https://dev.to/samanthaming/how-to-use-lodash-with-vue-gao)
+
+聊一聊如何搭建高性能网站：[https://juejin.cn/post/6882936217609732110](https://juejin.cn/post/6882936217609732110)
+
+28 个有创意的 404 页面：[https://dev.to/madza/28-creative-404-pages-for-your-inspiration-35dc](https://dev.to/madza/28-creative-404-pages-for-your-inspiration-35dc)
+
 ## 9 月 1 日
 
 精通 Vue 技术栈的源码原理：[https://juejin.cn/column/6960553066101735461](https://juejin.cn/column/6960553066101735461)
@@ -94,7 +104,7 @@ AlloyTeam 代码规范：[http://alloyteam.github.io/CodeGuide](http://alloyteam
 
 Object.keys() 的顺序是如何定义的？[https://zhuanlan.zhihu.com/p/389201653](https://zhuanlan.zhihu.com/p/389201653)
 
-<!-- 【程序员必读】经验：编程的智慧：[https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&](https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&) -->
+【程序员必读】经验：编程的智慧：[https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&](https://mp.weixin.qq.com/s?__biz=MzkyODE5NjU2Mw==&mid=2247488931&idx=1&sn=0fe4e07c90dada22de38df6b7548cfcd&chksm=c21d271ff56aae09327680cd861d7b7bf02d7e0119576caad2f33fe19774aec3ab69d80ae3b9&mpshare=1&scene=23&srcid=0822KTRBL6s89gspjGNNCAk4&)
 
 ## 8 月 20 日
 
