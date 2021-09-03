@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 9 月 3 日
+
+探究网页资源究竟是如何阻塞浏览器加载的：[https://mp.weixin.qq.com/s/lSK_m26ANIDbwJBVFh9isA](https://mp.weixin.qq.com/s/lSK_m26ANIDbwJBVFh9isA)
+
 ## 9 月 2 日
 
 开源富文本编辑器技术的演进：[https://zhuanlan.zhihu.com/p/268366406](https://zhuanlan.zhihu.com/p/268366406)
