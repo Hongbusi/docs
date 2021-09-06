@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 9 月 4 日
+
+在你的 README 中获取动态生成的 GitHub 统计信息：[https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md)
+
+npm 实用命令及版本号：[https://www.yuque.com/docs/share/ca61dff6-146e-4398-80d7-4b8a1c5226ea](https://www.yuque.com/docs/share/ca61dff6-146e-4398-80d7-4b8a1c5226ea)
+
 ## 9 月 3 日
 
 探究网页资源究竟是如何阻塞浏览器加载的：[https://mp.weixin.qq.com/s/lSK_m26ANIDbwJBVFh9isA](https://mp.weixin.qq.com/s/lSK_m26ANIDbwJBVFh9isA)
