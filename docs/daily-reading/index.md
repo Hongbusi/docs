@@ -6,6 +6,8 @@
 
 npm 实用命令及版本号：[https://www.yuque.com/docs/share/ca61dff6-146e-4398-80d7-4b8a1c5226ea](https://www.yuque.com/docs/share/ca61dff6-146e-4398-80d7-4b8a1c5226ea)
 
+不可错过的实用前端工具：[https://mp.weixin.qq.com/s/p42jHbvLWNMwhFmiq9-7Ug](https://mp.weixin.qq.com/s/p42jHbvLWNMwhFmiq9-7Ug)
+
 ## 9 月 3 日
 
 探究网页资源究竟是如何阻塞浏览器加载的：[https://mp.weixin.qq.com/s/lSK_m26ANIDbwJBVFh9isA](https://mp.weixin.qq.com/s/lSK_m26ANIDbwJBVFh9isA)
