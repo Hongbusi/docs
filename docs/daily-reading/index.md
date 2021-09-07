@@ -4,6 +4,8 @@
 
 从“打包工具”发展成为“构建系统”，Webpack 究竟解决了什么问题？[https://zhuanlan.zhihu.com/p/407457507](https://zhuanlan.zhihu.com/p/407457507)
 
+为什么 Vue3 选择了 CSS 变量：[https://mp.weixin.qq.com/s/V3SJrIlGTiHx8_Lrw-XUXQ](https://mp.weixin.qq.com/s/V3SJrIlGTiHx8_Lrw-XUXQ)
+
 ## 9 月 6 日
 
 在你的 README 中获取动态生成的 GitHub 统计信息：[https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md](https://github.com/anuraghazra/github-readme-stats/blob/master/docs/readme_cn.md)
