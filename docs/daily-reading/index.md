@@ -4,6 +4,8 @@
 
 潕量的成长之路：[https://www.zhihu.com/people/bouda/posts](https://www.zhihu.com/people/bouda/posts)
 
+5 个适用于组合式 API 超实用的 VueUse 库函数！[https://mp.weixin.qq.com/s/pu7LUalT7zDj6k7rn9-XMA](https://mp.weixin.qq.com/s/pu7LUalT7zDj6k7rn9-XMA)
+
 ## 9 月 7 日
 
 从“打包工具”发展成为“构建系统”，Webpack 究竟解决了什么问题？[https://zhuanlan.zhihu.com/p/407457507](https://zhuanlan.zhihu.com/p/407457507)
