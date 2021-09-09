@@ -4,6 +4,8 @@
 
 看前端发展历程，又回去了操作真实 DOM 的年代？[https://mp.weixin.qq.com/s/bMleQw280L9RknQo9oj-Mw](https://mp.weixin.qq.com/s/bMleQw280L9RknQo9oj-Mw)
 
+前端规范：[https://github.com/o2team/guide](https://github.com/o2team/guide)
+
 ## 9 月 8 日
 
 潕量的成长之路：[https://www.zhihu.com/people/bouda/posts](https://www.zhihu.com/people/bouda/posts)
