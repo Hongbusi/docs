@@ -8,6 +8,8 @@
 
 前端技术调研到底应该怎么做？[https://mp.weixin.qq.com/s/zeuZ-2PzaIplk-qHlDsOYg](https://mp.weixin.qq.com/s/zeuZ-2PzaIplk-qHlDsOYg)
 
+基于 js 管理大文件上传以及断点续传：[https://mp.weixin.qq.com/s/hOkxwjSHGZ-3oXyN3CwwqQ](https://mp.weixin.qq.com/s/hOkxwjSHGZ-3oXyN3CwwqQ)
+
 ## 9 月 8 日
 
 潕量的成长之路：[https://www.zhihu.com/people/bouda/posts](https://www.zhihu.com/people/bouda/posts)
