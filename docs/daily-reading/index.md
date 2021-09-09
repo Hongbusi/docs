@@ -6,6 +6,8 @@
 
 5 个适用于组合式 API 超实用的 VueUse 库函数！[https://mp.weixin.qq.com/s/pu7LUalT7zDj6k7rn9-XMA](https://mp.weixin.qq.com/s/pu7LUalT7zDj6k7rn9-XMA)
 
+推荐 10 个很“哇塞”的 Web “资源”给前端工友，收藏等于学会~[https://juejin.cn/post/7003114103094902792](https://juejin.cn/post/7003114103094902792)
+
 ## 9 月 7 日
 
 从“打包工具”发展成为“构建系统”，Webpack 究竟解决了什么问题？[https://zhuanlan.zhihu.com/p/407457507](https://zhuanlan.zhihu.com/p/407457507)
