@@ -1,8 +1,11 @@
+const { path } = require('@vuepress/utils');
+
 module.exports = {
   // base: '/docs/',
   dest: 'dist',
   title: '洪布斯',
   description: '桃李不言，下自成蹊！',
+  theme: path.resolve(__dirname, './theme'),
   head: [
     ['link', { rel: 'manifest', href: 'manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
