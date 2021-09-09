@@ -6,6 +6,8 @@
 
 前端规范：[https://github.com/o2team/guide](https://github.com/o2team/guide)
 
+前端技术调研到底应该怎么做？[https://mp.weixin.qq.com/s/zeuZ-2PzaIplk-qHlDsOYg](https://mp.weixin.qq.com/s/zeuZ-2PzaIplk-qHlDsOYg)
+
 ## 9 月 8 日
 
 潕量的成长之路：[https://www.zhihu.com/people/bouda/posts](https://www.zhihu.com/people/bouda/posts)
