@@ -5,11 +5,11 @@
 ## 安装
 
 ``` bash
-npm install vue-router@4
+npm install vue-router@next
 
 # or
 
-yarn add vue-router@4
+yarn add vue-router@next
 ```
 
 ## router/index.ts 中配置
