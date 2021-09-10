@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 9 月 10 日
+
+学会使用 CSS 自定义滚动条，能让你做的产品更有用户体验！[https://mp.weixin.qq.com/s/KKpSLmJAUnAcQMzlThy2xA](https://mp.weixin.qq.com/s/KKpSLmJAUnAcQMzlThy2xA)
+
 ## 9 月 9 日
 
 看前端发展历程，又回去了操作真实 DOM 的年代？[https://mp.weixin.qq.com/s/bMleQw280L9RknQo9oj-Mw](https://mp.weixin.qq.com/s/bMleQw280L9RknQo9oj-Mw)
