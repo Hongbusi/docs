@@ -6,6 +6,8 @@
 
 如何平衡兴趣与收入 —— 听尤雨溪访谈有感：[https://mp.weixin.qq.com/s/IvMRNXRDfozhP5mxqtcFnQ](https://mp.weixin.qq.com/s/IvMRNXRDfozhP5mxqtcFnQ)
 
+Chrome 89 新功能一览，性能提升明显，大量 DevTools 新特性！[https://mp.weixin.qq.com/s/wr82fxRBTc0M9SCxIZ1HLw](https://mp.weixin.qq.com/s/wr82fxRBTc0M9SCxIZ1HLw)
+
 ## 9 月 10 日
 
 学会使用 CSS 自定义滚动条，能让你做的产品更有用户体验！[https://mp.weixin.qq.com/s/KKpSLmJAUnAcQMzlThy2xA](https://mp.weixin.qq.com/s/KKpSLmJAUnAcQMzlThy2xA)
