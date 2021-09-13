@@ -8,6 +8,8 @@
 
 Chrome 89 新功能一览，性能提升明显，大量 DevTools 新特性！[https://mp.weixin.qq.com/s/wr82fxRBTc0M9SCxIZ1HLw](https://mp.weixin.qq.com/s/wr82fxRBTc0M9SCxIZ1HLw)
 
+浓缩了这 20+ 站点的前端滋补汤 ~[https://juejin.cn/post/7004513614224687111](https://juejin.cn/post/7004513614224687111)
+
 ## 9 月 10 日
 
 学会使用 CSS 自定义滚动条，能让你做的产品更有用户体验！[https://mp.weixin.qq.com/s/KKpSLmJAUnAcQMzlThy2xA](https://mp.weixin.qq.com/s/KKpSLmJAUnAcQMzlThy2xA)
