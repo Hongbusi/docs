@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 9 月 14 日
+
+熬夜总结50个Vue知识点，全都会你就是神！！！[https://mp.weixin.qq.com/s/h2H-36iVeoyXsorZChwxyQ](https://mp.weixin.qq.com/s/h2H-36iVeoyXsorZChwxyQ)
+
+关于鉴权，看懂这篇就够了：[https://mp.weixin.qq.com/s/rBzDQBL0FgnvwpWrCSSJmw](https://mp.weixin.qq.com/s/rBzDQBL0FgnvwpWrCSSJmw)
+
 ## 9 月 13 日
 
 看前端如何通过WebAssembly实现播放器预览能力：[https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247488355&idx=1&sn=dfefc23b546c9f9609f0bbd80bd768ff&chksm=ea0d5999dd7ad08f930d4f6f70e34d9f9ac4ce66aabe503a7f7480acdfb3a1aa3606c94438dd&scene=178&cur_album_id=1751402241124532228#rd](https://mp.weixin.qq.com/s?__biz=MzI1ODE4NzE1Nw==&mid=2247488355&idx=1&sn=dfefc23b546c9f9609f0bbd80bd768ff&chksm=ea0d5999dd7ad08f930d4f6f70e34d9f9ac4ce66aabe503a7f7480acdfb3a1aa3606c94438dd&scene=178&cur_album_id=1751402241124532228#rd)
