@@ -4,7 +4,9 @@
 
 熬夜总结50个Vue知识点，全都会你就是神！！！[https://mp.weixin.qq.com/s/h2H-36iVeoyXsorZChwxyQ](https://mp.weixin.qq.com/s/h2H-36iVeoyXsorZChwxyQ)
 
-关于鉴权，看懂这篇就够了：[https://mp.weixin.qq.com/s/rBzDQBL0FgnvwpWrCSSJmw](https://mp.weixin.qq.com/s/rBzDQBL0FgnvwpWrCSSJmw)
+关于鉴权，看懂这篇就够了：[https://mp.weixin.qq.com/s/rBzDQBL0FgnvwpWrCSSJmw](https://mp.weixin.qq.com/s/rBzDQBL0FgnvwpWrCSSJmw)https://www.jstips.co/zh_cn/javascript/copy-to-clipboard/
+
+复制到剪切板：[https://www.jstips.co/zh_cn/javascript/copy-to-clipboard/](https://www.jstips.co/zh_cn/javascript/copy-to-clipboard/)
 
 ## 9 月 13 日
 
