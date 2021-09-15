@@ -1,5 +1,9 @@
 <template>
-  <Common />
+  <Common>
+    <template #container>
+      DailyReading
+    </template>
+  </Common>
 </template>
 
 <script setup lang="ts">
