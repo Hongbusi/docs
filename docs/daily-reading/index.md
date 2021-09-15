@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 9 月 15 日
+
+详解 Template ref 在 Vue3 的实现：[https://mp.weixin.qq.com/s/0XTJ6rSPMBecy5kBOjX25g](https://mp.weixin.qq.com/s/0XTJ6rSPMBecy5kBOjX25g)
+
 ## 9 月 14 日
 
 熬夜总结50个Vue知识点，全都会你就是神！！！[https://mp.weixin.qq.com/s/h2H-36iVeoyXsorZChwxyQ](https://mp.weixin.qq.com/s/h2H-36iVeoyXsorZChwxyQ)
