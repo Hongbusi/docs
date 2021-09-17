@@ -32,10 +32,7 @@ module.exports = [
       }
     }
   }],
-  [
-    '@vuepress/plugin-register-components',
-    {
-      componentsDir: path.resolve(__dirname, '../../components'),
-    }
-  ]
+  ['@vuepress/plugin-register-components', {
+    componentsDir: path.resolve(__dirname, '../../components'),
+  }]
 ]
