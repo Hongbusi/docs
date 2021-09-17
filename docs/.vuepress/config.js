@@ -1,5 +1,3 @@
-const { path } = require('@vuepress/utils');
-
 module.exports = {
   // base: '/docs/',
   dest: 'dist',
@@ -15,7 +13,6 @@ module.exports = {
       lineNumbers: false
     }
   },
-  theme: path.resolve(__dirname, '../../packages/vuepress-theme-hbs'),
   themeConfig: {
     repo: 'Hongbusi/docs',
     docsDir: 'docs',

@@ -1,3 +1,5 @@
+const { path } = require('@vuepress/utils');
+
 module.exports = [
   ['@vuepress/plugin-pwa'],
   [
@@ -29,5 +31,11 @@ module.exports = [
         placeholder: '搜索',
       }
     }
-  }]
+  }],
+  [
+    '@vuepress/plugin-register-components',
+    {
+      componentsDir: path.resolve(__dirname, '../../components'),
+    }
+  ]
 ]

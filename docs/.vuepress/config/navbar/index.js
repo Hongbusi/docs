@@ -1,6 +1,10 @@
 module.exports = [
   {
     text: '学习',
+    link: '/study/'
+  },
+  {
+    text: '沉淀',
     link: '/guide/'
   },
   {
@@ -10,5 +14,5 @@ module.exports = [
   {
     text: '其他',
     link: '/other/'
-  }
+  },
 ];
