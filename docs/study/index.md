@@ -1,3 +1,13 @@
-# 学习
+---
+{
+  title: '学习',
+  data: [
+    {
+      link: './vue/',
+      text: '测试'
+    }
+  ]
+}
+---
 
-<Link text="测试" link="./vue/" />
+<PageLink />
