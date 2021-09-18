@@ -4,7 +4,8 @@ module.exports = {
       children: [
         'index.md',
         'essentials.md',
-        'components.md'
+        'components.md',
+        'reusability-and-composition.md'
       ]
     }
   ]
