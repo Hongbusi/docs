@@ -1,5 +1,5 @@
 module.exports = {
-  '/guide/vue/': [
+  '/study/vue/': [
     {
       children: [
         'index.md',

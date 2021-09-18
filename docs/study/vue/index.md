@@ -1,3 +1,3 @@
-# Vue 源码学习
+# Vue3
 
-参考资料：https://juejin.cn/column/6960553066101735461
+[参考文档](https://v3.cn.vuejs.org)
