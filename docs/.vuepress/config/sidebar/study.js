@@ -3,7 +3,8 @@ module.exports = {
     {
       children: [
         'index.md',
-        'essentials.md'
+        'essentials.md',
+        'components.md'
       ]
     }
   ]
