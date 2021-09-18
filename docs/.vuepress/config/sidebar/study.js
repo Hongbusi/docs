@@ -3,7 +3,7 @@ module.exports = {
     {
       children: [
         'index.md',
-        'lifecycle.md'
+        'essentials.md'
       ]
     }
   ]
