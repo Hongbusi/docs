@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 9 月 22 日
+
+Deno 运行时入门教程：Node.js 的替代品：[http://www.ruanyifeng.com/blog/2020/01/deno-intro.html](http://www.ruanyifeng.com/blog/2020/01/deno-intro.html)
+
+剪贴板操作 Clipboard API 教程：[https://www.ruanyifeng.com/blog/2021/01/clipboard-api.html](https://www.ruanyifeng.com/blog/2021/01/clipboard-api.html)
+
 ## 9 月 16 日
 
 人生的三大境界：骆驼、狮子和婴儿：[https://mp.weixin.qq.com/s/P_-R_IJeT8z2B5_-PrUcdQ](https://mp.weixin.qq.com/s/P_-R_IJeT8z2B5_-PrUcdQ)
