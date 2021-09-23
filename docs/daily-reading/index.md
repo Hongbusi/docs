@@ -4,6 +4,8 @@
 
 不可多得的 TS 学习指南：[https://mp.weixin.qq.com/s/PCQvZt78AM11EI2bJ_S6ew](https://mp.weixin.qq.com/s/PCQvZt78AM11EI2bJ_S6ew)
 
+Vue.js 服务端渲染 (SSR) 不完全指北：[https://zhuanlan.zhihu.com/p/84835469](https://zhuanlan.zhihu.com/p/84835469)
+
 ## 9 月 22 日
 
 Deno 运行时入门教程：Node.js 的替代品：[http://www.ruanyifeng.com/blog/2020/01/deno-intro.html](http://www.ruanyifeng.com/blog/2020/01/deno-intro.html)
