@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 9 月 24 日
+
+编程的智慧 - 掘金：[https://juejin.cn/post/7006914548179402783](https://juejin.cn/post/7006914548179402783)
+
+浏览器中的音视频知识总结 v1.0：[https://juejin.cn/post/7002288264413446157](https://juejin.cn/post/7002288264413446157)
+
 ## 9 月 23 日
 
 不可多得的 TS 学习指南：[https://mp.weixin.qq.com/s/PCQvZt78AM11EI2bJ_S6ew](https://mp.weixin.qq.com/s/PCQvZt78AM11EI2bJ_S6ew)
