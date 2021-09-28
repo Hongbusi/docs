@@ -12,7 +12,8 @@ module.exports = {
   '/study/vue-source-code/': [
     {
       children: [
-        'index.md'
+        'index.md',
+        'init.md'
       ]
     }
   ]
