@@ -14,7 +14,7 @@ cd dist
 
 git init
 git add -A
-date=`date +%Y-%m-%d_%H:%M:%S`
+date=`date '+%Y-%m-%d %H:%M:%S'`
 git commit -m "deploy ${date}"
 
 # 如果发布到 https://<USERNAME>.github.io
