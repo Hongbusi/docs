@@ -6,6 +6,6 @@ set -e
 git add .
 
 date=`date '+%Y-%m-%d %H:%M:%S'`
-git commit -m "deploy ${date}"
+git commit -m "update ${date}"
 
 git push
