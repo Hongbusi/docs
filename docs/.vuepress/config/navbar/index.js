@@ -10,9 +10,5 @@ module.exports = [
   {
     text: '每日阅读',
     link: '/daily-reading/'
-  },
-  {
-    text: '其他',
-    link: '/other/'
-  },
+  }
 ];

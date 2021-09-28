@@ -8,5 +8,12 @@ module.exports = {
         'reusability-and-composition.md'
       ]
     }
+  ],
+  '/study/vue-source-code/': [
+    {
+      children: [
+        'index.md'
+      ]
+    }
   ]
 }
