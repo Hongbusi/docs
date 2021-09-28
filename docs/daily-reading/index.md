@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 9 月 28 日
+
+Tencent/secguide: 面向开发人员梳理的代码安全指南：[https://github.com/Tencent/secguide](https://github.com/Tencent/secguide)
+
 ## 9 月 26 日
 
 tailwindcss 的诞生：[https://tailwindchina.com](https://tailwindchina.com)
