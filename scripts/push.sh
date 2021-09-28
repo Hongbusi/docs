@@ -5,7 +5,7 @@ set -e
 
 git add .
 
-date=`date +%Y-%m-%d`
-git commit -m "update ${date}"
+date=`date '+%Y-%m-%d %H:%M:%S'`
+git commit -m "deploy ${date}"
 
 git push
