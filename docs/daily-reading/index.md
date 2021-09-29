@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 9 月 29 日
+
+前端优秀实践不完全指南：[https://mp.weixin.qq.com/s/Kt5Yp_OTabafxltSPrP4HQ](https://mp.weixin.qq.com/s/Kt5Yp_OTabafxltSPrP4HQ)
+
 ## 9 月 28 日
 
 Tencent/secguide: 面向开发人员梳理的代码安全指南：[https://github.com/Tencent/secguide](https://github.com/Tencent/secguide)
