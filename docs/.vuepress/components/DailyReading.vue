@@ -1,15 +1,20 @@
 <template>
   <h3 class="text-center text-3xl font-medium border-b border-gray-200 pb-3">{{ title }}</h3>
-  <a
-    v-for="(item, index) in list"
-    :key="index"
-    :href="item.link"
-    target="_blank"
-  >
-    <div class="p-3 transition hover:bg-gray-100">
-      <span class="mr-2">({{ item.date }})</span>{{ item.title }}
-    </div>
-  </a>
+  <template v-for="(dailyReadingItem, dailyReadingIndex) in dailyReadingList" :key="dailyReadingIndex">
+    <div class="text-center p-3 bg-yellow-100">{{ dailyReadingItem.date }}</div>
+    <a
+      v-for="(item, index) in dailyReadingItem.list"
+      :key="index"
+      :href="item.link"
+      target="_blank"
+    >
+      <div class="p-3 transition hover:bg-red-100">
+        {{ item.title }}
+      </div>
+    </a>
+
+    <div class="border-t border-red-200 border-dashed mt-3 mb-10"></div>
+  </template>
 
   <div class="text-center mt-12">
     <button v-if="!finish" class="border px-5 py-2 rounded-sm transition-shadow hover:shadow" @click="handleClickLoadMore">加载更多</button>
@@ -33,12 +38,12 @@ const title = computed(() => {
   return frontmatter.value.title;
 });
 
-// list
+// dailyReadingList
 let cuttentIndex = ref(0);
 let finish = ref(false);
-const pageSize = 20;
+const pageSize = 5;
 
-const list = computed(() => {
+const dailyReadingList = computed(() => {
   const { data } = frontmatter.value;
 
   if (!data) {
