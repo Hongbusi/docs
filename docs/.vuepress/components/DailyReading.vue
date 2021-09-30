@@ -62,3 +62,9 @@ const handleClickLoadMore = function() {
   cuttentIndex.value++;
 }
 </script>
+
+<style scoped>
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+</style>
