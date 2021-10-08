@@ -3,6 +3,14 @@
   title: '每日阅读',
   data: [
     {
+      date: '2021 年 10 月 8 日',
+      list: [
+        { title: '前端通用SEO技术优化指南', link: 'https://mp.weixin.qq.com/s/qamEevyNw3DUESEGK19QNw' },
+        { title: '那些你应该说再见的 npm 祖传老库', link: 'https://mp.weixin.qq.com/s/1KRUysvbYo69qf2UPRC7Og' },
+        { title: 'Chrome 94 开始 WebGPU 试用', link: 'https://mp.weixin.qq.com/s/ft5GmW0w2dufRyq_hVcqDQ' }
+      ]
+    },
+    {
       date: '2021 年 9 月 29 日',
       list: [
         { title: '前端优秀实践不完全指南', link: 'https://mp.weixin.qq.com/s/Kt5Yp_OTabafxltSPrP4HQ' }
