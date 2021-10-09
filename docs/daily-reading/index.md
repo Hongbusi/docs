@@ -1,5 +1,15 @@
 # 每日阅读
 
+## 10 月 9 日
+
+[闲鱼正在悄悄放弃 Flutter 吗？](https://juejin.cn/post/6955304605190357005)
+
+[近 20k Star的项目说不做就不做了](https://juejin.cn/post/7010922819143860261)
+
+[可选链操作符(?.)](https://juejin.cn/post/6983611335690944549)
+
+[给女友写的，每日自动推送暖心消息](https://juejin.cn/post/7012171027790692388)
+
 ## 10 月 8 日
 
 [前端通用 SEO 技术优化指南](https://mp.weixin.qq.com/s/qamEevyNw3DUESEGK19QNw)
