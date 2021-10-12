@@ -4,6 +4,8 @@
 
 [继 layui 之后， jQuery Mobile 宣布完全弃用！](https://mp.weixin.qq.com/s/ECiJdlEkZpSQyWOSMU_bjw)
 
+[前端 100w 行代码是怎样的体验？](https://mp.weixin.qq.com/s/tl7YG6y9j0bggzfFgMo2FQ)
+
 ## 10 月 9 日
 
 [闲鱼正在悄悄放弃 Flutter 吗？](https://juejin.cn/post/6955304605190357005)
