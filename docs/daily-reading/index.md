@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 10 月 12 日
+
+[继 layui 之后， jQuery Mobile 宣布完全弃用！](https://mp.weixin.qq.com/s/ECiJdlEkZpSQyWOSMU_bjw)
+
 ## 10 月 9 日
 
 [闲鱼正在悄悄放弃 Flutter 吗？](https://juejin.cn/post/6955304605190357005)
