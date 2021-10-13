@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 10 月 13 日
+
+[防抖节流场景及应用](https://mp.weixin.qq.com/s/XzqwfdG4-whUaAxxnXITmg)
+
 ## 10 月 12 日
 
 [继 layui 之后， jQuery Mobile 宣布完全弃用！](https://mp.weixin.qq.com/s/ECiJdlEkZpSQyWOSMU_bjw)
