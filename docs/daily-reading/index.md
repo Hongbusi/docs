@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 10 月 14 日
+
+[终于在 JS 中用上 WeakMap 了！](https://mp.weixin.qq.com/s/fTwwfK8FHZCvZGaQWMMeSg)
+
+[聊聊前端构建这十年](https://mp.weixin.qq.com/s/Ki1U_B9d8cfigZxs7uOg5Q)
+
 ## 10 月 13 日
 
 [防抖节流场景及应用](https://mp.weixin.qq.com/s/XzqwfdG4-whUaAxxnXITmg)
