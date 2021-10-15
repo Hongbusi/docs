@@ -1,5 +1,11 @@
 # 每日阅读
 
+## 10 月 15 日
+
+[一个 package 之如何指定项目或库中所需 node 的版本号](https://mp.weixin.qq.com/s/Anneexsc0QC_oyciBmDffA)
+
+[如何搞定 Banner 背景自动换色的功能？](https://mp.weixin.qq.com/s/M7np7oisRLkg2Sb5nGokCg)
+
 ## 10 月 14 日
 
 [终于在 JS 中用上 WeakMap 了！](https://mp.weixin.qq.com/s/fTwwfK8FHZCvZGaQWMMeSg)
