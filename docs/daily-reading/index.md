@@ -6,6 +6,8 @@
 
 [如何搞定 Banner 背景自动换色的功能？](https://mp.weixin.qq.com/s/M7np7oisRLkg2Sb5nGokCg)
 
+[从 ESLint 开始，说透我如何在团队项目中基于 Vue 做代码校验](https://mp.weixin.qq.com/s/r0hTA_Chq5FqtiWbOv8QOw)
+
 ## 10 月 14 日
 
 [终于在 JS 中用上 WeakMap 了！](https://mp.weixin.qq.com/s/fTwwfK8FHZCvZGaQWMMeSg)
