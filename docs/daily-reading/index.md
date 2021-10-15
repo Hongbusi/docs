@@ -8,6 +8,10 @@
 
 [从 ESLint 开始，说透我如何在团队项目中基于 Vue 做代码校验](https://mp.weixin.qq.com/s/r0hTA_Chq5FqtiWbOv8QOw)
 
+[vite 源码解析](https://github.com/zhangyuang/vite-design)
+
+[深入聊聊 JavaScript 框架](https://mp.weixin.qq.com/s/ZiB5PXZRJeeN9fqtKdsi3Q)
+
 ## 10 月 14 日
 
 [终于在 JS 中用上 WeakMap 了！](https://mp.weixin.qq.com/s/fTwwfK8FHZCvZGaQWMMeSg)
