@@ -1,5 +1,13 @@
 # 每日阅读
 
+## 10 月 18 日
+
+[浏览器的兼容问题及解决方案整理](https://mp.weixin.qq.com/s/K-ECAzZ-Wim7epxQHRygrQ)
+
+[ESLint 在中大型团队的应用实践](https://mp.weixin.qq.com/s/jb8yozm-p-b6MBAb46SP7A)
+
+[27 个 CSS 案例演示和 DEMO](https://mp.weixin.qq.com/s/SCtjHiK-mZkyFWs5CtMHUQ)
+
 ## 10 月 15 日
 
 [一个 package 之如何指定项目或库中所需 node 的版本号](https://mp.weixin.qq.com/s/Anneexsc0QC_oyciBmDffA)
