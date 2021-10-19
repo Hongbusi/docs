@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 10 月 19 日
+
+[能干不会说，怎么办？](https://www.yuque.com/lyndon/daylesson/wlqtge)
+
 ## 10 月 18 日
 
 [浏览器的兼容问题及解决方案整理](https://mp.weixin.qq.com/s/K-ECAzZ-Wim7epxQHRygrQ)
