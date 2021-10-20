@@ -6,6 +6,8 @@
 
 [设计和实现一个 Chrome 插件提升登录效率](https://mp.weixin.qq.com/s/UTbv8ZqGc5IsToYSqWyFKQ) 
 
+[UI 设计师如何提高设计还原的质量和验收效率](https://mp.weixin.qq.com/s?__biz=MjM5MTg2NDA3MQ==&mid=2651955316&idx=2&sn=42d9b8f06f871b4f5e9dd5535804574a&chksm=bd4a041c8a3d8d0a0d44121947242a1ca19ca08c5c3f294f1a23dbce315b5d44af2b613f9981&scene=132#wechat_redirect)
+
 ## 10 月 19 日
 
 [能干不会说，怎么办？](https://www.yuque.com/lyndon/daylesson/wlqtge)
