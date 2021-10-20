@@ -4,6 +4,8 @@
 
 [总结 Vue 的长列表优化方案](https://mp.weixin.qq.com/s/8Qd_o_k0QEbkggCFCwEhtA)
 
+[设计和实现一个 Chrome 插件提升登录效率](https://mp.weixin.qq.com/s/UTbv8ZqGc5IsToYSqWyFKQ) 
+
 ## 10 月 19 日
 
 [能干不会说，怎么办？](https://www.yuque.com/lyndon/daylesson/wlqtge)
