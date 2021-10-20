@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 10 月 20 日
+
+[总结 Vue 的长列表优化方案](https://mp.weixin.qq.com/s/8Qd_o_k0QEbkggCFCwEhtA)
+
 ## 10 月 19 日
 
 [能干不会说，怎么办？](https://www.yuque.com/lyndon/daylesson/wlqtge)
