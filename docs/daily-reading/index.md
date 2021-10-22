@@ -1,5 +1,19 @@
 # 每日阅读
 
+## 10 月 22 日
+
+[实现文字二次加粗再加边框](https://mp.weixin.qq.com/s/EQRnrOI5-o6WNfUP1nI_8w)
+
+[前端知识图谱](https://f2e.tech)
+
+[幽灵依赖](https://mp.weixin.qq.com/s/dZZVpQPtnepK0Q4TZNVyPw)
+
+[重磅！微软发布 vscode.dev，把 VS Code 带入浏览器！](https://mp.weixin.qq.com/s/nxGrLNT1tARvuEw97k1e8A)
+
+[Grid vs Flexbox：哪个更好？](https://mp.weixin.qq.com/s/s0zQf8rly1svrysoqO4TeQ)
+
+[​设计思维 | 图标设计知识点 Get 了吗？](https://mp.weixin.qq.com/s/OdWiMa-9M_lsU-5msGHVqw)
+
 ## 10 月 21 日
 
 [你的登录界面不够花里胡哨，3D 版本的来了](https://mp.weixin.qq.com/s/lBAnBsKInLvdL9zG--3hyQ)
