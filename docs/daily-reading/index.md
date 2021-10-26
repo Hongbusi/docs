@@ -4,6 +4,8 @@
 
 [我们是如何以用户为中心做产品的？全栈产品都有哪些工具？](https://mp.weixin.qq.com/s/ZfTPSLHBZ300Pq33nnDAvw)
 
+[一键配置开发环境——前端环境管理工具 AppToolkit 正式发布](https://mp.weixin.qq.com/s/phGAlrY7Luu4S_3gf9QmNQ)
+
 ## 10 月 22 日
 
 [实现文字二次加粗再加边框](https://mp.weixin.qq.com/s/EQRnrOI5-o6WNfUP1nI_8w)
