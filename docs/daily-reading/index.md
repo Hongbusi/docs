@@ -1,5 +1,9 @@
 # 每日阅读
 
+## 10 月 26 日
+
+[我们是如何以用户为中心做产品的？全栈产品都有哪些工具？](https://mp.weixin.qq.com/s/ZfTPSLHBZ300Pq33nnDAvw)
+
 ## 10 月 22 日
 
 [实现文字二次加粗再加边框](https://mp.weixin.qq.com/s/EQRnrOI5-o6WNfUP1nI_8w)
