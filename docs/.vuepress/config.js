@@ -39,6 +39,7 @@ module.exports = {
     docsBranch: 'master',
     logo: '/images/logo.png',
     navbar: [
+      { text: '首页', link: 'https://hongbusi.github.io' },
       { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
     sidebar: []
