@@ -42,6 +42,13 @@ module.exports = {
       { text: '首页', link: 'https://hongbusi.github.io' },
       { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
-    sidebar: []
+    sidebarDepth: 0,
+    sidebar: {
+      '/code/': [
+        'index.md',
+        'getQueryString.md',
+        'setInterval.md'
+      ]
+    }
   }
 }
