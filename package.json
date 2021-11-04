@@ -5,9 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs",
-    "deploy": "bash scripts/deploy.sh",
-    "push": "bash scripts/push.sh"
+    "build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
