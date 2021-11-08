@@ -38,7 +38,7 @@ function getQueryString(url, name = '') {
 }
 ```
 
-## `new URL()`
+## new URL()
 
 参考文档：[https://developer.mozilla.org/zh-CN/docs/Web/API/URL](https://developer.mozilla.org/zh-CN/docs/Web/API/URL)
 

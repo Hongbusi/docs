@@ -47,7 +47,9 @@ module.exports = {
       '/code/': [
         'index.md',
         'getQueryString.md',
-        'setInterval.md'
+        'setInterval.md',
+        'throttle.md',
+        'debounce.md'
       ]
     }
   }
