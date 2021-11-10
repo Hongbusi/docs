@@ -54,6 +54,10 @@ module.exports = {
       '/study/vue3/': [
         'index.md',
         '01.md'
+      ],
+      '/guide/environment/': [
+        'index.md',
+        'Node.js.md'
       ]
     }
   }
