@@ -53,7 +53,8 @@ module.exports = {
       ],
       '/study/vue3/': [
         'index.md',
-        '01.md'
+        '01.md',
+        '02.md'
       ],
       '/guide/environment/': [
         'index.md',
