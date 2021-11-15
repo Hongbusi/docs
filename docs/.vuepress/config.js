@@ -57,7 +57,11 @@ module.exports = {
       ],
       '/guide/environment/': [
         'index.md',
-        'Node.js.md'
+        'nodejs.md'
+      ],
+      '/best-practices/': [
+        'index.md',
+        'eslint.md'
       ]
     }
   }
