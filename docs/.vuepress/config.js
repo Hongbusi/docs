@@ -61,7 +61,8 @@ module.exports = {
       ],
       '/best-practices/': [
         'index.md',
-        'eslint.md'
+        'eslint.md',
+        'library.md'
       ]
     }
   }
