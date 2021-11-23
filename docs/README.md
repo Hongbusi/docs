@@ -19,3 +19,5 @@ footer: Copyright © 2020-present Hongbusi
 - [玩转 Vue3 全家桶](./study/vue3)
 
 - [前端开发环境配置](./guide/environment)
+
+- [最佳实践](./best-practices)
