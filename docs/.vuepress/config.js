@@ -63,6 +63,9 @@ module.exports = {
         'index.md',
         'eslint.md',
         'library.md'
+      ],
+      '/blogs/': [
+        'index.md'
       ]
     }
   }
