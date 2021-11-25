@@ -1,4 +1,4 @@
-# Swiper
+# Nuxt 中使用 Swiper
 
 vue-awesome-swiper 是基于 [Swiper](https://www.swiper.com.cn/) 封装的 vue swiper 组件。
 
@@ -35,5 +35,3 @@ plugins: [
   { src: '~/plugins/vue-swiper', ssr: false }
 ]
 ```
-
-### 4. 使用 directive 模式

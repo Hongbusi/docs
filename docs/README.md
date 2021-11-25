@@ -12,12 +12,4 @@ features:
 footer: Copyright © 2020-present Hongbusi
 ---
 
-## 推荐阅读
-
-- [手写代码专题](./code)
-
-- [玩转 Vue3 全家桶](./study/vue3)
-
-- [前端开发环境配置](./guide/environment)
-
-- [最佳实践](./best-practices)
+**推荐阅读：**[博客专栏](./blogs) ｜ [手写代码专题](./code) ｜ [最佳实践](./best-practices)

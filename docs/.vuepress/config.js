@@ -44,28 +44,14 @@ module.exports = {
     ],
     sidebarDepth: 0,
     sidebar: {
-      '/code/': [
-        'index.md',
-        'getQueryString.md',
-        'setInterval.md',
-        'throttle.md',
-        'debounce.md'
-      ],
       '/study/vue3/': [
         'index.md',
         '01.md'
-      ],
-      '/guide/environment/': [
-        'index.md',
-        'nodejs.md'
       ],
       '/best-practices/': [
         'index.md',
         'eslint.md',
         'library.md'
-      ],
-      '/blogs/': [
-        'index.md'
       ]
     }
   }

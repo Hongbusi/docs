@@ -1,6 +1,4 @@
-# 技术选型
-
-## 图片裁剪
+# Vue 中实现图片裁剪
 
 [vue-cropperjs](https://github.com/Agontuk/vue-cropperjs) 是一个基于 [cropperjs](https://github.com/fengyuanchen/cropperjs) 封装的 Vue 组件。
 
@@ -12,7 +10,7 @@
 vue2 请选择 v4.2.0，vue3 请选择 v5+
 :::
 
-### 安装
+## 安装
 
 ``` bash
 npm install vue-cropperjs
@@ -22,49 +20,7 @@ npm install vue-cropperjs
 yarn add vue-cropperjs
 ```
 
-### 参数
-
-#### viewMode
-
-> 定义裁剪器的视图模式。
-
-- 类型：`Number`
-- 默认值：`0`
-- 配置项：
-  - `0`：无限制。
-  - `1`：限制裁剪框不超过画布的大小。(推荐)
-  - `2`：限制最小画布大小以适合容器。如果画布和容器的比例不同，则最小画布将被维度之一的额外空间包围。
-  - `3`：限制最小画布大小以填充适合容器。如果画布和容器的比例不同，容器将无法在其中一个维度中容纳整个画布。
-
-#### aspectRatio
-
-> 定义裁剪框的固定纵横比。默认情况下，裁剪框具有自由比例。
-
-- 类型：`Number`
-- 默认值：`NaN`
-
-#### responsive
-
-> 调整窗口大小时重新渲染裁剪器。
-
-- 类型：`Boolean`
-- 默认值：`true`
-
-#### guides
-
-> 在裁剪框上方显示虚线。
-
-- 类型：`Boolean`
-- 默认值：`true`
-
-#### autoCropArea
-
-> 它应该是一个介于 0 和 1 之间的数字。定义自动裁剪区域大小（百分比）。
-
-- 类型：`Number`
-- 默认值：`0.8`
-
-### 使用
+## 使用
 
 ``` vue
 <template>
@@ -123,7 +79,50 @@ export default {
 </script>
 ```
 
-### 兼容 IE
+## 参数
+
+### viewMode
+
+> 定义裁剪器的视图模式。
+
+- 类型：`Number`
+- 默认值：`0`
+- 配置项：
+  - `0`：无限制。
+  - `1`：限制裁剪框不超过画布的大小。(推荐)
+  - `2`：限制最小画布大小以适合容器。如果画布和容器的比例不同，则最小画布将被维度之一的额外空间包围。
+  - `3`：限制最小画布大小以填充适合容器。如果画布和容器的比例不同，容器将无法在其中一个维度中容纳整个画布。
+
+### aspectRatio
+
+> 定义裁剪框的固定纵横比。默认情况下，裁剪框具有自由比例。
+
+- 类型：`Number`
+- 默认值：`NaN`
+
+### responsive
+
+> 调整窗口大小时重新渲染裁剪器。
+
+- 类型：`Boolean`
+- 默认值：`true`
+
+### guides
+
+> 在裁剪框上方显示虚线。
+
+- 类型：`Boolean`
+- 默认值：`true`
+
+### autoCropArea
+
+> 它应该是一个介于 0 和 1 之间的数字。定义自动裁剪区域大小（百分比）。
+
+- 类型：`Number`
+- 默认值：`0.8`
+
+
+## 兼容 IE
 
 参考文档：[https://www.canvasapi.cn/HTMLCanvasElement/toBlob](https://www.canvasapi.cn/HTMLCanvasElement/toBlob)
 
@@ -152,58 +151,4 @@ if (!HTMLCanvasElement.prototype.toBlob) {
     }
   });
 }
-```
-
-## 图片懒加载
-
-[vue-lazyload](https://github.com/hilongjw/vue-lazyload)用于在应用程序中延迟加载图像的 Vue 模块。
-
-### 安装
-
-``` bash
-npm install vue-lazyload
-
-#or
-
-yarn add vue-lazyload
-```
-
-### 使用
-
-``` js
-// main.js
-
-import Vue from 'vue';
-import App from './App.vue';
-import VueLazyload from 'vue-lazyload';
-
-Vue.use(VueLazyload);
-
-// or with options
-const loadimage = require('./assets/loading.gif');
-const errorimage = require('./assets/error.gif');
-
-Vue.use(VueLazyload, {
-  preLoad: 1.3, // 预载高度比例，默认值：1.3
-  error: errorimage, // 加载失败时图像的 src，默认值：'data-src'
-  loading: loadimage, // 加载时图像的 src，默认值：'data-src'
-  attempt: 1 // 尝试次数, 默认值：3
-});
-
-new Vue({
-  el: 'body',
-  components: {
-    App
-  }
-})
-```
-
-``` vue
-<template>
-  <ul>
-    <li v-for="img in list">
-      <img v-lazy="img.src">
-    </li>
-  </ul>
-</template>
 ```
