@@ -111,7 +111,6 @@ function getVue2NuxtSidebar() {
 function getVue2AntDesignSidebar() {
   return [
     'index.md',
-    'table.md',
     'modal.md'
   ]
 }
