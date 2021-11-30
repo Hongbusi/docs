@@ -73,7 +73,7 @@ module.exports = {
       '/leetcode/': getLeetcodeSidebar(),
       '/vue2/packages/': getVue2PackagesSidebar(),
       '/vue2/nuxt/': getVue2NuxtSidebar(),
-      '/vue2/ant-design-vue/': getVue2AntDesignSidebar(),
+      '/vue2/ant-design-vue/': getVue2AntDesignVueSidebar(),
       '/vue3/packages/': getVue3PackagesSidebar(),
     }
   }
@@ -108,7 +108,7 @@ function getVue2NuxtSidebar() {
   ]
 }
 
-function getVue2AntDesignSidebar() {
+function getVue2AntDesignVueSidebar() {
   return [
     'index.md',
     'modal.md'
