@@ -54,13 +54,20 @@ module.exports = {
             children: [
               { text: '第三方库', link: '/vue2/packages/' },
               { text: 'Nuxt.js', link: '/vue2/nuxt/' },
-              { text: 'Ant Design Vue', link: '/vue2/ant-design-vue/' }
+              { text: 'Ant Design Vue', link: '/vue2/ant-design-vue/' },
+              { text: '其他', link: '/vue2/other/' }
             ]
           },
           {
             text: 'Vue3',
             children: [
               { text: '第三方库', link: '/vue3/packages/' }
+            ]
+          },
+          {
+            text: 'Git',
+            children: [
+              { text: 'Git 常见问题', link: '/git/problem/' }
             ]
           }
         ]
@@ -74,7 +81,9 @@ module.exports = {
       '/vue2/packages/': getVue2PackagesSidebar(),
       '/vue2/nuxt/': getVue2NuxtSidebar(),
       '/vue2/ant-design-vue/': getVue2AntDesignVueSidebar(),
+      '/vue2/other/': getVue2OtherSidebar(),
       '/vue3/packages/': getVue3PackagesSidebar(),
+      '/git/problem/': getGitProblemSidebar()
     }
   }
 }
@@ -98,13 +107,21 @@ function getLeetcodeSidebar() {
 
 function getVue2PackagesSidebar() {
   return [
-    'index.md'
+    'index.md',
+    'i18n.md',
+    'lazyload.md',
+    'cropperjs.md',
+    'variable-injection.md'
   ]
 }
 
 function getVue2NuxtSidebar() {
   return [
-    'index.md'
+    'index.md',
+    'init.md',
+    'swiper.md',
+    'performance-optimization.md',
+    'problem.md'
   ]
 }
 
@@ -115,8 +132,24 @@ function getVue2AntDesignVueSidebar() {
   ]
 }
 
+function getVue2OtherSidebar() {
+  return [
+    'index.md',
+    'introducing-js.md',
+    'component-registration.md',
+    'permission-control.md'
+  ]
+}
+
 function getVue3PackagesSidebar() {
   return [
     'index.md'
+  ]
+}
+
+function getGitProblemSidebar() {
+  return [
+    'index.md',
+    'gitignore.md'
   ]
 }
