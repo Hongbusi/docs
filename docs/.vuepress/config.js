@@ -52,7 +52,15 @@ module.exports = {
           {
             text: 'Vue2',
             children: [
-              { text: 'Ant Design', link: '/vue2/ant-design/' }
+              { text: '第三方库', link: '/vue2/packages/' },
+              { text: 'Nuxt.js', link: '/vue2/nuxt/' },
+              { text: 'Ant Design Vue', link: '/vue2/ant-design-vue/' }
+            ]
+          },
+          {
+            text: 'Vue3',
+            children: [
+              { text: '第三方库', link: '/vue3/packages/' }
             ]
           }
         ]
@@ -63,7 +71,10 @@ module.exports = {
     sidebar: {
       '/code/': getCodeSidebar(),
       '/leetcode/': getLeetcodeSidebar(),
-      '/vue2/ant-design/': getVue2AntDesignSidebar()
+      '/vue2/packages/': getVue2PackagesSidebar(),
+      '/vue2/nuxt/': getVue2NuxtSidebar(),
+      '/vue2/ant-design-vue/': getVue2AntDesignSidebar(),
+      '/vue3/packages/': getVue3PackagesSidebar(),
     }
   }
 }
@@ -85,10 +96,28 @@ function getLeetcodeSidebar() {
   ]
 }
 
+function getVue2PackagesSidebar() {
+  return [
+    'index.md'
+  ]
+}
+
+function getVue2NuxtSidebar() {
+  return [
+    'index.md'
+  ]
+}
+
 function getVue2AntDesignSidebar() {
   return [
     'index.md',
     'table.md',
     'modal.md'
+  ]
+}
+
+function getVue3PackagesSidebar() {
+  return [
+    'index.md'
   ]
 }
