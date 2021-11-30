@@ -46,12 +46,24 @@ module.exports = {
           { text: '手写代码专题', link: '/code/' }
         ]
       },
+      {
+        text: '最佳实践',
+        children: [
+          {
+            text: 'Vue2',
+            children: [
+              { text: 'Ant Design', link: '/vue2/ant-design/' }
+            ]
+          }
+        ]
+      },
       { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
     sidebarDepth: 0,
     sidebar: {
       '/code/': getCodeSidebar(),
-      '/leetcode/': getLeetcodeSidebar()
+      '/leetcode/': getLeetcodeSidebar(),
+      '/vue2/ant-design/': getVue2AntDesignSidebar()
     }
   }
 }
@@ -63,12 +75,20 @@ function getCodeSidebar() {
     'setInterval.md',
     'debounce.md',
     'throttle.md'
-  ];
+  ]
 }
 
 function getLeetcodeSidebar() {
   return [
     'index.md',
     'find-all-anagrams-in-a-string.md'
-  ];
+  ]
+}
+
+function getVue2AntDesignSidebar() {
+  return [
+    'index.md',
+    'table.md',
+    'modal.md'
+  ]
 }
