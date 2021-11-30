@@ -11,5 +11,3 @@ features:
     details: 不登高山，不知天之大；不临深谷，不知地之厚也。
 footer: Copyright © 2020-present Hongbusi
 ---
-
-**推荐阅读：**[博客专栏](./blogs) ｜ [手写代码专题](./code) ｜ [最佳实践](./best-practices)

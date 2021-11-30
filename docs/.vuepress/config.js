@@ -39,20 +39,36 @@ module.exports = {
     docsBranch: 'master',
     logo: '/images/logo.png',
     navbar: [
-      { text: '首页', link: 'https://hongbusi.github.io' },
+      {
+        text: 'Code',
+        children: [
+          { text: 'Leetcode', link: '/leetcode/' },
+          { text: '手写代码专题', link: '/code/' }
+        ]
+      },
       { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
     sidebarDepth: 0,
     sidebar: {
-      '/study/vue3/': [
-        'index.md',
-        '01.md'
-      ],
-      '/best-practices/': [
-        'index.md',
-        'eslint.md',
-        'library.md'
-      ]
+      '/code/': getCodeSidebar(),
+      '/leetcode/': getLeetcodeSidebar()
     }
   }
+}
+
+function getCodeSidebar() {
+  return [
+    'index.md',
+    'getQueryString.md',
+    'setInterval.md',
+    'debounce.md',
+    'throttle.md'
+  ];
+}
+
+function getLeetcodeSidebar() {
+  return [
+    'index.md',
+    'find-all-anagrams-in-a-string.md'
+  ];
 }
