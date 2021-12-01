@@ -126,7 +126,10 @@ function getVue2Sidebar() {
       text: '第三方库',
       link: '/vue2/packages/index.md',
       children: [
-        '/vue2/packages/cropperjs.md'
+        '/vue2/packages/vuedraggable.md',
+        '/vue2/packages/vue-lazyload.md',
+        '/vue2/packages/vue-cropperjs.md',
+        '/vue2/packages/style-resources-loader.md'
       ]
     }
   ]

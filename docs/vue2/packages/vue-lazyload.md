@@ -1,6 +1,10 @@
+---
+sidebarDepth: 0
+---
+
 # Vue 中实现图片懒加载
 
-[vue-lazyload](https://github.com/hilongjw/vue-lazyload)用于在应用程序中延迟加载图像的 Vue 模块。
+[vue-lazyload](https://github.com/hilongjw/vue-lazyload) 用于在应用程序中延迟加载图像的 Vue 模块。
 
 ## 安装
 

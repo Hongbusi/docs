@@ -1,6 +1,9 @@
 # 第三方库
 
-- [拖拽](https://www.npmjs.com/package/vuedraggable)
-- [图片裁剪](https://www.npmjs.com/package/vue-cropperjs)
-- [时间处理](https://www.npmjs.com/package/dayjs)
-- [图片懒加载](https://www.npmjs.com/package/vue-lazyload)
+### [Vue 中实现拖拽](./vuedraggable)
+
+### [Vue 中实现图片懒加载](./vue-lazyload)
+
+### [Vue 中实现图片裁剪](./vue-cropperjs)
+
+### [Vue 全局注入 scss / less 变量](./style-resources-loader)

@@ -1,4 +1,8 @@
-# vue 全局注入 scss/less 变量
+---
+sidebarDepth: 0
+---
+
+# Vue 全局注入 scss / less 变量
 
 [style-resources-loader](https://github.com/yenshih/style-resources-loader) 是 webpack 的 CSS 处理器资源加载器。
 
@@ -19,6 +23,6 @@ npm install style-resources-loader -D
 yarn add style-resources-loader -D
 ```
 
-::: tip
+## 使用
+
 在 Vue 中使用 [前往](https://cli.vuejs.org/zh/guide/css.html)
-:::

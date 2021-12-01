@@ -1,3 +1,7 @@
+---
+sidebarDepth: 0
+---
+
 # Vue 中实现图片裁剪
 
 [vue-cropperjs](https://github.com/Agontuk/vue-cropperjs) 是一个基于 [cropperjs](https://github.com/fengyuanchen/cropperjs) 封装的 Vue 组件。
