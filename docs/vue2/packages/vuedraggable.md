@@ -24,8 +24,13 @@ yarn add vuedraggable
 
 ``` vue
 <template>
-  <draggable v-model="myArray">
-    <transition-group>
+  <draggable
+    v-model="myArray"
+    v-bind="dragOptions"
+    @start="drag = true"
+    @end="drag = false"
+  >
+    <transition-group type="transition" :name="!drag ? 'flip-list' : null">
       <div v-for="element in myArray" :key="element.id">
           {{ element.name }}
       </div>
@@ -39,6 +44,23 @@ import draggable from 'vuedraggable';
 export default {
   components: {
     draggable
+  },
+
+  data() {
+    return {
+      drag: false
+    }
+  },
+
+  computed: {
+    dragOptions() {
+      return {
+        animation: 200,
+        group: "description",
+        disabled: false,
+        ghostClass: "ghost"
+      }
+    }
   }
 }
 </script>
