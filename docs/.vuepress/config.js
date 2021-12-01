@@ -75,7 +75,7 @@ module.exports = {
       },
       { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
-    sidebarDepth: 0,
+    sidebarDepth: 1,
     sidebar: {
       '/html/': getHtmlSidebar(),
       '/css/': getCssSidebar(),
@@ -110,7 +110,25 @@ function getJsSidebar() {
 
 function getVue2Sidebar() {
   return [
-    'index.md'
+    {
+      text: 'Vue2',
+      link: '/vue2/index.md'
+    },
+    {
+      text: 'Ant Design Vue',
+      link: '/vue2/ant-design-vue/index.md',
+      children: [
+        '/vue2/ant-design-vue/table.md',
+        '/vue2/ant-design-vue/modal.md'
+      ]
+    },
+    {
+      text: '第三方库',
+      link: '/vue2/packages/index.md',
+      children: [
+        '/vue2/packages/cropperjs.md'
+      ]
+    }
   ]
 }
 
