@@ -40,34 +40,35 @@ module.exports = {
     logo: '/images/logo.png',
     navbar: [
       {
-        text: 'Code',
-        children: [
-          { text: 'Leetcode', link: '/leetcode/' },
-          { text: '手写代码专题', link: '/code/' }
-        ]
-      },
-      {
-        text: '最佳实践',
+        text: '学习',
         children: [
           {
-            text: 'Vue2',
+            text: '原生',
             children: [
-              { text: '第三方库', link: '/vue2/packages/' },
-              { text: 'Nuxt.js', link: '/vue2/nuxt/' },
-              { text: 'Ant Design Vue', link: '/vue2/ant-design-vue/' },
-              { text: '其他', link: '/vue2/other/' }
+              { text: 'HTML', link: '/native/html/' },
+              { text: 'CSS', link: '/native/css/' },
+              { text: 'JavaScript', link: '/native/js/' }
             ]
           },
           {
-            text: 'Vue3',
+            text: '框架',
             children: [
-              { text: '第三方库', link: '/vue3/packages/' }
+              { text: 'Vue2 相关', link: '/frame/vue2/' },
+              { text: 'Vue3 相关', link: '/frame/vue3/' }
             ]
           },
           {
-            text: 'Git',
+            text: 'Code',
             children: [
-              { text: 'Git 常见问题', link: '/git/problem/' }
+              { text: 'Leetcode', link: '/leetcode/' },
+              { text: '手写代码专题', link: '/code/' }
+            ]
+          },
+          {
+            text: '其他',
+            children: [
+              { text: 'Git', link: '/other/git/' },
+              { text: '书单', link: '/other/books/' }
             ]
           }
         ]
