@@ -1,7 +1,3 @@
----
-sidebarDepth: 1
----
-
 # Modal 对话框
 
 ## 基础使用
