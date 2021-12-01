@@ -13,7 +13,7 @@ sidebarDepth: 0
 - 在所有样式文件中共享变量、mixin、函数，因此您无需手动 @import。 
 - 覆盖其他库（例如 ant-design）提供的样式文件中的变量并自定义您自己的主题。
 
-## 安装
+## Installation
 
 ``` bash
 npm install style-resources-loader -D
@@ -23,6 +23,6 @@ npm install style-resources-loader -D
 yarn add style-resources-loader -D
 ```
 
-## 使用
+## Usage
 
 在 Vue 中使用 [前往](https://cli.vuejs.org/zh/guide/css.html)

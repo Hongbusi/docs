@@ -6,7 +6,7 @@ sidebarDepth: 0
 
 [vue-lazyload](https://github.com/hilongjw/vue-lazyload) 用于在应用程序中延迟加载图像的 Vue 模块。
 
-## 安装
+## Installation
 
 ``` bash
 npm install vue-lazyload
@@ -16,7 +16,7 @@ npm install vue-lazyload
 yarn add vue-lazyload
 ```
 
-## 使用
+## Usage
 
 ``` js
 // main.js

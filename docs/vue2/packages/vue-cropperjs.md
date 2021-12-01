@@ -14,7 +14,7 @@ sidebarDepth: 0
 vue2 请选择 v4.2.0，vue3 请选择 v5+
 :::
 
-## 安装
+## Installation
 
 ``` bash
 npm install vue-cropperjs
@@ -24,7 +24,7 @@ npm install vue-cropperjs
 yarn add vue-cropperjs
 ```
 
-## 使用
+## Usage
 
 ``` vue
 <template>
@@ -83,7 +83,7 @@ export default {
 </script>
 ```
 
-## 参数
+## Options
 
 ### viewMode
 
@@ -126,7 +126,7 @@ export default {
 - 默认值：`0.8`
 
 
-## 兼容 IE
+## Support for IE
 
 参考文档：[https://www.canvasapi.cn/HTMLCanvasElement/toBlob](https://www.canvasapi.cn/HTMLCanvasElement/toBlob)
 
