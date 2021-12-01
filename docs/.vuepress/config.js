@@ -45,16 +45,16 @@ module.exports = {
           {
             text: '原生',
             children: [
-              { text: 'HTML', link: '/native/html/' },
-              { text: 'CSS', link: '/native/css/' },
-              { text: 'JavaScript', link: '/native/js/' }
+              { text: 'HTML', link: '/html/' },
+              { text: 'CSS', link: '/css/' },
+              { text: 'JavaScript', link: '/js/' }
             ]
           },
           {
             text: '框架',
             children: [
-              { text: 'Vue2 相关', link: '/frame/vue2/' },
-              { text: 'Vue3 相关', link: '/frame/vue3/' }
+              { text: 'Vue2', link: '/vue2/' },
+              { text: 'Vue3', link: '/vue3/' }
             ]
           },
           {
@@ -67,8 +67,8 @@ module.exports = {
           {
             text: '其他',
             children: [
-              { text: 'Git', link: '/other/git/' },
-              { text: '书单', link: '/other/books/' }
+              { text: 'Git', link: '/git/' },
+              { text: '书单', link: '/books/' }
             ]
           }
         ]
@@ -77,16 +77,54 @@ module.exports = {
     ],
     sidebarDepth: 0,
     sidebar: {
-      '/code/': getCodeSidebar(),
+      '/html/': getHtmlSidebar(),
+      '/css/': getCssSidebar(),
+      '/js/': getJsSidebar(),
+      '/vue2/': getVue2Sidebar(),
+      '/vue3/': getVue3Sidebar(),
       '/leetcode/': getLeetcodeSidebar(),
-      '/vue2/packages/': getVue2PackagesSidebar(),
-      '/vue2/nuxt/': getVue2NuxtSidebar(),
-      '/vue2/ant-design-vue/': getVue2AntDesignVueSidebar(),
-      '/vue2/other/': getVue2OtherSidebar(),
-      '/vue3/packages/': getVue3PackagesSidebar(),
-      '/git/problem/': getGitProblemSidebar()
+      '/code/': getCodeSidebar(),
+      '/git/': getGitSidebar(),
+      '/books/': getBooksSidebar()
     }
   }
+}
+
+function getHtmlSidebar() {
+  return [
+    'index.md'
+  ]
+}
+
+function getCssSidebar() {
+  return [
+    'index.md'
+  ]
+}
+
+function getJsSidebar() {
+  return [
+    'index.md'
+  ]
+}
+
+function getVue2Sidebar() {
+  return [
+    'index.md'
+  ]
+}
+
+function getVue3Sidebar() {
+  return [
+    'index.md'
+  ]
+}
+
+function getLeetcodeSidebar() {
+  return [
+    'index.md',
+    'find-all-anagrams-in-a-string.md'
+  ]
 }
 
 function getCodeSidebar() {
@@ -99,58 +137,14 @@ function getCodeSidebar() {
   ]
 }
 
-function getLeetcodeSidebar() {
-  return [
-    'index.md',
-    'find-all-anagrams-in-a-string.md'
-  ]
-}
-
-function getVue2PackagesSidebar() {
-  return [
-    'index.md',
-    'i18n.md',
-    'lazyload.md',
-    'cropperjs.md',
-    'variable-injection.md'
-  ]
-}
-
-function getVue2NuxtSidebar() {
-  return [
-    'index.md',
-    'init.md',
-    'swiper.md',
-    'performance-optimization.md',
-    'problem.md'
-  ]
-}
-
-function getVue2AntDesignVueSidebar() {
-  return [
-    'index.md',
-    'modal.md'
-  ]
-}
-
-function getVue2OtherSidebar() {
-  return [
-    'index.md',
-    'introducing-js.md',
-    'component-registration.md',
-    'permission-control.md'
-  ]
-}
-
-function getVue3PackagesSidebar() {
+function getGitSidebar() {
   return [
     'index.md'
   ]
 }
 
-function getGitProblemSidebar() {
+function getBooksSidebar() {
   return [
-    'index.md',
-    'gitignore.md'
+    'index.md'
   ]
 }
