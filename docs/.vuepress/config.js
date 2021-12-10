@@ -1,7 +1,7 @@
 module.exports = {
   base: '/docs/',
   title: '洪布斯',
-  description: '桃李不言，下自成蹊！',
+  description: '知道的越多，不知道的越多！',
   head: [
     ['link', { rel: 'manifest', href: '/docs/manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -39,41 +39,46 @@ module.exports = {
     docsBranch: 'master',
     logo: '/images/logo.png',
     navbar: [
-      {
-        text: '学习',
-        children: [
-          {
-            text: '原生',
-            children: [
-              { text: 'HTML', link: '/html/' },
-              { text: 'CSS', link: '/css/' },
-              { text: 'JavaScript', link: '/js/' }
-            ]
-          },
-          {
-            text: '框架',
-            children: [
-              { text: 'Vue2', link: '/vue2/' },
-              { text: 'Vue3', link: '/vue3/' }
-            ]
-          },
-          {
-            text: 'Code',
-            children: [
-              { text: 'Leetcode', link: '/leetcode/' },
-              { text: '手写代码专题', link: '/code/' }
-            ]
-          },
-          {
-            text: '其他',
-            children: [
-              { text: 'Git', link: '/git/' },
-              { text: '书单', link: '/books/' }
-            ]
-          }
-        ]
-      },
-      { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
+      // {
+      //   text: '学习',
+      //   children: [
+      //     {
+      //       text: '原生',
+      //       children: [
+      //         { text: 'HTML', link: '/html/' },
+      //         { text: 'CSS', link: '/css/' },
+      //         { text: 'JavaScript', link: '/js/' }
+      //       ]
+      //     },
+      //     {
+      //       text: '框架',
+      //       children: [
+      //         { text: 'Vue2', link: '/vue2/' },
+      //         { text: 'Vue3', link: '/vue3/' }
+      //       ]
+      //     },
+      //     {
+      //       text: 'Code',
+      //       children: [
+      //         { text: 'Leetcode', link: '/leetcode/' },
+      //         { text: '手写代码专题', link: '/code/' }
+      //       ]
+      //     },
+      //     {
+      //       text: '其他',
+      //       children: [
+      //         { text: 'Git', link: '/git/' },
+      //         { text: '书单', link: '/books/' }
+      //       ]
+      //     }
+      //   ]
+      // },
+      { text: '首页', link: '/' },
+      { text: '前端', link: '/frontend/' },
+      { text: '库', link: '/repository/' },
+      { text: '网站', link: '/website/' },
+      { text: '面试', link: '/interview/' },
+      { text: '讨论', link: 'https://github.com/Hongbusi/docs/discussions' }
     ],
     sidebarDepth: 1,
     sidebar: {
