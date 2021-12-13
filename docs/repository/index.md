@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# 推荐库
+# 常用库
 
 记录自己平时常用, 提高效率的一些库。
 
@@ -16,6 +16,6 @@ sidebar: auto
 
 ## Vue
 
-- [vuedraggable](https://github.com/SortableJS/Vue.Draggable) 基于 [sortablejs](https://github.com/SortableJS/Sortable) 封装的拖拽组件库
+- [vuedraggable](https://github.com/SortableJS/Vue.Draggable) 基于 [sortablejs](https://github.com/SortableJS/Sortable) 封装的 Vue 拖拽组件库
 - [vue-lazyload](https://github.com/hilongjw/vue-lazyload) 用于在应用程序中延迟加载图像的 Vue 库
-- [vue-cropperjs](https://github.com/Agontuk/vue-cropperjs) 基于 [cropperjs](https://github.com/fengyuanchen/cropperjs) 封装的图片裁剪组件库
+- [vue-cropperjs](https://github.com/Agontuk/vue-cropperjs) 基于 [cropperjs](https://github.com/fengyuanchen/cropperjs) 封装的 Vue 图片裁剪组件库
