@@ -82,6 +82,8 @@ module.exports = {
     ],
     sidebarDepth: 1,
     sidebar: {
+      '/frontend/': getFrontendSidebar(),
+
       '/html/': getHtmlSidebar(),
       '/css/': getCssSidebar(),
       '/js/': getJsSidebar(),
@@ -93,6 +95,18 @@ module.exports = {
       '/books/': getBooksSidebar()
     }
   }
+}
+
+function getFrontendSidebar() {
+  return [
+    {
+      text: 'Vue',
+      link: '/frontend/vue/index.md',
+      children: [
+        '/frontend/vue/skill.md'
+      ]
+    }
+  ]
 }
 
 function getHtmlSidebar() {
