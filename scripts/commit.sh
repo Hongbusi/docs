@@ -1,6 +1,6 @@
 #! /bin/sh
 
 git add .
-read -p "input commit message: " msg
-git commit -m "$msg"
+date=`date '+%Y-%m-%d %H:%M:%S'`
+git commit -m "update ${date}"
 git push origin master
