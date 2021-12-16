@@ -47,7 +47,8 @@ module.exports = {
       { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
     sidebar: {
-      '/frontend/': getFrontendSidebar()
+      '/frontend/': getFrontendSidebar(),
+      '/interview/': getInterviewSidevar()
     }
   }
 }
@@ -55,7 +56,7 @@ module.exports = {
 function getFrontendSidebar() {
   return [
     {
-      text: '介绍',
+      text: '前端',
       link: '/frontend/index.md'
     },
     {
@@ -70,6 +71,25 @@ function getFrontendSidebar() {
       link: '/frontend/doc-template/index.md',
       children: [
         '/frontend/doc-template/technical-solutions.md'
+      ]
+    }
+  ]
+}
+
+function getInterviewSidevar() {
+  return [
+    {
+      text: '面试',
+      link: '/interview/index.md'
+    },
+    {
+      text: '手写代码',
+      link: '/interview/handwritten-code/index.md',
+      children: [
+        '/interview/handwritten-code/getQueryString.md',
+        '/interview/handwritten-code/setInterval.md',
+        '/interview/handwritten-code/throttle.md',
+        '/interview/handwritten-code/debounce.md'
       ]
     }
   ]
