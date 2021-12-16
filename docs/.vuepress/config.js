@@ -43,9 +43,9 @@ module.exports = {
       { text: '库', link: '/repository/' },
       { text: '网站', link: '/website/' },
       { text: '面试', link: '/interview/' },
-      { text: '讨论', link: 'https://github.com/Hongbusi/docs/discussions' }
+      { text: '讨论', link: 'https://github.com/Hongbusi/docs/discussions' },
+      { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
     ],
-    sidebarDepth: 1,
     sidebar: {
       '/frontend/': getFrontendSidebar()
     }
