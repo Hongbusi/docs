@@ -67,6 +67,15 @@ function getFrontendSidebar() {
       ]
     },
     {
+      text: 'Nuxt',
+      link: '/frontend/nuxt/index.md',
+      children: [
+        '/frontend/nuxt/init.md',
+        '/frontend/nuxt/performance-optimization.md',
+        '/frontend/nuxt/problem.md'
+      ]
+    },
+    {
       text: 'Git',
       link: '/frontend/git/index.md',
       children: [
