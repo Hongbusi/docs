@@ -55,6 +55,10 @@ module.exports = {
 function getFrontendSidebar() {
   return [
     {
+      text: '介绍',
+      link: '/frontend/index.md'
+    },
+    {
       text: 'Vue',
       link: '/frontend/vue/index.md',
       children: [
