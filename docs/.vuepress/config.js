@@ -67,6 +67,13 @@ function getFrontendSidebar() {
       ]
     },
     {
+      text: 'Git',
+      link: '/frontend/git/index.md',
+      children: [
+        '/frontend/git/problem.md'
+      ]
+    },
+    {
       text: '文档模版',
       link: '/frontend/doc-template/index.md',
       children: [
