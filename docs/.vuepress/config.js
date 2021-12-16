@@ -91,6 +91,13 @@ function getInterviewSidevar() {
         '/interview/handwritten-code/throttle.md',
         '/interview/handwritten-code/debounce.md'
       ]
+    },
+    {
+      text: 'LeetCode',
+      link: '/interview/leetcode/index.md',
+      children: [
+        '/interview/leetcode/find-all-anagrams-in-a-string.md'
+      ]
     }
   ]
 }
