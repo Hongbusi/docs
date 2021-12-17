@@ -4,3 +4,4 @@
 
 - [ ] 文件上传
 - [ ] [技术文档写作规范](https://github.com/ruanyf/document-style-guide)
+- [ ] git 提交规范
