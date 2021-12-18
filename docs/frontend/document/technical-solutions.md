@@ -4,6 +4,8 @@ sidebarDepth: 0
 
 # 政采云前端技术方案模板
 
+[https://www.zoo.team/article/web-docsify](https://www.zoo.team/article/web-docsify)
+
 ## 1. 概述
 
 ### 1.1 需求背景&价值
