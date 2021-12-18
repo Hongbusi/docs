@@ -45,6 +45,7 @@ module.exports = {
       { text: '网站', link: '/website/' },
       { text: '提问', link: 'https://github.com/Hongbusi/docs/discussions' }
     ],
+    sidebarDepth: 1,
     sidebar: {
       '/frontend/': getFrontendSidebar(),
       '/interview/': getInterviewSidevar()
