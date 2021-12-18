@@ -61,32 +61,15 @@ function getFrontendSidebar() {
     },
     {
       text: 'Vue',
-      link: '/frontend/vue/index.md',
       children: [
         '/frontend/vue/skill.md'
       ]
     },
     {
-      text: 'Nuxt',
-      link: '/frontend/nuxt/index.md',
+      text: '文档',
+      link: '/frontend/document/index.md',
       children: [
-        '/frontend/nuxt/init.md',
-        '/frontend/nuxt/performance-optimization.md',
-        '/frontend/nuxt/problem.md'
-      ]
-    },
-    {
-      text: 'Git',
-      link: '/frontend/git/index.md',
-      children: [
-        '/frontend/git/problem.md'
-      ]
-    },
-    {
-      text: '文档模版',
-      link: '/frontend/doc-template/index.md',
-      children: [
-        '/frontend/doc-template/technical-solutions.md'
+        '/frontend/document/technical-solutions.md'
       ]
     }
   ]
