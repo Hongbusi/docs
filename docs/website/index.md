@@ -1,5 +1,7 @@
 # 网站
 
+记录常用网站。
+
 ## CSS 动画
 
 - [ui-snippets](https://ui-snippets.dev)
