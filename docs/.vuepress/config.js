@@ -43,7 +43,6 @@ module.exports = {
       { text: '库', link: '/repository/' },
       { text: '面试', link: '/interview/' },
       { text: '网站', link: '/website/' },
-      { text: '阅读', link: '/read/' },
       { text: '提问', link: 'https://github.com/Hongbusi/docs/discussions' }
     ],
     sidebar: {
@@ -98,19 +97,6 @@ function getInterviewSidevar() {
       children: [
         '/interview/leetcode/find-all-anagrams-in-a-string.md'
       ]
-    }
-  ]
-}
-
-function getReadSidebar() {
-  return [
-    {
-      text: '阅读',
-      link: '/read/index.md'
-    },
-    {
-      text: '推荐周刊',
-      link: '/read/weekly.md'
     }
   ]
 }
