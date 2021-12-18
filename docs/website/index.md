@@ -20,6 +20,6 @@
 - [uTools](https://www.u.tools) 新一代效率工具平台
 - [分流抢票](https://www.bypass.cn)
 
-## 低代码
+## 低代码平台
 
 - [imgcook](https://www.imgcook.com) 设计稿智能生成代码

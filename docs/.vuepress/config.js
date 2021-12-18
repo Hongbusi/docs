@@ -41,14 +41,15 @@ module.exports = {
       { text: '首页', link: '/' },
       { text: '前端', link: '/frontend/' },
       { text: '库', link: '/repository/' },
-      { text: '网站', link: '/website/' },
       { text: '面试', link: '/interview/' },
-      { text: '讨论', link: 'https://github.com/Hongbusi/docs/discussions' },
-      { text: '每日阅读', link: 'https://hongbusi.github.io/daily-reading' }
+      { text: '网站', link: '/website/' },
+      { text: '阅读', link: '/read/' },
+      { text: '提问', link: 'https://github.com/Hongbusi/docs/discussions' }
     ],
     sidebar: {
       '/frontend/': getFrontendSidebar(),
-      '/interview/': getInterviewSidevar()
+      '/interview/': getInterviewSidevar(),
+      '/read/': getReadSidebar()
     }
   }
 }
@@ -97,6 +98,19 @@ function getInterviewSidevar() {
       children: [
         '/interview/leetcode/find-all-anagrams-in-a-string.md'
       ]
+    }
+  ]
+}
+
+function getReadSidebar() {
+  return [
+    {
+      text: '阅读',
+      link: '/read/index.md'
+    },
+    {
+      text: '推荐周刊',
+      link: '/read/weekly.md'
     }
   ]
 }
