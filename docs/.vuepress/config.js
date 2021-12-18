@@ -47,8 +47,7 @@ module.exports = {
     ],
     sidebar: {
       '/frontend/': getFrontendSidebar(),
-      '/interview/': getInterviewSidevar(),
-      '/read/': getReadSidebar()
+      '/interview/': getInterviewSidevar()
     }
   }
 }
