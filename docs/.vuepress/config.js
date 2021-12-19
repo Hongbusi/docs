@@ -61,6 +61,7 @@ function getFrontendSidebar() {
     },
     {
       text: 'Vue',
+      link: '/frontend/vue/index.md',
       children: [
         '/frontend/vue/skill.md'
       ]
