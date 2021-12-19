@@ -74,14 +74,6 @@ function getFrontendSidebar() {
       children: [
         '/frontend/vue/skill.md'
       ]
-    },
-    {
-      text: '文档',
-      link: '/frontend/document/index.md',
-      children: [
-        '/frontend/document/style-guide.md',
-        '/frontend/document/technical-solutions.md'
-      ]
     }
   ]
 }
