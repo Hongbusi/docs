@@ -43,6 +43,7 @@ module.exports = {
       { text: '库', link: '/repository/' },
       { text: '面试', link: '/interview/' },
       { text: '网站', link: '/website/' },
+      { text: '博客', link: '/blog/' },
       { text: '提问', link: 'https://github.com/Hongbusi/docs/discussions' }
     ],
     sidebarDepth: 1,
@@ -58,6 +59,14 @@ function getFrontendSidebar() {
     {
       text: '前端',
       link: '/frontend/index.md'
+    },
+    {
+      text: 'Git',
+      link: '/frontend/git/index.md',
+      children: [
+        '/frontend/git/commands.md',
+        '/frontend/git/problem.md'
+      ]
     },
     {
       text: 'Vue',

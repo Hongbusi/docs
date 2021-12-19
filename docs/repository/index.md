@@ -8,6 +8,7 @@
 - [dayjs](https://github.com/iamkun/dayjs) 一个轻量级类 moment.js API 时间库
 - [lodash](https://github.com/lodash/lodash) 前端工具函数集合
 - [style-resources-loader](https://github.com/yenshih/style-resources-loader) webpack 的 CSS 处理器资源加载器
+- [npm-run-all](https://github.com/mysticatea/npm-run-all) 用于并行或顺序运行多个 npm 脚本的 CLI 工具
 
 ## Vue
 
