@@ -15,3 +15,18 @@ git add .
 
 git commit -m 'update .gitignore'
 ```
+
+## commit-msg 钩子被忽略
+
+``` bash
+提示：因为没有将钩子 '.husky/commit-msg' 设置为可执行，钩子被忽略。您可以通过
+提示：配置 `git config advice.ignoredHook false` 来关闭这条警告。
+```
+
+原因是 commit-msg 自定义的钩子在执行中权限不足，无法被执行。
+
+增加文件的执行权限。
+
+```
+chmod +x commit-msg
+```
