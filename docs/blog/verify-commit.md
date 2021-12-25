@@ -2,6 +2,8 @@
 
 ## githooks
 
+https://git-scm.com/docs/githooks
+
 husky
 
 @commitlint/config-conventional
