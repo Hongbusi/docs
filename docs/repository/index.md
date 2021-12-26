@@ -16,3 +16,7 @@
 - [vue-lazyload](https://github.com/hilongjw/vue-lazyload) 用于在应用程序中延迟加载图像的 Vue 库
 - [vue-cropperjs](https://github.com/Agontuk/vue-cropperjs) 基于 [cropperjs](https://github.com/fengyuanchen/cropperjs) 封装的 Vue 图片裁剪组件库
 - [vuepress-next](https://github.com/vuepress/vuepress-next) Vue 驱动的静态网站生成器
+
+## Vite
+
+[unplugin-vue-components](https://github.com/antfu/unplugin-vue-components) Vue 的按需组件自动导入
