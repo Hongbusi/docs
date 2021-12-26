@@ -2,7 +2,7 @@
 sidebar: auto
 ---
 
-# git 提交规范
+# git commit 规范
 
 使用 commitlint 实现。
 
