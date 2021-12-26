@@ -1,5 +1,5 @@
 ---
-sidebarDepth: 0
+sidebar: auto
 ---
 
 # 政采云前端技术方案模板

@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # commitlint
 
 ## 什么是 commitlint?

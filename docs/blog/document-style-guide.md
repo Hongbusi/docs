@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # 技术文档写作规范
 
 本文转载自 [https://github.com/ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide)
