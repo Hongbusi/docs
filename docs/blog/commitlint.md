@@ -54,7 +54,7 @@ echo "module.exports = {extends: ['@commitlint/config-conventional']}" > commitl
 yarn add husky --dev
 
 # 编辑 package.json > 准备脚本并运行一次
-yarn set-script prepare "husky install"
+npm set-script prepare "husky install"
 yarn run prepare
 
 # 添加 hook
