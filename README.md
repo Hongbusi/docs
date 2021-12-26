@@ -3,7 +3,7 @@
 ## 第 2 周（12.20 ~ 12.26）
 
 - [ ] 文件上传
-- [ ] git 提交规范（pre-commit、commit-msg）
+- [x] [git 提交规范](https://hongbusi.github.io/blog/commitlint)
 
 ## 第 1 周（12.13 ~ 12.19）
 
