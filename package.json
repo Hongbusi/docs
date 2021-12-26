@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "commit": "bash scripts/commit.sh",
-    "deploy": "bash scripts/deploy.sh"
+    "deploy": "bash scripts/deploy.sh",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/Hongbusi/docs#readme",
   "devDependencies": {
+    "@commitlint/cli": "^15.0.0",
+    "@commitlint/config-conventional": "^16.0.0",
     "@vuepress/plugin-pwa": "^2.0.0-beta.26",
     "@vuepress/plugin-pwa-popup": "^2.0.0-beta.26",
     "@vuepress/plugin-search": "^2.0.0-beta.26",
+    "husky": "^7.0.4",
     "vuepress": "^2.0.0-beta.26"
   }
 }
