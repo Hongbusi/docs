@@ -2,7 +2,9 @@
 sidebar: auto
 ---
 
-# commitlint
+# git 提交规范
+
+使用 commitlint 实现。
 
 ## 什么是 commitlint?
 
