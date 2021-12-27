@@ -5,5 +5,6 @@
 
 ## 团队协作开发规范
 
+- [eslint](./eslint)
 - [git commit 规范](./commitlint)
 - [政采云前端技术方案模板](./technical-solutions)
