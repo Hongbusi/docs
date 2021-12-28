@@ -18,6 +18,9 @@ sidebar: auto
 ## CSS 动画
 
 - [ui-snippets](https://ui-snippets.dev)
+- [Hover](http://ianlunn.github.io/Hover)
+- [Animate.css](https://animate.style)
+- [spinkit](https://tobiasahlin.com/spinkit)
 
 ## 开发工具
 
