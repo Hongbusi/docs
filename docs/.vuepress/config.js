@@ -6,7 +6,6 @@ module.exports = {
     ['link', { rel: 'manifest', href: '/docs/manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
-  bundler: '@vuepress/webpack',
   markdown: {
     code: {
       lineNumbers: false
