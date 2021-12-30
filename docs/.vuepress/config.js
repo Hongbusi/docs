@@ -81,12 +81,15 @@ function getFrontendSidebar() {
 function getInterviewSidevar() {
   return [
     {
-      text: '面试',
-      link: '/interview/index.md'
+      text: 'Vue 系列',
+      children: [
+        '/interview/vue/vue.md',
+        '/interview/vue/spa.md',
+        '/interview/vue/if-and-show.md'
+      ]
     },
     {
-      text: '手写代码',
-      link: '/interview/handwritten-code/index.md',
+      text: '手写代码专题',
       children: [
         '/interview/handwritten-code/getQueryString.md',
         '/interview/handwritten-code/setInterval.md',
@@ -96,9 +99,9 @@ function getInterviewSidevar() {
     },
     {
       text: 'LeetCode',
-      link: '/interview/leetcode/index.md',
       children: [
-        '/interview/leetcode/find-all-anagrams-in-a-string.md'
+        '/interview/leetcode/find-all-anagrams-in-a-string.md',
+        '/interview/leetcode/hand-of-straights.md'
       ]
     }
   ]
