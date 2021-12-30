@@ -1,8 +1,9 @@
 module.exports = {
+  base: '/docs/',
   title: '洪布斯',
   description: '知道的越多，不知道的越多！',
   head: [
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
+    ['link', { rel: 'manifest', href: '/docs/manifest.webmanifest' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
   ],
   bundler: '@vuepress/webpack',
