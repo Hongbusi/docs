@@ -17,5 +17,6 @@
 
 ## LeetCode
 
-- [438.找到字符串中所有字母异位词](./leetcode/find-all-anagrams-in-a-string)
+- [438. 找到字符串中所有字母异位词](./leetcode/find-all-anagrams-in-a-string)
 - [846. 一手顺子](./leetcode/hand-of-straights)
+- [507. 完美数](./leetcode/perfect-number)

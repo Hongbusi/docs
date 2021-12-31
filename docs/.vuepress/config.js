@@ -101,7 +101,8 @@ function getInterviewSidevar() {
       text: 'LeetCode',
       children: [
         '/interview/leetcode/find-all-anagrams-in-a-string.md',
-        '/interview/leetcode/hand-of-straights.md'
+        '/interview/leetcode/hand-of-straights.md',
+        '/interview/leetcode/perfect-number.md'
       ]
     }
   ]
