@@ -32,6 +32,7 @@ sidebar: auto
 - [机器人模拟抓取](http://stool.chinaz.com/tools/robot.aspx) 用于验证 SEO
 - [Json](https://www.json.cn) JSON 在线解析
 - [uTools](https://www.u.tools) 新一代效率工具平台
+- [CODELF](https://unbug.github.io/codelf) 搜索 GitHub、Bitbucket、GitLab 以查找实际使用变量名称
 
 ## 其他工具
 
