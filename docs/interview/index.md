@@ -6,7 +6,7 @@
 
 - [说说你对 Vue 的理解？](./vue/vue)
 - [说说你对 SPA 单页面的理解？](./vue/spa)
-- [Vue 中的 v-if 和 v-show 怎么理解？](./vue/if-and-show)
+- [Vue 中的 v-show 和 v-if 怎么理解？](./vue/show-and-if)
 
 ## 手写代码专题
 

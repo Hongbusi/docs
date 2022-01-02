@@ -9,7 +9,7 @@
 
 - [x] [说说对 Vue 的理解](https://hongbusi.github.io/docs/interview/vue/vue.html)
 - [x] [说说对 SPA 单页面的理解](https://hongbusi.github.io/docs/interview/vue/spa.html)
-- [ ] [Vue 中的 v-show 和 v-if 怎么理解](https://hongbusi.github.io/docs/interview/vue/if-and-show.html)
+- [x] [Vue 中的 v-show 和 v-if 怎么理解](https://hongbusi.github.io/docs/interview/vue/show-and-if.html)
 
 ## 第 2 周（12.20 ~ 12.26）
 

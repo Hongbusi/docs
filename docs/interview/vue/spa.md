@@ -1,6 +1,6 @@
 # 说说你对 SPA 单页面的理解？
 
-![spa](/docs/images/interview/spa.png)
+![对 SPA 单页面的理解](/docs/images/interview/spa.png)
 
 ## 一、什么是 SPA
 
