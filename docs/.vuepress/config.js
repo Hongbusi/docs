@@ -85,7 +85,12 @@ function getInterviewSidevar() {
       children: [
         '/interview/vue/vue.md',
         '/interview/vue/spa.md',
-        '/interview/vue/show-and-if.md'
+        '/interview/vue/show-if.md',
+        '/interview/vue/new-vue.md',
+        '/interview/vue/lifecycle.md',
+        '/interview/vue/if-for.md',
+        '/interview/vue/first-page-time.md',
+        '/interview/vue/data.md'
       ]
     },
     {
