@@ -57,12 +57,7 @@ module.exports = {
 function getFrontendSidebar() {
   return [
     {
-      text: '前端',
-      link: '/frontend/index.md'
-    },
-    {
       text: 'Git',
-      link: '/frontend/git/index.md',
       children: [
         '/frontend/git/commands.md',
         '/frontend/git/problem.md'
@@ -70,11 +65,16 @@ function getFrontendSidebar() {
     },
     {
       text: 'Vue',
-      link: '/frontend/vue/index.md',
       children: [
         '/frontend/vue/skill.md'
       ]
-    }
+    },
+    {
+      text: 'Node',
+      children: [
+        '/frontend/node/fs-extra.md'
+      ]
+    },
   ]
 }
 
