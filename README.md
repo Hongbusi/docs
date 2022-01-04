@@ -4,6 +4,7 @@
 
 - [ ] [文件上传](https://github.com/Hongbusi/file-upload)
 - [ ] eslint、stylelint
+- [ ] Vue3 + TS + Vite Template
 - [ ] [Vue 实例挂载的过程中发生了什么？](https://hongbusi.github.io/docs/interview/vue/new-vue.html)
 - [ ] [说说你对 Vue 生命周期的理解？](https://hongbusi.github.io/docs/interview/vue/lifecycle.html)
 - [ ] [为什么 Vue 中的 v-if 和 v-for 不建议一起用？](https://hongbusi.github.io/docs/interview/vue/if-for.html)
