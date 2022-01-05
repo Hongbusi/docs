@@ -156,7 +156,3 @@ miniRouter.push('/page2');  // page2
 ### 3. 使用 Phantomjs 针对爬虫处理
 
 原理是通过 `Nginx` 配置，判断访问来源是否为爬虫，如果是则搜索引擎的爬虫请求会转发到一个 `node server`，再通过 `Phantomjs` 来解析完整的 HTML，返回给爬虫。
-
-## 参考文献
-
-- [https://vue3js.cn/interview/vue/spa.html](https://vue3js.cn/interview/vue/spa.html)

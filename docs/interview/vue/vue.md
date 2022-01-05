@@ -44,7 +44,3 @@ PS：Vue 作者尤雨溪是在为 AngularJS 工作之后开发出了这一框架
 
 - Vue 所有的界面事件，都是只去操作数据的，Jquery 操作 DOM；
 - Vue 所有界面的变动，都是根据数据自动绑定出来的，Jquery 操作 DOM。
-
-## 参考文献
-
-- [https://vue3js.cn/interview/vue/vue.html](https://vue3js.cn/interview/vue/vue.html)
