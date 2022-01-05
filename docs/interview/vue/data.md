@@ -1,6 +1,6 @@
 # 为什么 data 属性是一个函数而不是一个对象？
 
-![为什么 data 属性是一个函数而不是一个对象](/docs/images/interview/data.png)
+<img :src="$withBase('/images/interview/data.png')" alt="Answer ideas">
 
 ## 一、实例和组件定义 data 的区别
 
@@ -38,7 +38,7 @@ Vue.component('component1', {
 
 则会得到警告信息：
 
-![data-object](/docs/images/interview/data-object.png)
+<img :src="$withBase('/images/interview/data-object.png')" alt="Error">
 
 警告说明：返回的 `data` 应该是一个函数在每一个组件实例中。
 

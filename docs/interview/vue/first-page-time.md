@@ -1,6 +1,6 @@
 # SPA（单页应用）首屏加载速度慢怎么解决？
 
-![SPA（单页应用）首屏加载速度慢怎么解决](/docs/images/interview/first-page-time.png)
+<img :src="$withBase('/images/interview/first-page-time.png')" alt="Answer ideas">
 
 ## 一、什么是首屏加载
 
@@ -154,4 +154,4 @@ SSR（Server side），也就是服务端渲染，组件或页面通过服务器
 
 下图是更为全面的首屏优化的方案：
 
-![首屏优化的方案](/docs/images/interview/first-page-time-result.png)
+<img :src="$withBase('/images/interview/first-page-time-result.png')" alt="Result">

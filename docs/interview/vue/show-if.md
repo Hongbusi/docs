@@ -1,6 +1,6 @@
 # Vue 中的 v-show 和 v-if 怎么理解？
 
-![Vue 中的 v-show 和 v-if 怎么理解](/docs/images/interview/if-and-show.png)
+<img :src="$withBase('/images/interview/if-and-show.png')" alt="Answer ideas">
 
 ## 一、v-show 与 v-if 的共同点
 

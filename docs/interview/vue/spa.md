@@ -1,6 +1,6 @@
 # 说说你对 SPA 单页面的理解？
 
-![对 SPA 单页面的理解](/docs/images/interview/spa.png)
+<img :src="$withBase('/images/interview/spa.png')" alt="Answer ideas">
 
 ## 一、什么是 SPA
 
