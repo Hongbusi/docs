@@ -3,15 +3,15 @@
 ## 第 5 周（1.10 ～ 1.16）
 
 - [ ] eslint、stylelint
+- [ ] [Vue 实例挂载的过程中发生了什么？](https://hongbusi.github.io/docs/interview/vue/new-vue.html)
+- [ ] [说说你对 Vue 生命周期的理解？](https://hongbusi.github.io/docs/interview/vue/lifecycle.html)
+- [ ] [为什么 Vue 中的 v-if 和 v-for 不建议一起用？](https://hongbusi.github.io/docs/interview/vue/if-for.html)
 
 ## 第 4 周（1.3 ～ 1.9）
 
 - [x] [文件上传](https://github.com/Hongbusi/file-upload)
 - [ ] ~~eslint、stylelint~~
 - [x] [Vue3 + TS + Vite Tempalte](https://github.com/Hongbusi/create-app/tree/master/templates/vue3-ts-vite)
-- [ ] [Vue 实例挂载的过程中发生了什么？](https://hongbusi.github.io/docs/interview/vue/new-vue.html)
-- [ ] [说说你对 Vue 生命周期的理解？](https://hongbusi.github.io/docs/interview/vue/lifecycle.html)
-- [ ] [为什么 Vue 中的 v-if 和 v-for 不建议一起用？](https://hongbusi.github.io/docs/interview/vue/if-for.html)
 - [x] [SPA（单页应用）首屏加载速度慢怎么解决？](https://hongbusi.github.io/docs/interview/vue/first-page-time.html)
 - [x] [为什么 data 属性是一个函数而不是一个对象？](https://hongbusi.github.io/docs/interview/vue/data.html)
 
