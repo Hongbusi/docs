@@ -1,9 +1,13 @@
 # ToDoList
 
+## 第 5 周（1.10 ～ 1.16）
+
+- [ ] eslint、stylelint
+
 ## 第 4 周（1.3 ～ 1.9）
 
-- [ ] [文件上传](https://github.com/Hongbusi/file-upload)
-- [ ] eslint、stylelint
+- [x] [文件上传](https://github.com/Hongbusi/file-upload)
+- [ ] ~~eslint、stylelint~~
 - [x] [Vue3 + TS + Vite Tempalte](https://github.com/Hongbusi/create-app/tree/master/templates/vue3-ts-vite)
 - [ ] [Vue 实例挂载的过程中发生了什么？](https://hongbusi.github.io/docs/interview/vue/new-vue.html)
 - [ ] [说说你对 Vue 生命周期的理解？](https://hongbusi.github.io/docs/interview/vue/lifecycle.html)
