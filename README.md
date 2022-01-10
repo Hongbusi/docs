@@ -2,6 +2,7 @@
 
 ## 第 5 周（1.10 ～ 1.16）
 
+- [ ] [文件上传项目优化（js -> ts）](https://github.com/Hongbusi/file-upload)
 - [ ] eslint、stylelint
 - [ ] [Vue 实例挂载的过程中发生了什么？](https://hongbusi.github.io/docs/interview/vue/new-vue.html)
 - [ ] [说说你对 Vue 生命周期的理解？](https://hongbusi.github.io/docs/interview/vue/lifecycle.html)
