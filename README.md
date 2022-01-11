@@ -2,11 +2,15 @@
 
 ## 第 5 周（1.10 ～ 1.16）
 
-- [ ] [文件上传项目优化（js -> ts）](https://github.com/Hongbusi/file-upload)
-- [ ] eslint、stylelint
-- [ ] [Vue 实例挂载的过程中发生了什么？](https://hongbusi.github.io/docs/interview/vue/new-vue.html)
-- [ ] [说说你对 Vue 生命周期的理解？](https://hongbusi.github.io/docs/interview/vue/lifecycle.html)
-- [ ] [为什么 Vue 中的 v-if 和 v-for 不建议一起用？](https://hongbusi.github.io/docs/interview/vue/if-for.html)
+- [x] [1. 邂逅体验 Vue3 和 Vue3 源码](https://github.com/Hongbusi/learn-vue3)
+- [ ] [2. Vue3 模板语法常见的指令](https://github.com/Hongbusi/learn-vue3)
+- [ ] [3. 条件-列表渲染- diff 算法- key](https://github.com/Hongbusi/learn-vue3)
+- [ ] [4. 计算属性- watch -综合案例](https://github.com/Hongbusi/learn-vue3)
+- [ ] [5. (掌握) v-model 和注册 Vue 组件](https://github.com/Hongbusi/learn-vue3)
+- [ ] [6. webpack 基础打包和 css 打包](https://github.com/Hongbusi/learn-vue3)
+- [ ] [7. webpack 打包其他资源和插件使用](https://github.com/Hongbusi/learn-vue3)
+- [ ] [8. webpack 打包其他资源和插件使用（2）](https://github.com/Hongbusi/learn-vue3)
+
 
 ## 第 4 周（1.3 ～ 1.9）
 
