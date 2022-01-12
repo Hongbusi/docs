@@ -47,6 +47,7 @@ sidebar: auto
 ## 有趣
 
 - [wallhaven](https://wallhaven.cc) 壁纸 
+- [github-profile-views-counter](https://github.com/antonkomarev/github-profile-views-counter)
 
 ## 摸鱼必备
 
