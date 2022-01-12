@@ -3,7 +3,7 @@
 ## 第 5 周（1.10 ～ 1.16）
 
 - [x] [1. 邂逅体验 Vue3 和 Vue3 源码](https://github.com/Hongbusi/learn-vue3)
-- [ ] [2. Vue3 模板语法常见的指令](https://github.com/Hongbusi/learn-vue3)
+- [x] [2. Vue3 模板语法常见的指令](https://github.com/Hongbusi/learn-vue3)
 - [ ] [3. 条件-列表渲染- diff 算法- key](https://github.com/Hongbusi/learn-vue3)
 - [ ] [4. 计算属性- watch -综合案例](https://github.com/Hongbusi/learn-vue3)
 - [ ] [5. (掌握) v-model 和注册 Vue 组件](https://github.com/Hongbusi/learn-vue3)
