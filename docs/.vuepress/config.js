@@ -38,7 +38,7 @@ module.exports = {
     docsBranch: 'master',
     logo: '/images/logo.png',
     navbar: [
-      { text: '首页', link: '/' },
+      { text: '源码', link: '/source-code/' },
       { text: '前端', link: '/frontend/' },
       { text: '库', link: '/repository/' },
       { text: '面试', link: '/interview/' },
@@ -49,6 +49,7 @@ module.exports = {
     sidebarDepth: 1,
     sidebar: {
       '/frontend/': getFrontendSidebar(),
+      '/source-code/': getSourceCodeSidebar(),
       '/interview/': getInterviewSidevar()
     }
   }
@@ -75,6 +76,17 @@ function getFrontendSidebar() {
         '/frontend/node/fs-extra.md'
       ]
     },
+  ]
+}
+
+function getSourceCodeSidebar() {
+  return [
+    {
+      text: 'Vue3',
+      children: [
+        '/source-code/vue3/key.md'
+      ]
+    }
   ]
 }
 
