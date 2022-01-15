@@ -5,8 +5,8 @@
 - [x] 1. 邂逅体验 Vue3 和 Vue3 源码
 - [x] 2. Vue3 模板语法常见的指令
 - [x] 3. 条件 - 列表渲染 - diff 算法 - key
-- [ ] 4. 计算属性 - watch - 综合案例
-- [ ] 5. (掌握) v-model 和注册 Vue 组件
+- [x] 4. 计算属性 - watch - 综合案例
+- [x] 5. (掌握) v-model 和注册 Vue 组件
 - [ ] 6. webpack 基础打包和 css 打包
 - [ ] 7. webpack 打包其他资源和插件使用
 - [ ] 8. webpack 打包其他资源和插件使用（2）
