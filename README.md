@@ -1,5 +1,18 @@
 # ToDoList
 
+## 第 6 周（1.17 ～ 1.23）
+
+- [ ] 10. devServer-resolve 环境分离
+- [ ] 11. devServer-resolve 环境分离（2）
+- [ ] 12. VueCLI 和 Vite 的使用和原理
+- [ ] 13. VueCLI 和 Vite 的使用和原理（2）
+- [ ] 14. 组件化开发之组件通信
+- [ ] 15. 跨组件通信和插槽的使⽤
+- [ ] 16. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel
+- [ ] 17. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel（2）
+- [ ] 18. Vue3 实现动画 - animate-gsap
+- [ ] 19. Vue3 实现动画 - animate-gsap（2）
+
 ## 第 5 周（1.10 ～ 1.16）
 
 - [x] 1. 邂逅体验 Vue3 和 Vue3 源码
@@ -7,10 +20,10 @@
 - [x] 3. 条件 - 列表渲染 - diff 算法 - key
 - [x] 4. 计算属性 - watch - 综合案例
 - [x] 5. (掌握) v-model 和注册 Vue 组件
-- [ ] 6. webpack 基础打包和 css 打包
-- [ ] 7. webpack 打包其他资源和插件使用
-- [ ] 8. webpack 打包其他资源和插件使用（2）
-- [ ] Mind-map Component
+- [x] 6. webpack 基础打包和 css 打包
+- [x] 7. webpack 打包其他资源和插件使用
+- [x] 8. webpack 打包其他资源和插件使用（2）
+- [x] 9. Babel 解析和 Vue 文件打包
 
 ## 第 4 周（1.3 ～ 1.9）
 
