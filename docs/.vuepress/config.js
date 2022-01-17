@@ -76,6 +76,12 @@ function getFrontendSidebar() {
         '/frontend/node/fs-extra.md'
       ]
     },
+    {
+      text: 'Webpack',
+      children: [
+        '/frontend/webpack/index.md'
+      ]
+    },
   ]
 }
 
