@@ -2,8 +2,8 @@
 
 ## 第 6 周（1.17 ～ 1.23）
 
-- [ ] 10. devServer-resolve 环境分离
-- [ ] 11. devServer-resolve 环境分离（2）
+- [x] 10. devServer-resolve 环境分离
+- [x] 11. devServer-resolve 环境分离（2）
 - [ ] 12. VueCLI 和 Vite 的使用和原理
 - [ ] 13. VueCLI 和 Vite 的使用和原理（2）
 - [ ] 14. 组件化开发之组件通信
