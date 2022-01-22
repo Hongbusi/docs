@@ -6,7 +6,7 @@
 - [x] 11. devServer-resolve 环境分离（2）
 - [x] 12. VueCLI 和 Vite 的使用和原理
 - [x] 13. VueCLI 和 Vite 的使用和原理（2）
-- [ ] 14. 组件化开发之组件通信
+- [x] 14. 组件化开发之组件通信
 - [ ] 15. 跨组件通信和插槽的使⽤
 - [ ] 16. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel
 - [ ] 17. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel（2）
