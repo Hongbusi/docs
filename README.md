@@ -1,5 +1,20 @@
 # ToDoList
 
+## 第 7 周（1.24 ～ 1.30）
+
+- [ ] 22. ref-computed-watch 等 API
+- [ ] 23. ref-computed-watch 等 API（2）
+- [ ] 24. CompositionAPI（三）和组件高级用法
+- [ ] 25. CompositionAPI（三）和组件高级用法（2）
+- [ ] 26. Vue3 高级语法补充和 Vue3 源码
+- [ ] 27. Mini-Vue 渲染器和响应式系统实现
+- [ ] 28. Vue3 源码精读和调试技巧
+- [ ] 29. Vue3 源码阅读和前端路由原理
+- [ ] 30. Vue-router 深入解析
+- [ ] 31. Vue-router 知识补充和 Vuex 起步
+- [ ] 32. Vuex 核心 state-getters-mutations
+- [ ] 33. Vuex 核心概念和 nexttick 知识补充
+
 ## 第 6 周（1.17 ～ 1.23）
 
 - [x] 10. devServer-resolve 环境分离
