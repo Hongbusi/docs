@@ -12,6 +12,8 @@
 - [x] 17. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel（2）
 - [x] 18. Vue3 实现动画 - animate-gsap
 - [x] 19. Vue3 实现动画 - animate-gsap（2）
+- [x] 20. Vue3 的 Mixin 和 CompositionAPI
+- [x] 21. Vue3 的 Mixin 和 CompositionAPI（2）
 
 ## 第 5 周（1.10 ～ 1.16）
 
