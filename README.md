@@ -7,9 +7,9 @@
 - [x] 12. VueCLI 和 Vite 的使用和原理
 - [x] 13. VueCLI 和 Vite 的使用和原理（2）
 - [x] 14. 组件化开发之组件通信
-- [ ] 15. 跨组件通信和插槽的使⽤
-- [ ] 16. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel
-- [ ] 17. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel（2）
+- [x] 15. 跨组件通信和插槽的使⽤
+- [x] 16. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel
+- [x] 17. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel（2）
 - [ ] 18. Vue3 实现动画 - animate-gsap
 - [ ] 19. Vue3 实现动画 - animate-gsap（2）
 
