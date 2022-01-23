@@ -10,8 +10,8 @@
 - [x] 15. 跨组件通信和插槽的使⽤
 - [x] 16. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel
 - [x] 17. 动态 - 异步 - keepalive - ⽣命周期 - 组件 vModel（2）
-- [ ] 18. Vue3 实现动画 - animate-gsap
-- [ ] 19. Vue3 实现动画 - animate-gsap（2）
+- [x] 18. Vue3 实现动画 - animate-gsap
+- [x] 19. Vue3 实现动画 - animate-gsap（2）
 
 ## 第 5 周（1.10 ～ 1.16）
 
