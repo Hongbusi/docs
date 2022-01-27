@@ -2,7 +2,7 @@
 
 ## 第 7 周（1.24 ～ 1.30）
 
-- [ ] 22. ref-computed-watch 等 API
+- [x] 22. ref-computed-watch 等 API
 - [ ] 23. ref-computed-watch 等 API（2）
 - [ ] 24. CompositionAPI（三）和组件高级用法
 - [ ] 25. CompositionAPI（三）和组件高级用法（2）
