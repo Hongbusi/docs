@@ -4,8 +4,8 @@
 
 - [x] 22. ref-computed-watch 等 API
 - [x] 23. ref-computed-watch 等 API（2）
-- [ ] 24. CompositionAPI（三）和组件高级用法
-- [ ] 25. CompositionAPI（三）和组件高级用法（2）
+- [x] 24. CompositionAPI（三）和组件高级用法
+- [x] 25. CompositionAPI（三）和组件高级用法（2）
 - [ ] 26. Vue3 高级语法补充和 Vue3 源码
 - [ ] 27. Mini-Vue 渲染器和响应式系统实现
 - [ ] 28. Vue3 源码精读和调试技巧
