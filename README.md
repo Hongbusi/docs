@@ -1,11 +1,7 @@
 # ToDoList
 
-## 第 7 周（1.24 ～ 1.30）
+## 第 8 周（1.31 ～ 2.6）
 
-- [x] 22. ref-computed-watch 等 API
-- [x] 23. ref-computed-watch 等 API（2）
-- [x] 24. CompositionAPI（三）和组件高级用法
-- [x] 25. CompositionAPI（三）和组件高级用法（2）
 - [ ] 26. Vue3 高级语法补充和 Vue3 源码
 - [ ] 27. Mini-Vue 渲染器和响应式系统实现
 - [ ] 28. Vue3 源码精读和调试技巧
@@ -14,6 +10,13 @@
 - [ ] 31. Vue-router 知识补充和 Vuex 起步
 - [ ] 32. Vuex 核心 state-getters-mutations
 - [ ] 33. Vuex 核心概念和 nexttick 知识补充
+
+## 第 7 周（1.24 ～ 1.30）
+
+- [x] 22. ref-computed-watch 等 API
+- [x] 23. ref-computed-watch 等 API（2）
+- [x] 24. CompositionAPI（三）和组件高级用法
+- [x] 25. CompositionAPI（三）和组件高级用法（2）
 
 ## 第 6 周（1.17 ～ 1.23）
 
