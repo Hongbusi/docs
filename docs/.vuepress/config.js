@@ -42,7 +42,6 @@ module.exports = {
       { text: '前端', link: '/frontend/' },
       { text: '面试', link: '/interview/' },
       { text: '网站', link: '/website/' },
-      { text: '博客', link: '/blog/' },
       { text: '提问', link: 'https://github.com/Hongbusi/docs/discussions' }
     ],
     sidebarDepth: 1,
