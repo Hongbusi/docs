@@ -86,3 +86,27 @@ module.exports = {
 ```
 
 [View details](https://github.com/webpack-contrib/copy-webpack-plugin)
+
+## webpack-bundle-analyzer
+
+Visualize size of webpack output files with an interactive zoomable treemap.
+
+**Installation**
+
+``` bash
+npm install webpack-bundle-analyzer --save-dev
+```
+
+**Usage**
+
+``` js
+const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+
+module.exports = {
+  plugins: [
+    new BundleAnalyzerPlugin()
+  ]
+};
+```
+
+[View details](https://github.com/webpack-contrib/webpack-bundle-analyzer)
