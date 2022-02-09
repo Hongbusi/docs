@@ -21,7 +21,8 @@ const config = {
     lastUpdated: 'Last Updated',
 
     nav: [
-      { text: 'Frontend', link: '/frontend/' }
+      { text: 'Frontend', link: '/frontend/' },
+      { text: 'Blog', link: '/blog/' }
     ],
 
     sidebar: {
