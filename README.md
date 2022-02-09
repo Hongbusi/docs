@@ -4,7 +4,7 @@
 
 - [x] 27. Mini-Vue 渲染器和响应式系统实现
 - [x] 28. Vue3 源码精读和调试技巧
-- [ ] 29. Vue3 源码阅读和前端路由原理
+- [x] 29. Vue3 源码阅读和前端路由原理
 - [ ] 30. Vue-router 深入解析
 - [ ] 31. Vue-router 知识补充和 Vuex 起步
 - [ ] 32. Vuex 核心 state-getters-mutations
