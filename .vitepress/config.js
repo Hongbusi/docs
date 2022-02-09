@@ -34,6 +34,13 @@ const config = {
 function getFrontendSidebar() {
   return [
     {
+      text: 'Git',
+      children: [
+        { text: '常用命令', link: '/frontend/git/commands' },
+        { text: '常见问题', link: '/frontend/git/problem' }
+      ]
+    },
+    {
       text: 'Webpack',
       children: [
         { text: 'Loaders', link: '/frontend/webpack/loaders' },
