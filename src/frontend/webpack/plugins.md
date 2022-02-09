@@ -5,7 +5,7 @@
 ### Installation
 
 ``` bash
-npm install webpackbar -D
+npm install webpackbar --save-dev
 ```
 
 ### Usage
