@@ -49,3 +49,40 @@ module.exports = {
 ```
 
 [View details](https://github.com/webdeveric/webpack-assets-manifest)
+
+## copy-webpack-plugin
+
+Copies individual files or entire directories, which already exist, to the build directory.
+
+**Installation**
+
+``` bash
+npm install copy-webpack-plugin --save-dev
+```
+
+**Usage**
+
+``` js
+const CopyPlugin = require('copy-webpack-plugin');
+
+module.exports = {
+  plugins: [
+    new CopyPlugin({
+      patterns: [
+        {
+          from: 'public',
+          to: '.',
+          globOptions: {
+            ignore: ['**/index.html']
+          }
+        }
+      ],
+      options: {
+        concurrency: 100
+      }
+    })
+  ]
+};
+```
+
+[View details](https://github.com/webpack-contrib/copy-webpack-plugin)
