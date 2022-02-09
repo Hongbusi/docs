@@ -27,3 +27,7 @@ Webpack 的优雅 ProgressBar 和 Profiler。
 ## [terser-webpack-plugin](https://github.com/webpack-contrib/terser-webpack-plugin)
 
 这个插件使用 terser 来缩小/最小化你的 JavaScript。
+
+## [clean-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin)
+
+一个用于删除/清理构建文件夹的 webpack 插件。
