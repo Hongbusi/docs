@@ -31,3 +31,7 @@ Webpack 的优雅 ProgressBar 和 Profiler。
 ## [clean-webpack-plugin](https://github.com/johnagan/clean-webpack-plugin)
 
 一个用于删除/清理构建文件夹的 webpack 插件。
+
+## [webpack-merge](https://github.com/survivejs/webpack-merge)
+
+webpack-merge 提供了一个合并函数，用于连接数组并合并对象以创建一个新对象。如果遇到函数，它将执行它们，通过算法运行结果，然后再次将返回值包装在函数中。
