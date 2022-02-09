@@ -40,7 +40,6 @@ module.exports = {
     navbar: [
       { text: '源码', link: '/source-code/' },
       { text: '前端', link: '/frontend/' },
-      { text: '库', link: '/repository/' },
       { text: '面试', link: '/interview/' },
       { text: '网站', link: '/website/' },
       { text: '博客', link: '/blog/' },
