@@ -35,7 +35,6 @@ function getFrontendSidebar() {
     {
       text: 'Webpack',
       children: [
-        { text: 'Node 接口', link: '/frontend/webpack/node-interface' },
         { text: 'Plugins', link: '/frontend/webpack/plugins' }
       ]
     }
