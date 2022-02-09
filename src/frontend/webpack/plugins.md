@@ -1,112 +1,17 @@
 # Plugins
 
-## webpackbar
+## [webpackbar](https://github.com/unjs/webpackbar)
 
-Elegant ProgressBar and Profiler for Webpack.
+Webpack 的优雅 ProgressBar 和 Profiler。
 
-**Installation**
+## [webpack-assets-manifest](https://github.com/webdeveric/webpack-assets-manifest)
 
-``` bash
-npm install webpackbar --save-dev
-```
+这个 webpack 插件将生成一个 JSON 文件，该文件将原始文件名与散列版本匹配。
 
-**Usage**
+## [copy-webpack-plugin](https://github.com/webpack-contrib/copy-webpack-plugin)
 
-``` js
-const WebpackBar = require('webpackbar');
+将已存在的单个文件或整个目录复制到构建目录。
 
-module.exports = {
-  plugins: [
-    new WebpackBar()
-  ]
-};
-```
+## [webpack-bundle-analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 
-[View details](https://github.com/unjs/webpackbar)
-
-## webpack-assets-manifest
-
-This webpack plugin will generate a JSON file that matches the original filename with the hashed version.
-
-**Installation**
-
-``` bash
-npm install webpack-assets-manifest --save-dev
-```
-
-**Usage**
-
-``` js
-const WebpackAssetsManifest = require('webpack-assets-manifest');
-
-module.exports = {
-  plugins: [
-    new WebpackAssetsManifest({
-      // options
-    })
-  ]
-};
-```
-
-[View details](https://github.com/webdeveric/webpack-assets-manifest)
-
-## copy-webpack-plugin
-
-Copies individual files or entire directories, which already exist, to the build directory.
-
-**Installation**
-
-``` bash
-npm install copy-webpack-plugin --save-dev
-```
-
-**Usage**
-
-``` js
-const CopyPlugin = require('copy-webpack-plugin');
-
-module.exports = {
-  plugins: [
-    new CopyPlugin({
-      patterns: [
-        {
-          from: 'public',
-          to: '.',
-          globOptions: {
-            ignore: ['**/index.html']
-          }
-        }
-      ],
-      options: {
-        concurrency: 100
-      }
-    })
-  ]
-};
-```
-
-[View details](https://github.com/webpack-contrib/copy-webpack-plugin)
-
-## webpack-bundle-analyzer
-
-Visualize size of webpack output files with an interactive zoomable treemap.
-
-**Installation**
-
-``` bash
-npm install webpack-bundle-analyzer --save-dev
-```
-
-**Usage**
-
-``` js
-const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
-
-module.exports = {
-  plugins: [
-    new BundleAnalyzerPlugin()
-  ]
-};
-```
-
-[View details](https://github.com/webpack-contrib/webpack-bundle-analyzer)
+使用交互式可缩放树形图可视化 webpack 输出文件的大小。
