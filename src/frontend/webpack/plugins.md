@@ -6,8 +6,6 @@
 
 ``` bash
 npm install webpackbar -D
-# or
-yarn add webpackbar -D
 ```
 
 ### Usage
