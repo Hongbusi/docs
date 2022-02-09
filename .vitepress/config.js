@@ -35,7 +35,17 @@ function getFrontendSidebar() {
     {
       text: 'Webpack',
       children: [
+        { text: 'Loaders', link: '/frontend/webpack/loaders' },
         { text: 'Plugins', link: '/frontend/webpack/plugins' }
+      ]
+    },
+    {
+      text: 'Repository',
+      children: [
+        { text: 'Vue', link: '/frontend/repository/vue' },
+        { text: 'Vite', link: '/frontend/repository/vite' },
+        { text: 'Node', link: '/frontend/repository/node' },
+        { text: '前端常用', link: '/frontend/repository/commonly-used' }
       ]
     }
   ]
