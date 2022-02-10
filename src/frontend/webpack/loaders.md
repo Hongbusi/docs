@@ -39,3 +39,9 @@ Vue Loader 的配置和其它的 loader 不太一样。除了通过一条规则�
 ## [babel-loader](https://github.com/babel/babel-loader)
 
 这个包允许使用 Babel 和 webpack 转译 JavaScript 文件。
+
+## [thread-loader](https://github.com/webpack-contrib/thread-loader)
+
+在工作程序池中运行以下加载程序。
+
+把这个 loader 放置在其他 loader 之前， 放置在这个 loader 之后的 loader 就会在一个单独的 worker 池(worker pool)中运行。
