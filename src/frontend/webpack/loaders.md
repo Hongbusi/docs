@@ -35,3 +35,7 @@ Vue Loader 的配置和其它的 loader 不太一样。除了通过一条规则�
 ## [vue-style-loader](https://github.com/vuejs/vue-style-loader)
 
 这是一个基于 style-loader 的分支。类似style-loader，您可以将其链接起来 css-loader 以将 CSS 作为样式标签动态注入到文档中。但是，由于这是作为依赖项包含在中并默认使用的vue-loader，因此在大多数情况下，您不需要自己配置此加载程序。
+
+## [babel-loader](https://github.com/babel/babel-loader)
+
+这个包允许使用 Babel 和 webpack 转译 JavaScript 文件。
