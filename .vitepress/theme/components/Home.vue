@@ -41,13 +41,8 @@
         GitHub
       </a>
     </p>
-    <HomeFeatures />
   </section>
 </template>
-
-<script setup lang="ts">
-import HomeFeatures from './HomeFeatures.vue'
-</script>
 
 <style scoped>
 section {
