@@ -1,5 +1,7 @@
 ---
-home: true
+page: true
+title: Vue.js - The Progressive JavaScript Framework
+
 heroImage: /logo.png
 heroAlt: Logo image
 heroText: Hongbusi
@@ -15,3 +17,9 @@ features:
     details: 不登高山，不知天之大；不临深谷，不知地之厚也。
 footer: Copyright © 2020-present Hongbusi
 ---
+
+<script setup>
+import Home from '/@theme/components/Home.vue'
+</script>
+
+<Home />

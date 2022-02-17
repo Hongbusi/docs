@@ -1,0 +1,10 @@
+/* footer */
+.VPFooter {
+  background-color: var(--vt-c-bg) !important;
+}
+
+.VPFooter .copyright {
+  font-size: .9rem;
+  color: var(--vt-c-text-light);
+  opacity: 0.6;
+}
