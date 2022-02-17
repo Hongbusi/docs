@@ -2,6 +2,7 @@ import { defineConfigWithTheme } from 'vitepress'
 import baseConfig from '@vue/theme/config'
 import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
+import { NavbarFix } from './plugins/navbar'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -20,7 +21,6 @@ export default defineConfigWithTheme<Config>({
   themeConfig: {
     nav: [
       { text: 'About', link: '/about/' },
-      { text: 'Blog', link: '/blog/' }
     ],
 
     sidebar: {},
@@ -43,7 +43,10 @@ export default defineConfigWithTheme<Config>({
   vite: {
     define: {
       __VUE_OPTIONS_API__: false
-    }
+    },
+    plugins: [
+      NavbarFix()
+    ]
   },
 
   vue: {
