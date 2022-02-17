@@ -25,6 +25,15 @@ export default defineConfigWithTheme<Config>({
 
     sidebar: {},
 
+    algolia: {
+      indexName: 'Hongbusi',
+      appId: 'ML0LEBN7FQ',
+      apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
+      searchParameters: {
+        facetFilters: ['version:v3']
+      }
+    },
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hongbusi' },
       { icon: 'twitter', link: 'https://twitter.com/Hongbusi' }
