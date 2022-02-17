@@ -1,14 +1,18 @@
 <template>
   <section id="hero">
+     <p align="center">
+      <a href="https://github.com/Hongbusi">
+        <img class="site-logo" src="/logo.png" alt="Hongbusi - The more you know, the more you don't know.">
+      </a>
+      <br>
+    </p>
     <h1 class="tagline">
-      The
-      <span class="accent">Progressive</span>
-      <br />JavaScript Framework
+      Hongbusi
     </h1>
     <p class="description">
-      An approachable, performant and versatile framework for building web
-      user interfaces.
+      The more you know, the more you don't know.
     </p>
+
     <p class="actions">
       <a class="get-started" href="/guide/">
         Get Started
@@ -19,12 +23,23 @@
           height="10"
           viewBox="0 0 24 24"
         >
-          <path
-            d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"
-          />
+          <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
         </svg>
       </a>
-      <a class="setup" href="/guide/quick-start.html"><carbon:logo-github class="icon" />GitHub</a>
+      <a class="setup" href="https://github.com/Hongbusi" target="_blank">
+        <svg
+          class="icon"
+          xmlns="http://www.w3.org/2000/svg"
+          aria-hidden="true"
+          focusable="false"
+          width="15"
+          height="15"
+          viewBox="0 0 24 24"
+        >
+          <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+        </svg>
+        GitHub
+      </a>
     </p>
   </section>
 </template>
@@ -37,6 +52,9 @@ section {
   padding: 96px 32px;
   text-align: center;
 }
+.site-logo {
+  max-width: 180px;
+}
 .tagline {
   font-size: 76px;
   line-height: 1.25;
@@ -45,7 +63,6 @@ section {
   max-width: 960px;
   margin: 0px auto;
 }
-html:not(.dark) .accent,
 .dark .tagline {
   background: -webkit-linear-gradient(315deg, #42d392 25%, #647eff);
   background-clip: text;
@@ -106,59 +123,6 @@ html:not(.dark) .accent,
 .dark .actions .setup:hover {
   background-color: var(--vt-c-gray-dark-3);
 }
-#special-sponsor {
-  border-top: 1px solid var(--vt-c-divider-light);
-  border-bottom: 1px solid var(--vt-c-divider-light);
-  padding: 12px 24px;
-  text-align: center;
-}
-#special-sponsor span {
-  color: var(--vt-c-text-2);
-  font-weight: 500;
-  font-size: 13px;
-  vertical-align: middle;
-  margin: 0 24px;
-}
-#special-sponsor img {
-  display: inline-block;
-  vertical-align: middle;
-  height: 36px;
-}
-.dark #special-sponsor img {
-  filter: grayscale(1) invert(1);
-}
-#highlights {
-  max-width: 960px;
-  margin: 0px auto;
-  color: var(--vt-c-text-2);
-}
-#highlights h2 {
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: -0.4px;
-  color: var(--vt-c-text-1);
-  transition: color 0.5s;
-  margin-bottom: 0.75em;
-}
-#highlights p {
-  font-weight: 400;
-  font-size: 15px;
-}
-#highlights .vt-box {
-  background-color: transparent;
-}
-#sponsors {
-  max-width: 900px;
-  margin: 0px auto;
-}
-#sponsors h2 {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 1em;
-}
-#sponsors .sponsor-container {
-  margin-bottom: 3em;
-}
 @media (max-width: 960px) {
   .tagline {
     font-size: 64px;
@@ -182,16 +146,6 @@ html:not(.dark) .accent,
   .description {
     font-size: 16px;
     margin: 18px 0 30px;
-  }
-  #special-sponsor img {
-    display: block;
-    margin: 2px auto 1px;
-  }
-  #highlights h3 {
-    margin-bottom: 0.6em;
-  }
-  #highlights .vt-box {
-    padding: 20px 36px;
   }
 }
 @media (max-width: 370px) {
