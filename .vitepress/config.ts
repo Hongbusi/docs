@@ -20,10 +20,21 @@ export default defineConfigWithTheme<Config>({
 
   themeConfig: {
     nav: [
-      { text: 'About', link: '/about/' },
+      { text: 'Frontend', link: '/frontend/' },
+      { text: 'Bookmarks', link: '/bookmarks/' },
+      { text: 'About', link: '/about/' }
     ],
 
-    sidebar: {},
+    sidebar: {
+      '/bookmarks/': [
+        {
+          text: '最近阅读',
+          items: [
+            { text: '测试1', link: '/bookmarks/' }
+          ]
+        }
+      ]
+    },
 
     algolia: {
       indexName: 'Hongbusi',
