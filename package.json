@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "cz",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
   },
   "repository": {
     "type": "git",
@@ -20,9 +23,12 @@
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^16.0.0",
+    "@vue/theme": "^1.0.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "vitepress": "^0.22.2",
+    "vue": "^3.2.31"
   },
   "config": {
     "commitizen": {
