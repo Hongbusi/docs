@@ -1,9 +1,7 @@
 <template>
   <section id="hero">
-     <p align="center">
-      <a href="https://github.com/Hongbusi">
-        <img class="site-logo" src="/logo.png" alt="Hongbusi - The more you know, the more you don't know.">
-      </a>
+    <p align="center">
+      <img class="site-logo" src="/logo.png" alt="Hongbusi - The more you know, the more you don't know.">
       <br>
     </p>
     <h1 class="tagline">
