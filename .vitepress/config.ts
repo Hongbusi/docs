@@ -14,13 +14,14 @@ export default defineConfigWithTheme<Config>({
   srcDir: 'src',
 
   head: [
-    ['meta', { name: 'twitter:site', content: '@Hongbusi' }],
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['meta', { name: 'twitter:site', content: '@Hongbusi' }]
   ],
 
   themeConfig: {
     nav: [
-      { text: 'Frontend', link: '/frontend/' },
+      { text: 'Notes', link: '/notes/' },
+      { text: 'Packages', link: '/packages/' },
       { text: 'Bookmarks', link: '/bookmarks/' },
       { text: 'About', link: '/about/' }
     ],
