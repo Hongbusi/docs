@@ -21,9 +21,6 @@
     "url": "https://github.com/Hongbusi/docs/issues"
   },
   "homepage": "https://github.com/Hongbusi/docs#readme",
-  "dependencies": {
-    "vue": "^3.2.31"
-  },
   "devDependencies": {
     "@commitlint/cli": "^15.0.0",
     "@commitlint/config-conventional": "^16.0.0",
@@ -34,7 +31,8 @@
     "eslint": "^8.9.0",
     "husky": "^7.0.4",
     "vite": "^2.8.3",
-    "vitepress": "^0.22.2"
+    "vitepress": "^0.22.2",
+    "vue": "^3.2.31"
   },
   "eslintConfig": {
     "extends": "@hongbusi"

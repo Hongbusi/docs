@@ -22,7 +22,13 @@ export default defineConfigWithTheme<Config>({
     nav: [
       { text: 'Notes', link: '/notes/' },
       { text: 'Packages', link: '/packages/' },
-      { text: 'Bookmarks', link: '/bookmarks/' },
+      {
+        text: 'Bookmarks',
+        items: [
+          { text: 'Essay', link: 'https://github.com/Hongbusi/Essay' },
+          { text: 'Daily Reading', link: 'https://hongbusi.github.io/daily-reading' }
+        ]
+      },
       { text: 'About', link: '/about/' }
     ],
 
