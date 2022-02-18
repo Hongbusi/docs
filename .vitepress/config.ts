@@ -20,7 +20,12 @@ export default defineConfigWithTheme<Config>({
 
   themeConfig: {
     nav: [
-      { text: 'Notes', link: '/notes/' },
+      {
+        text: 'Notes',
+        items: [
+          { text: 'Books', link:'/books/overview' }
+        ]
+      },
       { text: 'Packages', link: '/packages/' },
       {
         text: 'Bookmarks',
@@ -33,11 +38,11 @@ export default defineConfigWithTheme<Config>({
     ],
 
     sidebar: {
-      '/bookmarks/': [
+      '/books/': [
         {
-          text: '最近阅读',
+          text: 'Vue.js 的设计与实现',
           items: [
-            { text: '测试1', link: '/bookmarks/' }
+            { text: '第一篇：框架设计概览', link: '/books/overview' }
           ]
         }
       ]
