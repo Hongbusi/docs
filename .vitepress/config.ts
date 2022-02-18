@@ -45,11 +45,8 @@ export default defineConfigWithTheme<Config>({
 
     algolia: {
       indexName: 'Hongbusi',
-      appId: 'ML0LEBN7FQ',
-      apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
-      searchParameters: {
-        facetFilters: ['version:v3']
-      }
+      appId: '58YVUHI1VL',
+      apiKey: '1bde22dfb8f411080436bd011af2c580'
     },
 
     socialLinks: [
