@@ -14,16 +14,16 @@ uni-app 支持通过可视化界面、vue-cli 命令行两种方式快速创建�
 
 ## Distinction
 
-### Official
+**Official**
 
 [使用 cli 创建项目和使用 HBuilderX 可视化界面创建项目有什么区别](https://uniapp.dcloud.io/quickstart-cli?id=%e4%bd%bf%e7%94%a8cli%e5%88%9b%e5%bb%ba%e9%a1%b9%e7%9b%ae%e5%92%8c%e4%bd%bf%e7%94%a8hbuilderx%e5%8f%af%e8%a7%86%e5%8c%96%e7%95%8c%e9%9d%a2%e5%88%9b%e5%bb%ba%e9%a1%b9%e7%9b%ae%e6%9c%89%e4%bb%80%e4%b9%88%e5%8c%ba%e5%88%ab)
 
-### Personal
+**Personal**
 
 对于一个常年使用 `vscode` 的我来说，换到 HBuilderX 内心是拒绝的。但是经过亲身尝试两种开发的方式对比，单就开发 uni-app 而言，还是首选 HBuilderX，理由如下：
 
-- 对 uni-app 的 `IED` 支持确实好
-- 一系列的工具能够大大提高开发效率，例如：`manifest.json` 配置、运行多个平台的操作等
-- 因为是多人合作，HBuilderX 开发上手难度更低。（如果是我个人，我肯定会毫不犹豫的选择通过 `cli` 创建，在 vscode 里面开发。）
+- 对 uni-app 的 `IED` 支持比较好；
+- 内置的工具能够提高开发效率。例如：`manifest.json` 配置、运行在多个平台的操作...
+- 因为是多人合作的项目，降低开发上手难度。
 
 如上所述，最终选择通过在 HBuilderX 中进行开发。
