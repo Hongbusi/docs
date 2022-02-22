@@ -23,10 +23,12 @@ export default defineConfigWithTheme<Config>({
       {
         text: 'Notes',
         items: [
-          { text: 'Books', link:'/books/overview' }
+          { text: 'Books', link:'/books/overview' },
+          { text: 'Frontend', link:'/frontend/uni-app/' }
         ]
       },
       { text: 'Packages', link: '/packages/' },
+      { text: 'Projects', link: '/projects/' },
       {
         text: 'Bookmarks',
         items: [
@@ -43,6 +45,14 @@ export default defineConfigWithTheme<Config>({
           text: 'Vue.js 的设计与实现',
           items: [
             { text: '框架设计概览', link: '/books/overview' }
+          ]
+        }
+      ],
+      '/frontend/': [
+        {
+          text: 'uni-app',
+          items: [
+            { text: 'Introduction', link: '/frontend/uni-app/' }
           ]
         }
       ]
