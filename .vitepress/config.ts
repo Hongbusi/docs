@@ -24,7 +24,7 @@ export default defineConfigWithTheme<Config>({
         text: 'Notes',
         items: [
           { text: 'Books', link:'/books/overview' },
-          { text: 'Frontend', link:'/frontend/uni-app/' }
+          { text: 'Frontend', link:'/frontend/uni-app/introduction' }
         ]
       },
       { text: 'Packages', link: '/packages/' },
@@ -52,7 +52,7 @@ export default defineConfigWithTheme<Config>({
         {
           text: 'uni-app',
           items: [
-            { text: 'Introduction', link: '/frontend/uni-app/' }
+            { text: 'Introduction', link: '/frontend/uni-app/introduction' }
           ]
         }
       ]
