@@ -12,8 +12,8 @@
     </p>
 
     <p class="actions">
-      <a class="get-started" href="/guide/">
-        Get Started
+      <a class="get-started" href="/about/">
+        About me
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
