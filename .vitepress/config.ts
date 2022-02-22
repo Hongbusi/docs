@@ -52,7 +52,8 @@ export default defineConfigWithTheme<Config>({
         {
           text: 'uni-app',
           items: [
-            { text: 'Introduction', link: '/frontend/uni-app/introduction' }
+            { text: 'Introduction', link: '/frontend/uni-app/introduction' },
+            { text: 'Quick start', link: '/frontend/uni-app/quick-start' }
           ]
         }
       ]
