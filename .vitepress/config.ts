@@ -3,6 +3,7 @@ import baseConfig from '@vue/theme/config'
 import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
+import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -85,7 +86,8 @@ export default defineConfigWithTheme<Config>({
       __VUE_OPTIONS_API__: false
     },
     plugins: [
-      NavbarFix()
+      NavbarFix(),
+      VitePWA()
     ]
   },
 
