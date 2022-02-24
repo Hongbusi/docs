@@ -21,44 +21,10 @@ export default defineConfigWithTheme<Config>({
 
   themeConfig: {
     nav: [
-      {
-        text: 'Notes',
-        items: [
-          { text: 'Books', link:'/books/overview' },
-          { text: 'Frontend', link:'/frontend/uni-app/introduction' }
-        ]
-      },
-      { text: 'Packages', link: '/packages/' },
-      { text: 'Projects', link: '/projects/' },
-      {
-        text: 'Bookmarks',
-        items: [
-          { text: 'Essay', link: 'https://github.com/Hongbusi/Essay' },
-          { text: 'Daily Reading', link: 'https://hongbusi.github.io/daily-reading' }
-        ]
-      },
       { text: 'About', link: '/about/' }
     ],
 
-    sidebar: {
-      '/books/': [
-        {
-          text: 'Vue.js 的设计与实现',
-          items: [
-            { text: '框架设计概览', link: '/books/overview' }
-          ]
-        }
-      ],
-      '/frontend/': [
-        {
-          text: 'uni-app',
-          items: [
-            { text: 'Introduction', link: '/frontend/uni-app/introduction' },
-            { text: 'Quick start', link: '/frontend/uni-app/quick-start' }
-          ]
-        }
-      ]
-    },
+    sidebar: {},
 
     algolia: {
       indexName: 'Hongbusi',
