@@ -9,7 +9,7 @@ export function NavbarFix(): Plugin {
       if (id.includes('VPNavBarTitle.vue') && !id.endsWith('.css')) {
         return `
 <template>
-  <a class="VPNavBarTitle" href="/docs">
+  <a class="VPNavBarTitle" href="/docs/">
     <img src="/logo.png" alt="Hongbusi" class="logo" style="width: 24px;"/>
     <span class="text">Hongbusi</span>
   </a>
