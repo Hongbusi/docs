@@ -20,9 +20,7 @@ export default defineConfigWithTheme<Config>({
   ],
 
   themeConfig: {
-    nav: [
-      { text: 'About', link: '/about/' }
-    ],
+    nav: [],
 
     sidebar: {},
 
