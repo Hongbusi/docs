@@ -10,8 +10,8 @@
     <p class="description">知道的越多，不知道的越多。</p>
 
     <p class="actions">
-      <a class="get-started" href="/about/">
-        About me
+      <a class="get-started" href="/javascript/browser">
+        Get Started
         <svg
           class="icon"
           xmlns="http://www.w3.org/2000/svg"
