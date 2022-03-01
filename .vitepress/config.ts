@@ -16,6 +16,10 @@ export default defineConfigWithTheme<Config>({
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', size: '16x16' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', size: '180x180' }],
+    ['link', { rel: 'mask-icon', href: '/favicon.png', color: '#ffffff' }],
+    ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'twitter:site', content: '@Hongbusi' }]
   ],
 
@@ -51,7 +55,33 @@ export default defineConfigWithTheme<Config>({
     },
     plugins: [
       NavbarFix(),
-      VitePWA()
+      VitePWA({
+        includeAssets: ['favicon.png', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
+        manifest: {
+          name: 'Hongbusi',
+          short_name: 'Hongbusi',
+          description: 'The more you know, the more you do not know.',
+          theme_color: '#ffffff',
+          icons: [
+            {
+              src: 'pwa-192x192.png',
+              sizes: '192x192',
+              type: 'image/png',
+            },
+            {
+              src: 'pwa-512x512.png',
+              sizes: '512x512',
+              type: 'image/png',
+            },
+            {
+              src: 'pwa-512x512.png',
+              sizes: '512x512',
+              type: 'image/png',
+              purpose: 'any maskable',
+            }
+          ]
+        }
+      })
     ]
   },
 
