@@ -7,9 +7,7 @@
     <h1 class="tagline">
       Hongbusi
     </h1>
-    <p class="description">
-      The more you know, the more you don't know.
-    </p>
+    <p class="description">知道的越多，不知道的越多。</p>
 
     <p class="actions">
       <a class="get-started" href="/about/">
