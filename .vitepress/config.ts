@@ -20,7 +20,7 @@ const sidebar = {
       text: 'JavaScript 运行环境',
       items: [
         { text: '浏览器工作原理', link: '/javascript/browser' },
-        { text: 'v8 引擎工作原理', link: '/javascript/v8' },
+        { text: 'V8 引擎工作原理', link: '/javascript/v8' },
         { text: 'JavaScript 内存管理', link: '/javascript/memory-management' },
         { text: 'JavaScript 事件循环', link: '/javascript/event-loop' },
       ]
