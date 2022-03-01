@@ -5,7 +5,6 @@ import './styles/index.css'
 
 export default Object.assign({}, VPTheme, {
   Layout: () => {
-    return h(VPTheme.Layout, null, {
-    })
+    return h(VPTheme.Layout, null, {})
   }
 })
