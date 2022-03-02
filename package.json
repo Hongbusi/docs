@@ -30,9 +30,9 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.9.0",
     "husky": "^7.0.4",
-    "vite": "^2.8.3",
+    "vite": "^2.8.6",
     "vite-plugin-pwa": "^0.11.13",
-    "vitepress": "^0.22.2",
+    "vitepress": "^0.22.3",
     "vue": "^3.2.31"
   },
   "eslintConfig": {
