@@ -6,6 +6,7 @@ import { NavbarFix } from './plugins/navbar'
 import { VitePWA } from 'vite-plugin-pwa'
 
 const nav = [
+  { text: 'Blog', link: 'https://hongbusi.github.io' },
   {
     text: 'Frontend',
     items: [
