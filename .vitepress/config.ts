@@ -12,7 +12,9 @@ const nav = [
     items: [
       { text: 'JavaScript', link: '/javascript/browser' }
     ]
-  }
+  },
+  { text: 'Bookmarks', link: '/bookmarks/' },
+
 ]
 
 const sidebar = {
