@@ -14,7 +14,7 @@ const nav = [
     ]
   },
   { text: 'Bookmarks', link: '/bookmarks/' },
-
+  { text: 'Notes', link: '/notes/' }
 ]
 
 const sidebar = {
