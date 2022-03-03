@@ -5,9 +5,9 @@ sidebar: false
 
 # Notes
 
-Quick notes / tips.
+好记性不如烂笔头。
 
-## `commit-msg` 钩子被忽略
+## commit-msg 钩子被忽略
 
 _2021/12/20_
 
@@ -20,7 +20,7 @@ _2021/12/20_
 
 增加文件的执行权限 `chmod +x commit-msg`。
 
-## `.gitignore` 不生效
+## .gitignore 不生效
 
 _2021/10/26_
 
@@ -38,7 +38,7 @@ git add .
 git commit -m 'update .gitignore'
 ```
 
-## 修改 `git commit` message
+## 修改 git commit message
 
 _2021/04/21_
 
@@ -46,16 +46,26 @@ _2021/04/21_
 git commit --amend
 ```
 
-## `Charles` proxy
+## Charles proxy
 
 _2021/03/17_
 
-[Charles](https://www.charlesproxy.com)
+[Download Charles](https://www.charlesproxy.com)
 
-Step: `Help` -> `SSL Proxying` -> `Install Charles Root Certificate on a Mobile Device or Remote Browser`
+Step 1: `Help`
 
-## View `key`
+Step 2: `SSL Proxying`
+
+Step 3: `Install Charles Root Certificate on a Mobile Device or Remote Browser`
+
+## View key
 
 _2021/02/24_
 
 Mac: `cat ~/.ssh/id_rsa.pub`
+
+## Edit hosts
+
+_2021/1/20_
+
+Mac: `sudo vim /est/hosts`
