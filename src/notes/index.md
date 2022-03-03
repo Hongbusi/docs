@@ -38,7 +38,23 @@ git add .
 git commit -m 'update .gitignore'
 ```
 
+## Node Version Manager
+
+_2021/6/23_
+
+[nvm](https://github.com/nvm-sh/nvm)
+
+常用命令：
+
+``` bash
+nvm ls
+nvm install 14.18.1
+nvm use 14.18.1
+```
+
 ## npm、yarn 查看源和换源
+
+_2021/5/24_
 
 ``` bash
 npm config get registry
