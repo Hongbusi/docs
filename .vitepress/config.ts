@@ -26,6 +26,12 @@ const sidebar = {
         { text: 'JavaScript 内存管理', link: '/javascript/memory-management' },
         { text: 'JavaScript 事件循环', link: '/javascript/event-loop' },
       ]
+    },
+    {
+      text: 'JavaScript 高级',
+      items: [
+        { text: 'this 指向', link: '/javascript/this' }
+      ]
     }
   ]
 }
