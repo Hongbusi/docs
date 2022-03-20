@@ -30,7 +30,7 @@ const sidebar = {
     {
       text: 'JavaScript 高级',
       items: [
-        { text: 'this 指向', link: '/javascript/this' }
+        { text: 'this', link: '/javascript/this' }
       ]
     }
   ]
