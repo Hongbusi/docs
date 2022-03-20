@@ -32,6 +32,12 @@ const sidebar = {
       items: [
         { text: 'this', link: '/javascript/this' }
       ]
+    },
+    {
+      text: 'Function',
+      items: [
+        { text: 'Function.prototype.apply()', link: '/javascript/function/apply' }
+      ]
     }
   ]
 }
