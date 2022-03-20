@@ -38,6 +38,7 @@ const sidebar = {
       items: [
         { text: 'Function.prototype.apply()', link: '/javascript/function/apply' },
         { text: 'Function.prototype.call()', link: '/javascript/function/call' },
+        { text: 'Function.prototype.bind()', link: '/javascript/function/bind' }
       ]
     }
   ]
