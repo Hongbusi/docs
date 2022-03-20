@@ -36,7 +36,8 @@ const sidebar = {
     {
       text: 'Function',
       items: [
-        { text: 'Function.prototype.apply()', link: '/javascript/function/apply' }
+        { text: 'Function.prototype.apply()', link: '/javascript/function/apply' },
+        { text: 'Function.prototype.call()', link: '/javascript/function/call' },
       ]
     }
   ]
