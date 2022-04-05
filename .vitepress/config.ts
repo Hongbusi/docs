@@ -50,14 +50,14 @@ export default defineConfigWithTheme<Config>({
   lang: 'zh-CN',
   title: 'Hongbusi',
   description: 'The more you know, the more you do not know.',
-  base: '/docs/',
+  base: '/',
   srcDir: 'src',
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'alternate icon', href: '/docs/favicon.ico', type: 'image/png', size: '16x16' }],
-    ['link', { rel: 'apple-touch-icon', href: '/docs/apple-touch-icon.png', size: '180x180' }],
-    ['link', { rel: 'mask-icon', href: '/docs/favicon.png', color: '#ffffff' }],
+    ['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', size: '16x16' }],
+    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', size: '180x180' }],
+    ['link', { rel: 'mask-icon', href: '/favicon.png', color: '#ffffff' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
     ['meta', { name: 'twitter:site', content: '@Hongbusi' }]
   ],
