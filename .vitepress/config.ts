@@ -9,7 +9,8 @@ const nav = [
   {
     text: 'Frontend',
     items: [
-      { text: 'JavaScript', link: '/javascript/browser' }
+      { text: 'JavaScript', link: '/javascript/browser' },
+      { text: 'petite-vue', link: '/petite-vue/' }
     ]
   },
   { text: 'Bookmarks', link: '/bookmarks/' },
@@ -39,6 +40,15 @@ const sidebar = {
         { text: 'Function.prototype.apply()', link: '/javascript/function/apply' },
         { text: 'Function.prototype.call()', link: '/javascript/function/call' },
         { text: 'Function.prototype.bind()', link: '/javascript/function/bind' }
+      ]
+    }
+  ],
+  '/petite-vue/': [
+    {
+      text: 'petite vue',
+      items: [
+        { text: '介绍', link: '/petite-vue/' },
+        { text: 'Vue3 源码结构介绍', link: '/petite-vue/introduction' }
       ]
     }
   ]
