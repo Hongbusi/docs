@@ -1,5 +1,9 @@
 # Vue3 源码结构介绍
 
+Vue3 是通过 monorepo 的方式维护的，根据功能将不同的模块拆分到 packages 目录下面不同的子目录中。
+
+包依赖关系：
+
 ![package-dependencies](./images/package-dependencies.png)
 
 - `compiler-sfc`: 用于编译 Vue 单文件组件。
