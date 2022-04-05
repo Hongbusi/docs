@@ -1,8 +1,3 @@
----
-aside: false
-sidebar: false
----
-
 # Notes
 
 好记性不如烂笔头。

@@ -51,6 +51,15 @@ const sidebar = {
         { text: 'Vue3 源码结构介绍', link: '/petite-vue/introduction' }
       ]
     }
+  ],
+  '/notes/': [
+    {
+      text: 'Books',
+      items: [
+        { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
+        { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
+      ]
+    }
   ]
 }
 
