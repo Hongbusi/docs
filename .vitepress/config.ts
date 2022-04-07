@@ -4,7 +4,7 @@ import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import nav from './nav'
-import getSidebar from './sidebar'
+import sidebar from './sidebar'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -38,7 +38,7 @@ export default defineConfigWithTheme<Config>({
 
     nav,
 
-    sidebar: getSidebar(),
+    sidebar,
 
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`

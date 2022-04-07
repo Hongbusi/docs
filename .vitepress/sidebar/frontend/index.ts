@@ -1,11 +1,7 @@
-import getVueSidebar from './vue'
-import getJavaScriptSidebar from './javascript'
+import vue from './vue'
+import javascript from './javascript'
 
-function getFrontendSidebar() {
-  return [
-    getVueSidebar(),
-    getJavaScriptSidebar()
-  ]
-}
-
-export default getFrontendSidebar
+export default [
+  vue,
+  javascript
+]

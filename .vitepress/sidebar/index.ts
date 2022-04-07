@@ -1,13 +1,10 @@
-import getFrontendSidebar from './frontend'
-import getNotesSidebar from './notes'
-import getInterviewSidebar from './interview'
+import frontendSidebar from './frontend'
+import notesSidebar from './notes'
+import interviewSidebar from './interview'
 
-function getSidebar() {
-  return {
-    '/frontend/': getFrontendSidebar(),
-    '/notes/': getNotesSidebar(),
-    '/interview/': getInterviewSidebar()
-  }
+
+export default {
+  '/frontend/': frontendSidebar,
+  '/notes/': notesSidebar,
+  '/interview/': interviewSidebar
 }
-
-export default getSidebar

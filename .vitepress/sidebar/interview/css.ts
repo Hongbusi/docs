@@ -1,10 +1,6 @@
-function getCssSidebar() {
-  return {
-    text: 'Css',
-    items: [
-      { text: 'ff', link: '/interview/css/' }
-    ]
-  }
+export default {
+  text: 'Css',
+  items: [
+    { text: '介绍', link: '/interview/css/' }
+  ]
 }
-
-export default getCssSidebar
