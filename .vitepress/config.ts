@@ -222,9 +222,7 @@ function getInterviewSidebar() {
         { text: '设计一个 Modal 组件', link: '/interview/vue/modal-component' },
         { text: '权限管理', link: '/interview/vue/permission' },
         { text: '跨域', link: '/interview/vue/cors' },
-        { text: 'axios 封装', link: '/interview/vue/axios' },
-
-
+        { text: 'axios 封装', link: '/interview/vue/axios' }
       ]
     },
     {
