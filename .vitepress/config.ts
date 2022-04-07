@@ -4,6 +4,7 @@ import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import { VitePWA } from 'vite-plugin-pwa'
+import nav from './nav'
 import getSidebar from './sidebar'
 
 export default defineConfigWithTheme<Config>({
@@ -25,21 +26,6 @@ export default defineConfigWithTheme<Config>({
   ],
 
   themeConfig: {
-    nav: [
-      {
-        text: 'Frontend',
-        items: [
-          { text: 'JavaScript', link: '/javascript/browser' },
-          { text: 'petite-vue', link: '/petite-vue/' }
-        ]
-      },
-      { text: 'Notes', link: '/notes/essays/2022' },
-      { text: 'Interview', link: '/interview/' },
-      { text: 'Bookmarks', link: '/bookmarks/' }
-    ],
-
-    sidebar: getSidebar(),
-
     algolia: {
       indexName: 'Hongbusi',
       appId: '58YVUHI1VL',
@@ -55,6 +41,10 @@ export default defineConfigWithTheme<Config>({
       repo: 'Hongbusi/docs',
       text: 'Edit this page on GitHub'
     },
+
+    nav,
+
+    sidebar: getSidebar(),
 
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`
