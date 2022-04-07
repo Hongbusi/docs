@@ -151,37 +151,37 @@ function getInterviewSidebar() {
     {
       text: 'Css',
       items: [
-        { text: '介绍', link: '/interview/css' }
+        { text: '介绍', link: '/interview/css/' }
       ]
     },
     {
       text: 'JavaScript',
       items: [
-        { text: '介绍', link: '/interview/javascript' }
+        { text: '介绍', link: '/interview/javascript/' }
       ]
     },
     {
       text: 'Vue2',
       items: [
-        { text: '介绍', link: '/interview/vue2' }
+        { text: '介绍', link: '/interview/vue2/' }
       ]
     },
     {
       text: 'Vue3',
       items: [
-        { text: '介绍', link: '/interview/vue3' }
+        { text: '介绍', link: '/interview/vue3/' }
       ]
     },
     {
       text: 'TypeScript',
       items: [
-        { text: '介绍', link: '/interview/typescript' }
+        { text: '介绍', link: '/interview/typescript/' }
       ]
     },
     {
       text: 'Webpack',
       items: [
-        { text: '介绍', link: '/interview/webpack' }
+        { text: '介绍', link: '/interview/webpack/' }
       ]
     }
   ]
