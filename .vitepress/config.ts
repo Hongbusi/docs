@@ -3,9 +3,8 @@ import baseConfig from '@vue/theme/config'
 import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
-import { VitePWA } from 'vite-plugin-pwa'
 import nav from './nav'
-import getSidebar from './sidebar'
+import sidebar from './sidebar'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -17,12 +16,7 @@ export default defineConfigWithTheme<Config>({
   srcDir: 'src',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
-    ['link', { rel: 'alternate icon', href: '/favicon.ico', type: 'image/png', size: '16x16' }],
-    ['link', { rel: 'apple-touch-icon', href: '/apple-touch-icon.png', size: '180x180' }],
-    ['link', { rel: 'mask-icon', href: '/favicon.png', color: '#ffffff' }],
-    ['meta', { name: 'theme-color', content: '#ffffff' }],
-    ['meta', { name: 'twitter:site', content: '@Hongbusi' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
   ],
 
   themeConfig: {
@@ -44,7 +38,7 @@ export default defineConfigWithTheme<Config>({
 
     nav,
 
-    sidebar: getSidebar(),
+    sidebar,
 
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`
@@ -56,34 +50,7 @@ export default defineConfigWithTheme<Config>({
       __VUE_OPTIONS_API__: false
     },
     plugins: [
-      NavbarFix(),
-      VitePWA({
-        includeAssets: ['favicon.png', 'favicon.ico', 'robots.txt', 'apple-touch-icon.png'],
-        manifest: {
-          name: 'Hongbusi',
-          short_name: 'Hongbusi',
-          description: 'The more you know, the more you do not know.',
-          theme_color: '#ffffff',
-          icons: [
-            {
-              src: 'pwa-192x192.png',
-              sizes: '192x192',
-              type: 'image/png',
-            },
-            {
-              src: 'pwa-512x512.png',
-              sizes: '512x512',
-              type: 'image/png',
-            },
-            {
-              src: 'pwa-512x512.png',
-              sizes: '512x512',
-              type: 'image/png',
-              purpose: 'any maskable',
-            }
-          ]
-        }
-      })
+      NavbarFix()
     ]
   },
 

@@ -1,16 +1,14 @@
-import getInterviewSidebar from "./interview"
+import getInterviewSidebar from './interview'
 import getNotesSidebar from './notes'
 
-function getSidebar() {
-  return {
-    '/javascript/': getJavaScriptSidebar(),
-    '/petite-vue/': getPetiteVueSidebar(),
-    '/notes/': getNotesSidebar(),
-    '/interview/': getInterviewSidebar()
-  }
+const sidebar = {
+  '/javascript/': getJavaScriptSidebar(),
+  '/petite-vue/': getPetiteVueSidebar(),
+  '/notes/': getNotesSidebar(),
+  '/interview/': getInterviewSidebar()
 }
 
-export default getSidebar
+export default sidebar
 
 function getJavaScriptSidebar() {
   return [

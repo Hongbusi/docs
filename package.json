@@ -1,35 +1,21 @@
 {
   "private": true,
-  "packageManager": "pnpm@3.32.2",
   "eslintConfig": {
     "extends": "@hongbusi"
   },
   "scripts": {
-    "prepare": "husky install",
-    "commit": "cz",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "serve": "vitepress serve",
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^16.0.0",
     "@hongbusi/eslint-config": "^0.2.1",
     "@vue/theme": "^1.0.1",
     "@vueuse/core": "^8.2.5",
-    "commitizen": "^4.2.4",
-    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.10.0",
-    "husky": "^7.0.4",
     "vite": "^2.8.6",
-    "vite-plugin-pwa": "^0.11.13",
     "vitepress": "^0.22.3",
     "vue": "^3.2.31"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }
