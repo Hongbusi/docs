@@ -110,7 +110,7 @@ section {
   background-color: var(--vt-c-green-light);
 }
 .actions .setup {
-  color: var(--vt-c-text-code);
+  color: var(--vt-c-text-2);
 }
 .actions .setup:hover {
   background-color: var(--vt-c-gray-light-4);
