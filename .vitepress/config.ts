@@ -190,6 +190,12 @@ function getInterviewSidebar() {
 function getNotesSidebar() {
   return [
     {
+      text: 'Vite',
+      items: [
+        { text: '配置', link: '/notes/vite/config' }
+      ]
+    },
+    {
       text: 'Books',
       items: [
         { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
