@@ -5,64 +5,6 @@ import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import { VitePWA } from 'vite-plugin-pwa'
 
-const nav = [
-  {
-    text: 'Frontend',
-    items: [
-      { text: 'JavaScript', link: '/javascript/browser' },
-      { text: 'petite-vue', link: '/petite-vue/' }
-    ]
-  },
-  { text: 'Bookmarks', link: '/bookmarks/' },
-  { text: 'Notes', link: '/notes/' }
-]
-
-const sidebar = {
-  '/javascript/': [
-    {
-      text: 'JavaScript 运行环境',
-      items: [
-        { text: '浏览器工作原理', link: '/javascript/browser' },
-        { text: 'V8 引擎工作原理', link: '/javascript/v8' },
-        { text: 'JavaScript 内存管理', link: '/javascript/memory-management' },
-        { text: 'JavaScript 事件循环', link: '/javascript/event-loop' },
-      ]
-    },
-    {
-      text: 'JavaScript 高级',
-      items: [
-        { text: 'this', link: '/javascript/this' }
-      ]
-    },
-    {
-      text: 'Function',
-      items: [
-        { text: 'Function.prototype.apply()', link: '/javascript/function/apply' },
-        { text: 'Function.prototype.call()', link: '/javascript/function/call' },
-        { text: 'Function.prototype.bind()', link: '/javascript/function/bind' }
-      ]
-    }
-  ],
-  '/petite-vue/': [
-    {
-      text: 'petite vue',
-      items: [
-        { text: '介绍', link: '/petite-vue/' },
-        { text: 'Vue3 源码结构介绍', link: '/petite-vue/introduction' }
-      ]
-    }
-  ],
-  '/notes/': [
-    {
-      text: 'Books',
-      items: [
-        { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
-        { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
-      ]
-    }
-  ]
-}
-
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
 
@@ -82,9 +24,25 @@ export default defineConfigWithTheme<Config>({
   ],
 
   themeConfig: {
-    nav,
+    nav: [
+      {
+        text: 'Frontend',
+        items: [
+          { text: 'JavaScript', link: '/javascript/browser' },
+          { text: 'petite-vue', link: '/petite-vue/' }
+        ]
+      },
+      { text: 'Interview', link: '/interview/' },
+      { text: 'Bookmarks', link: '/bookmarks/' },
+      { text: 'Notes', link: '/notes/' }
+    ],
 
-    sidebar,
+    sidebar: {
+      '/javascript/': getJavaScriptSidebar(),
+      '/petite-vue/': getPetiteVueSidebar(),
+      '/interview/': getInterviewSidebar(),
+      '/notes/': getNotesSidebar()
+    },
 
     algolia: {
       indexName: 'Hongbusi',
@@ -147,3 +105,96 @@ export default defineConfigWithTheme<Config>({
     reactivityTransform: true
   }
 })
+
+function getJavaScriptSidebar() {
+  return [
+    {
+      text: 'JavaScript 运行环境',
+      items: [
+        { text: '浏览器工作原理', link: '/javascript/browser' },
+        { text: 'V8 引擎工作原理', link: '/javascript/v8' },
+        { text: 'JavaScript 内存管理', link: '/javascript/memory-management' },
+        { text: 'JavaScript 事件循环', link: '/javascript/event-loop' },
+      ]
+    },
+    {
+      text: 'JavaScript 高级',
+      items: [
+        { text: 'this', link: '/javascript/this' }
+      ]
+    },
+    {
+      text: 'Function',
+      items: [
+        { text: 'Function.prototype.apply()', link: '/javascript/function/apply' },
+        { text: 'Function.prototype.call()', link: '/javascript/function/call' },
+        { text: 'Function.prototype.bind()', link: '/javascript/function/bind' }
+      ]
+    }
+  ]
+}
+
+function getPetiteVueSidebar() {
+  return [
+    {
+      text: 'petite vue',
+      items: [
+        { text: '介绍', link: '/petite-vue/' },
+        { text: 'Vue3 源码结构介绍', link: '/petite-vue/introduction' }
+      ]
+    }
+  ]
+}
+
+function getInterviewSidebar() {
+  return [
+    {
+      text: 'Css',
+      items: [
+        { text: '介绍', link: '/interview/css' }
+      ]
+    },
+    {
+      text: 'JavaScript',
+      items: [
+        { text: '介绍', link: '/interview/javascript' }
+      ]
+    },
+    {
+      text: 'Vue2',
+      items: [
+        { text: '介绍', link: '/interview/vue2' }
+      ]
+    },
+    {
+      text: 'Vue3',
+      items: [
+        { text: '介绍', link: '/interview/vue3' }
+      ]
+    },
+    {
+      text: 'TypeScript',
+      items: [
+        { text: '介绍', link: '/interview/typescript' }
+      ]
+    },
+    {
+      text: 'Webpack',
+      items: [
+        { text: '介绍', link: '/interview/webpack' }
+      ]
+    }
+  ]
+}
+
+function getNotesSidebar() {
+  return [
+    {
+      text: 'Books',
+      items: [
+        { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
+        { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
+      ]
+    }
+  ]
+}
