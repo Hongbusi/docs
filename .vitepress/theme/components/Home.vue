@@ -1,4 +1,6 @@
 <template>
+  <Plum />
+
   <section id="hero">
     <p align="center">
       <img class="site-logo" src="/logo.png" alt="Hongbusi - The more you know, the more you don't know.">
@@ -39,6 +41,10 @@
     </p>
   </section>
 </template>
+
+<script setup lang="ts">
+import Plum from './Plum.vue'
+</script>
 
 <style scoped>
 section {

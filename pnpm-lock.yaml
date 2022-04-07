@@ -5,6 +5,7 @@ specifiers:
   '@commitlint/config-conventional': ^16.0.0
   '@hongbusi/eslint-config': ^0.2.1
   '@vue/theme': ^1.0.1
+  '@vueuse/core': ^8.2.5
   commitizen: ^4.2.4
   cz-conventional-changelog: ^3.3.0
   eslint: ^8.10.0
@@ -19,6 +20,7 @@ devDependencies:
   '@commitlint/config-conventional': 16.2.1
   '@hongbusi/eslint-config': 0.2.1_eslint@8.11.0
   '@vue/theme': 1.0.1_vue@3.2.31
+  '@vueuse/core': 8.2.5_vue@3.2.31
   commitizen: 4.2.4
   cz-conventional-changelog: 3.3.0
   eslint: 8.11.0
@@ -2047,8 +2049,44 @@ packages:
       vue-demi: 0.12.4_vue@3.2.31
     dev: true
 
+  /@vueuse/core/8.2.5_vue@3.2.31:
+    resolution: {integrity: sha512-5prZAA1Ji2ltwNUnzreu6WIXYqHYP/9U2BiY5mD/650VYLpVcwVlYznJDFcLCmEWI3o3Vd34oS1FUf+6Mh68GQ==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      '@vueuse/metadata': 8.2.5
+      '@vueuse/shared': 8.2.5_vue@3.2.31
+      vue: 3.2.31
+      vue-demi: 0.12.4_vue@3.2.31
+    dev: true
+
+  /@vueuse/metadata/8.2.5:
+    resolution: {integrity: sha512-Lk9plJjh9cIdiRdcj16dau+2LANxIdFCiTgdfzwYXbflxq0QnMBeOD2qHgKDE7fuVrtPcVWj8VSuZEx1HRfNQA==}
+    dev: true
+
   /@vueuse/shared/7.7.1_vue@3.2.31:
     resolution: {integrity: sha512-rN2qd22AUl7VdBxihagWyhUNHCyVk9IpvBTTfHoLH9G7rGE552X1f+zeCfehuno0zXif13jPw+icW/wn2a0rnQ==}
+    peerDependencies:
+      '@vue/composition-api': ^1.1.0
+      vue: ^2.6.0 || ^3.2.0
+    peerDependenciesMeta:
+      '@vue/composition-api':
+        optional: true
+      vue:
+        optional: true
+    dependencies:
+      vue: 3.2.31
+      vue-demi: 0.12.4_vue@3.2.31
+    dev: true
+
+  /@vueuse/shared/8.2.5_vue@3.2.31:
+    resolution: {integrity: sha512-lNWo+7sk6JCuOj4AiYM+6HZ6fq4xAuVq1sVckMQKgfCJZpZRe4i8es+ZULO5bYTKP+VrOCtqrLR2GzEfrbr3YQ==}
     peerDependencies:
       '@vue/composition-api': ^1.1.0
       vue: ^2.6.0 || ^3.2.0
