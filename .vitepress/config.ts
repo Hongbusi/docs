@@ -166,6 +166,12 @@ function getNotesSidebar() {
         { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
         { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
       ]
+    },
+    {
+      text: 'TypeScript',
+      items: [
+        { text: '常用命令', link: '/notes/typescript/command' }
+      ]
     }
   ]
 }
