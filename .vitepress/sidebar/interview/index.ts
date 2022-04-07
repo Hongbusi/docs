@@ -1,13 +1,12 @@
-import css from './css'
+import getCssSidebar from './css'
 import javascript from './javascript'
 import vue from './vue'
 import typescript from './typescript'
 import webpack from './webpack'
 
-
 function getInterviewSidebar() {
   return [
-    css,
+    getCssSidebar(),
     javascript,
     vue,
     typescript,

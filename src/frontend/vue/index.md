@@ -1,4 +1,4 @@
-# petite-vue
+# Vue
 
 基于 [vuejs/core](https://github.com/vuejs/core) 实现，用于深入学习 `Vue3`。
 
