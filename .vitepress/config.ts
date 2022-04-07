@@ -172,6 +172,19 @@ function getNotesSidebar() {
       items: [
         { text: '常用命令', link: '/notes/typescript/command' }
       ]
+    },
+    {
+      text: 'Git',
+      items: [
+        { text: '常用命令', link: '/notes/git/command' }
+      ]
+    },
+    {
+      text: '其他',
+      items: [
+        { text: '工具类', link: '/notes/other/utils' },
+        { text: '环境配置', link: '/notes/other/environment' }
+      ]
     }
   ]
 }
