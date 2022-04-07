@@ -34,7 +34,7 @@ export default defineConfigWithTheme<Config>({
       },
       { text: 'Interview', link: '/interview/' },
       { text: 'Bookmarks', link: '/bookmarks/' },
-      { text: 'Notes', link: '/notes/' }
+      { text: 'Notes', link: '/notes/essays/2022' }
     ],
 
     sidebar: {
@@ -189,6 +189,12 @@ function getInterviewSidebar() {
 
 function getNotesSidebar() {
   return [
+    {
+      text: 'Essays',
+      items: [
+        { text: '2022', link: '/notes/essays/2022' }
+      ]
+    },
     {
       text: 'Vite',
       items: [
