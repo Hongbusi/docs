@@ -4,7 +4,6 @@ import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import sidebar from './sidebar'
-import { getSidebar } from '@vue/theme/src/vitepress/support/sidebar'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
