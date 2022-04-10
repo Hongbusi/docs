@@ -3,10 +3,10 @@ export default {
   items: [
     { text: '实例挂载过程', link: '/interview/vue/new-vue' },
     { text: '生命周期', link: '/interview/vue/lifecycle' },
-    { text: 'v-show 和 v-if 的区别', link: '/interview/vue/show-if' },
+    { text: 'v-show 与 v-if 有什么区别？', link: '/interview/vue/show-if' },
     { text: '组件之间的通信方式', link: '/interview/vue/communication' },
     { text: 'nextTick 原理', link: '/interview/vue/next-tick' },
-    { text: 'key 的作用', link: '/interview/vue/key' },
+    { text: 'Vue 中 key 有什么作用？', link: '/interview/vue/key' },
     { text: 'computed 原理', link: '/interview/vue/computed' },
     { text: '虚拟 DOM', link: '/interview/vue/vnode' },
     { text: 'diff 算法', link: '/interview/vue/diff' },
