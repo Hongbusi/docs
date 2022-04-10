@@ -48,10 +48,7 @@ export default defineConfigWithTheme<Config>({
       { text: 'Bookmarks', link: '/bookmarks/' }
     ],
 
-    sidebar: {
-      '/type-challenges/': getTypeChallengesSidebar(),
-      ...sidebar
-    },
+    sidebar,
 
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`
@@ -71,15 +68,3 @@ export default defineConfigWithTheme<Config>({
     reactivityTransform: true
   }
 })
-
-
-function getTypeChallengesSidebar() {
-  return [
-    {
-      text: '简单',
-      items: [
-        { text: '4 · 实现 Pick', link: '/type-challenges/4-pick' }
-      ]
-    }
-  ]
-}
