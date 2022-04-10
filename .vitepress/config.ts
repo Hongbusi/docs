@@ -3,8 +3,8 @@ import baseConfig from '@vue/theme/config'
 import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
-import nav from './nav'
 import sidebar from './sidebar'
+import { getSidebar } from '@vue/theme/src/vitepress/support/sidebar'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -36,9 +36,22 @@ export default defineConfigWithTheme<Config>({
       text: 'Edit this page on GitHub'
     },
 
-    nav,
+    nav: [
+      {
+        text: 'Frontend',
+        items: [
+          { text: 'Type Challenges', link: '/type-challenges/' },
+        ]
+      },
+      { text: 'Notes', link: '/notes/' },
+      { text: 'Interview', link: '/interview/css/box' },
+      { text: 'Bookmarks', link: '/bookmarks/' }
+    ],
 
-    sidebar,
+    sidebar: {
+      '/type-challenges/': getTypeChallengesSidebar(),
+      ...sidebar
+    },
 
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`
@@ -58,3 +71,15 @@ export default defineConfigWithTheme<Config>({
     reactivityTransform: true
   }
 })
+
+
+function getTypeChallengesSidebar() {
+  return [
+    {
+      text: '简单',
+      items: [
+        { text: '4 · 实现 Pick', link: '/type-challenges/4-pick' },
+      ]
+    }
+  ]
+}
