@@ -3,10 +3,10 @@ export default {
   items: [
     { text: '实例挂载过程', link: '/interview/vue/new-vue' },
     { text: '生命周期', link: '/interview/vue/lifecycle' },
-    { text: 'v-show 与 v-if 有什么区别？', link: '/interview/vue/show-if' },
+    { text: 'v-show 与 v-if 的区别', link: '/interview/vue/show-if' },
     { text: '组件之间的通信方式', link: '/interview/vue/communication' },
     { text: 'nextTick 原理', link: '/interview/vue/next-tick' },
-    { text: 'Vue 中 key 有什么作用？', link: '/interview/vue/key' },
+    { text: 'Vue 中 key 的作用', link: '/interview/vue/key' },
     { text: 'computed 原理', link: '/interview/vue/computed' },
     { text: '虚拟 DOM', link: '/interview/vue/vnode' },
     { text: 'diff 算法', link: '/interview/vue/diff' },
@@ -18,6 +18,6 @@ export default {
     { text: '权限管理', link: '/interview/vue/permission' },
     { text: '跨域', link: '/interview/vue/cors' },
     { text: 'axios 封装', link: '/interview/vue/axios' },
-    { text: 'template 是怎么编译成 render 的？', link: '/interview/vue/template-to-render' },
+    { text: 'template 如何编译成 render', link: '/interview/vue/template-to-render' },
   ]
 }
