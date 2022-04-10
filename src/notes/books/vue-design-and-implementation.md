@@ -81,3 +81,17 @@ watch(obj, async(newValue, oldValue, onInvalidate) => {
 ## 如何区分一个对象是普通对象还是函数呢？一个对象在什么情况下才能被调用呢？（p90）
 
 通过**内部方法**和**内部槽**来区分对象，例如函数对象会部署内部方法 `[[Call]]`，而普通对象则不会。
+
+## ref 实现（p159）
+
+``` js
+// 封装一个 ref 函数
+function ref(val) {
+  // 在 ref 函数内部创建包裹对象
+  const wrapper = {
+    value: val
+  }
+  // 将包裹对象变成响应式数据
+  return reactive(wrapper)
+}
+```
