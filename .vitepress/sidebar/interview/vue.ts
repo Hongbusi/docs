@@ -17,6 +17,7 @@ export default {
     { text: '设计一个 Modal 组件', link: '/interview/vue/modal-component' },
     { text: '权限管理', link: '/interview/vue/permission' },
     { text: '跨域', link: '/interview/vue/cors' },
-    { text: 'axios 封装', link: '/interview/vue/axios' }
+    { text: 'axios 封装', link: '/interview/vue/axios' },
+    { text: 'template 是怎么编译成 render 的？', link: '/interview/vue/template-to-render' },
   ]
 }
