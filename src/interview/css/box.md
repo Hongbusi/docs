@@ -11,11 +11,8 @@
 ![box model](./images/box-model.png)
 
 - `content`，实际内容，显示文本和图像；
-
 - `padding`，内边距，内容与其边框之间的空间。内边距是透明的，取值不能为负；
-
 - `border`，边框，围绕元素内容的内边距的一条或多条线，由粗细、样式、颜色三部分组成；
-
 - `margin`，外边距，在元素外创建额外的空白，空白通常指不能放其他元素的区域。
 
 下面来段代码：
@@ -51,7 +48,6 @@
 从上图可以看到：
 
 - 盒子总宽度 = `width` + `padding` + `border` + `margin`；
-
 - 盒子总高度 = `height` + `padding` + `border` + `margin`。
 
 也就是，`width`/`height` 只是内容高度，不包含 `padding` 和 `border` 值。
@@ -65,7 +61,6 @@
 从上图可以看到：
 
 - 盒子总宽度 = `width` + `margin`；
-
 - 盒子总高度 = `height` + `margin`。
 
 也就是，`width`/`height` 包含了 `padding` 和 `border` 值。
