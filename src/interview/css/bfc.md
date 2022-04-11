@@ -35,4 +35,5 @@ BFC 目的是形成一个相对于外界完全独立的空间，让内部的子�
 
 ## 参考文献
 
-- [块格式化上下文](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context)
+- https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context
+- https://vue3js.cn/interview/css/BFC.html

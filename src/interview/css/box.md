@@ -97,5 +97,6 @@ box-sizing: content-box | border-box | inherit;
 
 ## 参考文献
 
-- [盒模型](https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model)
-- [box-sizing](https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing)
+- https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model
+- https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing
+- https://vue3js.cn/interview/css/box.html
