@@ -1,5 +1,11 @@
 # 常用命令
 
+## 重命名分支
+
+``` bash
+git branch -m new-branch-name
+```
+
 ## commit-msg 钩子被忽略
 
 ``` bash
