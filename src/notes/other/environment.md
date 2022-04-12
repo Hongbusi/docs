@@ -36,4 +36,4 @@ Mac: `cat ~/.ssh/id_rsa.pub`
 
 ## Edit hosts
 
-Mac: `sudo vim /est/hosts`
+Mac: `sudo vim /etc/hosts`
