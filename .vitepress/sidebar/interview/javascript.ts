@@ -1,7 +1,6 @@
 export default {
   text: 'JavaScript',
   items: [
-    { text: '执行上下文和执行栈', link: '/interview/javascript/context-stack' },
     { text: '数据类型', link: '/interview/javascript/data-type' },
     { text: '字符串常用方法', link: '/interview/javascript/string-api' },
     { text: '数组常用方法', link: '/interview/javascript/array-api' },
@@ -19,6 +18,7 @@ export default {
     { text: 'new 操作符', link: '/interview/javascript/new' },
     { text: 'ajax 原理', link: '/interview/javascript/ajax' },
     { text: 'bind、call、apply', link: '/interview/javascript/bind-call-apply' },
+    { text: '执行上下文和执行栈', link: '/interview/javascript/context-stack' },
     { text: 'DOM', link: '/interview/javascript/dom' },
     { text: 'BOM', link: '/interview/javascript/bom' },
     { text: '内存泄漏', link: '/interview/javascript/memory-leak' },
@@ -27,7 +27,5 @@ export default {
     { text: '函数式编程', link: '/interview/javascript/functional-programming' },
     { text: '本地存储', link: '/interview/javascript/cache' },
     { text: '断点续传', link: '/interview/javascript/continue-to-upload' }
-
-
   ]
 }
