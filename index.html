@@ -7,18 +7,35 @@
   <title>Document</title>
 </head>
 <body>
-<style>
-  .span1{
-    display: inline-block;
-    font-size: 12px;
-    -webkit-transform: scale(0.8);
-  }
-  .span2{
-    display: inline-block;
-    font-size: 12px;
-  }
-</style>
-<span class="span1">测试 10px</span>
-<span class="span2">测试 12px</span>
 </body>
+<script>
+var Counter = (function() {
+  var privateCounter = 0
+
+  function changeBy(val) {
+    privateCounter += val
+  }
+
+  return {
+    increment: function() {
+      changeBy(1)
+    },
+
+    decrement: function() {
+      changeBy(-1)
+    },
+
+    value: function() {
+      return privateCounter
+    }
+  }
+})()
+
+console.log(Counter.value()) // 0
+Counter.increment()
+Counter.increment()
+console.log(Counter.value()) // 2
+Counter.decrement()
+console.log(Counter.value()) // 1
+</script>
 </html>
