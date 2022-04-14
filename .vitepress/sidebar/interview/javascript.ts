@@ -8,7 +8,7 @@ export default {
     { text: '深拷贝浅拷贝', link: '/interview/javascript/copy' },
     { text: '闭包', link: '/interview/javascript/closure' },
     { text: '作用域链', link: '/interview/javascript/scope' },
-    { text: '从原型到原型链', link: '/interview/javascript/prototype' },
+    { text: '原型、原型链', link: '/interview/javascript/prototype' },
     { text: '继承', link: '/interview/javascript/inherit' },
     { text: 'this', link: '/interview/javascript/this' },
     { text: '事件模型', link: '/interview/javascript/event-model' },
