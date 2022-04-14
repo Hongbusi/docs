@@ -9,6 +9,25 @@
 <body>
 </body>
 <script>
+function _instanceof(leftValue, rightValue) {
+  rightValue = rightValue.prototype
+  leftValue = leftValue.__proto__
+  while (true) {
+    if (leftValue === null) return false
+    if (leftValue === rightValue) return true
+    leftValue = leftValue.__proto__
+  }
+}
 
+function Car(make, model, year) {
+  this.make = make
+  this.model = model
+  this.year = year
+}
+const auto = new Car('Honda', 'Accord', 1998)
+
+console.log(_instanceof(auto , Car)) // true
+
+console.log(_instanceof(auto , Object)) // true
 </script>
 </html>
