@@ -16,6 +16,7 @@ export default {
     { text: '事件循环', link: '/interview/javascript/event-loop' },
     { text: 'typeof 与 instanceof 区别', link: '/interview/javascript/typeof-instanceof' },
     { text: 'new 操作符', link: '/interview/javascript/new' },
+    { text: 'Promise', link: '/interview/javascript/promise' },
     { text: 'ajax 原理', link: '/interview/javascript/ajax' },
     { text: 'bind、call、apply', link: '/interview/javascript/bind-call-apply' },
     { text: '执行上下文和执行栈', link: '/interview/javascript/context-stack' },

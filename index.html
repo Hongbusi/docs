@@ -9,25 +9,19 @@
 <body>
 </body>
 <script>
-function _instanceof(leftValue, rightValue) {
-  rightValue = rightValue.prototype
-  leftValue = leftValue.__proto__
-  while (true) {
-    if (leftValue === null) return false
-    if (leftValue === rightValue) return true
-    leftValue = leftValue.__proto__
-  }
-}
-
-function Car(make, model, year) {
-  this.make = make
-  this.model = model
-  this.year = year
-}
-const auto = new Car('Honda', 'Accord', 1998)
-
-console.log(_instanceof(auto , Car)) // true
-
-console.log(_instanceof(auto , Object)) // true
+const p1 = new Promise((resolve, reject) => {
+  resolve('resolve1')
+})
+const p2 = new Promise((resolve, reject) => {
+  reject('reject2')
+})
+const p3 = new Promise((resolve, reject) => {
+  resolve('resolve3')
+})
+Promise.allSettled([p1, p2, p3]).then(res => {
+  console.log(res)
+}).catch(err => {
+  console.log(err)
+})
 </script>
 </html>
