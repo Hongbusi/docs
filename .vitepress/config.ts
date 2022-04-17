@@ -39,6 +39,7 @@ export default defineConfigWithTheme<Config>({
       {
         text: 'Frontend',
         items: [
+          { text: 'JavaScript', link: '/javascript/' },
           { text: 'Type Challenges', link: '/type-challenges/' },
         ]
       },
