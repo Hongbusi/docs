@@ -10,6 +10,7 @@
 nvm ls
 nvm install 14.18.1
 nvm use 14.18.1
+nvm alias default v16.15.0
 ```
 
 ## Charles proxy
