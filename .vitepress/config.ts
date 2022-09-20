@@ -4,6 +4,7 @@ import type { Config } from '@vue/theme'
 import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import sidebar from './sidebar'
+import path from 'path'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -59,6 +60,13 @@ export default defineConfigWithTheme<Config>({
     define: {
       __VUE_OPTIONS_API__: false
     },
+
+    resolve: {
+      alias: {
+        '~': `${path.resolve(__dirname, 'theme')}/`
+      }
+    },
+
     plugins: [
       NavbarFix()
     ]
