@@ -28,3 +28,23 @@
 .vt-doc p > img {
   margin: 0;
 }
+
+.aside {
+  padding-left: 48px !important;
+}
+
+.aside-container {
+  padding-left: 16px !important;
+  border-left: 1px solid var(--vt-c-divider-light);
+}
+
+@media (min-width: 1440px) {
+  .aside {
+    padding-left: 80px !important;
+  }
+}
+
+.aside .outline-marker {
+  width: 1px !important;
+  left: -17px;
+}
