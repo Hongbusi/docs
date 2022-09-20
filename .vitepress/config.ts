@@ -37,6 +37,7 @@ export default defineConfigWithTheme<Config>({
     },
 
     nav: [
+      { text: 'Notes', link: '/notes/' },
       {
         text: 'Frontend',
         items: [
@@ -44,7 +45,6 @@ export default defineConfigWithTheme<Config>({
           { text: 'Type Challenges', link: '/type-challenges/' },
         ]
       },
-      { text: 'Notes', link: '/notes/' },
       { text: 'Interview', link: '/interview/css/box' },
       { text: 'Bookmarks', link: '/bookmarks/' }
     ],

@@ -31,6 +31,12 @@ export default [
     ]
   },
   {
+    text: 'Linux',
+    items: [
+      { text: '免密登录', link: '/notes/linux/password-free-login' }
+    ]
+  },
+  {
     text: '其他',
     items: [
       { text: '工具类', link: '/notes/other/utils' },
