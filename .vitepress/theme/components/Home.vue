@@ -12,7 +12,7 @@
     <p class="description">知道的越多，不知道的越多。</p>
 
     <p class="actions">
-      <a class="get-started" href="/javascript/browser">
+      <a class="get-started" href="/notes/">
         Get Started
         <svg
           class="icon"
