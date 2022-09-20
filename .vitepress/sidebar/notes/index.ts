@@ -27,7 +27,8 @@ export default [
   {
     text: 'Git',
     items: [
-      { text: '常用命令', link: '/notes/git/command' }
+      { text: '常用命令', link: '/notes/git/commands' },
+      { text: '常见问题', link: '/notes/git/problem' }
     ]
   },
   {
