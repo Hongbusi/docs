@@ -10,7 +10,7 @@ export function NavbarFix(): Plugin {
         return `
 <template>
   <a class="VPNavBarTitle" href="/">
-    <img src="/logo.png" alt="Hongbusi" class="logo" style="width: 24px;"/>
+    <img src="/logo.svg" alt="Hongbusi" class="logo" style="width: 24px;"/>
     <span class="text">Hongbusi</span>
   </a>
 </template>

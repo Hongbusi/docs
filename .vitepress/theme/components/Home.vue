@@ -3,7 +3,7 @@
 
   <section id="hero">
     <p align="center">
-      <img class="site-logo" src="/logo.png" alt="Hongbusi - The more you know, the more you don't know.">
+      <img class="site-logo" src="/logo.svg" alt="Hongbusi - The more you know, the more you don't know.">
       <br>
     </p>
     <h1 class="tagline">
