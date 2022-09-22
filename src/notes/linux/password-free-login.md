@@ -7,7 +7,7 @@ ssh，`secure shell protocol`，以更加安全的方式连接远程服务器。
 ``` bash
 # root: 用户名
 # 43.142.97.37：云服务器 IP 地址
-ssh root@43.142.97.37
+$ ssh root@43.142.97.37
 ```
 
 ## 配置别名快速登录
@@ -30,7 +30,7 @@ Host Hongbusi
 配置成功之后就可以直接通过 `ssh <hostname>` 登录：
 
 ``` bash
-ssh Hongbusi
+$ ssh Hongbusi
 ```
 
 ## 免密登录
@@ -48,10 +48,10 @@ ssh Hongbusi
 # 在本地环境进行操作
 
 # 提示你输入密码，成功之后可以直接 ssh 登录，无需密码
-ssh-copy-id Hongbusi
+$ ssh-copy-id Hongbusi
 
 # 登录成功，无需密码
-ssh Hongbusi
+$ ssh Hongbusi
 ```
 
 ## 安全性：禁用密码登录
