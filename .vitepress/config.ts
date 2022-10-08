@@ -38,6 +38,7 @@ export default defineConfigWithTheme<Config>({
 
     nav: [
       { text: 'Notes', link: '/notes/' },
+      { text: 'Rust', link: '/rust/' },
       {
         text: 'Frontend',
         items: [
@@ -49,7 +50,18 @@ export default defineConfigWithTheme<Config>({
       { text: 'Bookmarks', link: '/bookmarks/' }
     ],
 
-    sidebar,
+    sidebar: {
+      ...sidebar,
+      '/rust/': [
+        {
+          text: 'Rust 程序设计语言',
+          items: [
+            { text: '安装', link: '/rust/the-rust-programming-language/install' },
+            { text: '常见编程概念', link: '/rust/the-rust-programming-language/common-programming-concepts' }
+          ]
+        }
+      ]
+    },
 
     footer: {
       copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`
