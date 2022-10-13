@@ -1,14 +1,13 @@
-import frontendSidebar from './frontend'
-import typeChallengesSidebar from './type-challenges'
 import javaScriptSidebar from './javascript'
+import vueSidebar from './vue'
+import typescriptSidebar from './typescript'
 import notesSidebar from './notes'
 import interviewSidebar from './interview'
 
-
 export default {
-  '/frontend/': frontendSidebar,
-  '/type-challenges/': typeChallengesSidebar,
   '/javascript/': javaScriptSidebar,
+  '/vue/': vueSidebar,
+  '/typescript/': typescriptSidebar,
   '/notes/': notesSidebar,
   '/interview/': interviewSidebar
 }

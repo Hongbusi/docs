@@ -37,15 +37,16 @@ export default defineConfigWithTheme<Config>({
     },
 
     nav: [
-      { text: 'Notes', link: '/notes/' },
-      { text: 'Rust', link: '/rust/' },
       {
         text: 'Frontend',
         items: [
+          { text: 'Vue', link: '/vue/' },
           { text: 'JavaScript', link: '/javascript/' },
-          { text: 'Type Challenges', link: '/type-challenges/' },
+          { text: 'TypeScript', link: '/typescript/' },
         ]
       },
+      { text: 'Notes', link: '/notes/' },
+      { text: 'Rust', link: '/rust/' },
       { text: 'Interview', link: '/interview/css/box' },
       { text: 'Bookmarks', link: '/bookmarks/' }
     ],
