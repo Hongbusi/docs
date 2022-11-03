@@ -38,6 +38,12 @@ export default [
     ]
   },
   {
+    text: 'Vim',
+    items: [
+      { text: 'Day1', link: '/notes/vim/01' }
+    ]
+  },
+  {
     text: '其他',
     items: [
       { text: '工具类', link: '/notes/other/utils' },
