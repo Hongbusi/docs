@@ -35,7 +35,8 @@ export default [
     text: 'Vim',
     items: [
       { text: 'Day 1', link: '/notes/vim/01' },
-      { text: 'Day 2', link: '/notes/vim/02' }
+      { text: 'Day 2', link: '/notes/vim/02' },
+      { text: 'Day 3', link: '/notes/vim/03' }
     ]
   },
   {
