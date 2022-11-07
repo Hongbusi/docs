@@ -1,11 +1,5 @@
 export default [
   {
-    text: 'Essays',
-    items: [
-      { text: '2022', link: '/notes/essays/2022' }
-    ]
-  },
-  {
     text: 'Vite',
     items: [
       { text: '配置', link: '/notes/vite/config' }
