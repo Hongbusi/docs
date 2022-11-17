@@ -1,1 +1,1 @@
-# keyof 类型操作符
+# keyof

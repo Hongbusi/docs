@@ -2,7 +2,8 @@ export default [
   {
     text: 'TypeScript',
     items: [
-      { text: 'keyof 类型操作符', link: '/typescript/keyof' }
+      { text: 'keyof', link: '/typescript/keyof' },
+      { text: 'typeof', link: '/typescript/typeof' }
     ]
   },
   {
