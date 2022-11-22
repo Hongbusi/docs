@@ -45,5 +45,11 @@ export default [
       { text: '工具类', link: '/notes/other/utils' },
       { text: '环境配置', link: '/notes/other/environment' }
     ]
+  },
+  {
+    text: '经验积累',
+    items: [
+      { text: 'node-sass', link: '/notes/experience/node-sass' }
+    ]
   }
 ]
