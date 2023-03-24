@@ -115,6 +115,24 @@ git merge <branch-name>
 git remote add <name> <repository-url>
 ```
 
+## Remove connection to a remote repository
+
+``` bash
+git remote remove <name>
+```
+
+## Update connection to a remote repository
+
+``` bash
+git remote set-url <name> <repository-url>
+```
+
+## View connection to a remote repository
+
+``` bash
+git remote get-url <name>
+```
+
 ## Push the committed changes to a remote repository
 
 ``` bash
