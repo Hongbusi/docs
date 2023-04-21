@@ -1,10 +1,10 @@
+import path from 'node:path'
+import type { UserConfig } from 'vitepress'
 import { defineConfigWithTheme } from 'vitepress'
 import baseConfig from '@vue/theme/config'
 import type { Config } from '@vue/theme'
-import { UserConfig } from 'vitepress'
 import { NavbarFix } from './plugins/navbar'
 import sidebar from './sidebar'
-import path from 'path'
 
 export default defineConfigWithTheme<Config>({
   extends: baseConfig as () => UserConfig<Config>,
@@ -16,7 +16,7 @@ export default defineConfigWithTheme<Config>({
   srcDir: 'src',
 
   head: [
-    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
   ],
 
   themeConfig: {
@@ -28,51 +28,68 @@ export default defineConfigWithTheme<Config>({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Hongbusi' },
-      { icon: 'twitter', link: 'https://twitter.com/Hongbusi' }
+      { icon: 'twitter', link: 'https://twitter.com/Hongbusi' },
     ],
 
     editLink: {
       repo: 'Hongbusi/docs',
-      text: 'Edit this page on GitHub'
+      text: 'Edit this page on GitHub',
     },
 
     nav: [
+      {
+        text: 'Technology Stack',
+        items: [
+          { text: 'Nest', link: '/nestjs/', activeMatch: '/nestjs/' },
+        ],
+      },
       {
         text: 'Frontend',
         items: [
           { text: 'Vue', link: '/vue/', activeMatch: '/vue/' },
           { text: 'Node.js', link: '/nodejs/what-is-nodejs', activeMatch: '/nodejs/' },
           { text: 'JavaScript', link: '/javascript/', activeMatch: '/javascript/' },
-          { text: 'TypeScript', link: '/typescript/', activeMatch: '/typescript/' }
-        ]
+          { text: 'TypeScript', link: '/typescript/', activeMatch: '/typescript/' },
+        ],
       },
       { text: 'Algorithm', link: '/algorithm/what-is-algorithm', activeMatch: '/algorithm/' },
       { text: 'Notes', link: '/notes/', activeMatch: '/notes/' },
       { text: 'Rust', link: '/rust/', activeMatch: '/rust/' },
       { text: 'Interview', link: '/interview/css/box', activeMatch: '/interview/' },
-      { text: 'Bookmarks', link: '/bookmarks/', activeMatch: '/bookmarks/' }
+      { text: 'Bookmarks', link: '/bookmarks/', activeMatch: '/bookmarks/' },
     ],
 
-    sidebar: sidebar,
+    sidebar: {
+      ...sidebar,
+      '/nestjs/': [
+        {
+          text: 'NestJS Guide',
+          items: [
+            { text: 'Introduction', link: '/nestjs/' },
+            { text: 'Getting Started', link: '/nestjs/getting-started' },
+          ],
+        },
+      ],
+    },
 
     footer: {
-      copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`
-    }
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Hongbusi`,
+    },
   },
 
   vite: {
     define: {
-      __VUE_OPTIONS_API__: false
+      __VUE_OPTIONS_API__: false,
     },
 
     resolve: {
       alias: {
-        '~': `${path.resolve(__dirname, 'theme')}/`
-      }
+        '~': `${path.resolve(__dirname, 'theme')}/`,
+      },
     },
 
     plugins: [
-      NavbarFix()
-    ]
+      NavbarFix(),
+    ],
   },
 })
