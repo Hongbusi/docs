@@ -40,21 +40,16 @@ export default defineConfigWithTheme<Config>({
       {
         text: 'Technology Stack',
         items: [
-          { text: 'Nest', link: '/nestjs/', activeMatch: '/nestjs/' },
-        ],
-      },
-      {
-        text: 'Frontend',
-        items: [
           { text: 'Vue', link: '/vue/', activeMatch: '/vue/' },
-          { text: 'Node.js', link: '/nodejs/what-is-nodejs', activeMatch: '/nodejs/' },
+          { text: 'Node', link: '/nodejs/what-is-nodejs', activeMatch: '/nodejs/' },
           { text: 'JavaScript', link: '/javascript/', activeMatch: '/javascript/' },
           { text: 'TypeScript', link: '/typescript/', activeMatch: '/typescript/' },
+          { text: 'Nest', link: '/nestjs/', activeMatch: '/nestjs/' },
+          { text: 'Algorithm', link: '/algorithm/what-is-algorithm', activeMatch: '/algorithm/' },
+          { text: 'Rust', link: '/rust/', activeMatch: '/rust/' },
         ],
       },
-      { text: 'Algorithm', link: '/algorithm/what-is-algorithm', activeMatch: '/algorithm/' },
       { text: 'Notes', link: '/notes/', activeMatch: '/notes/' },
-      { text: 'Rust', link: '/rust/', activeMatch: '/rust/' },
       { text: 'Interview', link: '/interview/css/box', activeMatch: '/interview/' },
       { text: 'Bookmarks', link: '/bookmarks/', activeMatch: '/bookmarks/' },
     ],
