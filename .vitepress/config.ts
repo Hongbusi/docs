@@ -75,8 +75,4 @@ export default defineConfigWithTheme<Config>({
       NavbarFix()
     ]
   },
-
-  vue: {
-    reactivityTransform: true
-  }
 })
