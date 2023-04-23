@@ -4,7 +4,7 @@
 
 ## 准备工作
 
-在开始前，请确保你已经在电脑上安装了 Node.js（version >= 12，13 除外）。
+在开始前，请确保你已经在电脑上安装了：Node.js（version >= 12，13 除外）。
 
 ## 创建一个新项目
 
@@ -40,4 +40,4 @@ nest new project-name
 └── README.md
 ```
 
-进入项目目录 `cd project-name`，执行 `pnpm start:dev` 运行项目，就可以通过浏览器或者其他工具，访问应用程序的默认端口（一般为 http://localhost:3000）来查看运行结果了。
+进入项目目录 `cd project-name`，执行 `pnpm start:dev` 运行项目，就可以通过浏览器或者其他工具，访问应用程序的默认端口（一般为 `http://localhost:3000`）来查看运行结果了。
