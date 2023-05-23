@@ -1,23 +1,5 @@
 <script setup lang="ts">
-interface Bookmark {
-  title: string
-  description?: string
-  url: string
-  image?: string
-}
-
-const bookmarks: Record<string, Bookmark[]> = {
-  'Recommended reading': [
-    {
-      title: 'ByteTalk #6 - 跟 Anthony Fu 聊聊全职开源和他的故事',
-      url: 'https://bytetalk.fm/posts/episode-6',
-    },
-    {
-      title: '程序员如何优雅的挣零花钱？',
-      url: 'https://howto-make-more-money-easychen.vercel.app',
-    },
-  ],
-}
+import bookmarks from './bookmarks'
 </script>
 
 <template>
@@ -60,7 +42,7 @@ const bookmarks: Record<string, Bookmark[]> = {
 }
 
 .bookmarks-hero {
-  padding: 48px 0;
+  padding: 48px 0 12px;
 }
 
 @media (min-width: 768px) {
@@ -73,7 +55,7 @@ const bookmarks: Record<string, Bookmark[]> = {
   }
 
   .bookmarks-hero {
-    padding: 64px 0 48px;
+    padding: 64px 0 12px;
   }
 }
 
@@ -104,6 +86,7 @@ const bookmarks: Record<string, Bookmark[]> = {
 }
 
 .category-title {
+  padding-top: 36px;
   padding-bottom: 16px;
   font-size: 20px;
   font-weight: 500;
