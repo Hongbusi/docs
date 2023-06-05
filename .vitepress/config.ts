@@ -37,6 +37,7 @@ export default defineConfigWithTheme<Config>({
     },
 
     nav: [
+      { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
       {
         text: 'Technology Stack',
         items: [
@@ -56,6 +57,15 @@ export default defineConfigWithTheme<Config>({
 
     sidebar: {
       ...sidebar,
+      '/guide/': [
+        {
+          text: 'React',
+          items: [
+            { text: '文件、文件名命名', link: '/guide/react/filename' },
+            { text: 'umi - 路由', link: '/guide/react/umi-routes' },
+          ],
+        },
+      ],
       '/nestjs/': [
         {
           text: 'NestJS Guide',
