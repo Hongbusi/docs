@@ -72,6 +72,7 @@ export default defineConfigWithTheme<Config>({
           items: [
             { text: 'Introduction', link: '/nestjs/' },
             { text: 'Getting Started', link: '/nestjs/getting-started' },
+            { text: '内置 HTTP 异常', link: '/nestjs/built-in-http-exceptions' },
           ],
         },
       ],
