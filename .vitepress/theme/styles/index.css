@@ -1,4 +1,7 @@
+@import url(./rainbow.css);
+
 :root {
   animation: rainbow 15s ease 0s infinite;
   --vp-c-gutter: var(--vp-c-divider);
 }
+

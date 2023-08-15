@@ -1,6 +1,5 @@
 import Theme from 'vitepress/theme'
-import './rainbow.css'
-import './style.css'
+import './styles/index.css'
 
 export default {
   ...Theme,
