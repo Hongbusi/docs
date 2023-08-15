@@ -284,14 +284,18 @@ export default defineConfig({
   lang: 'zh-CN',
   title: 'Hongbusi',
   description: 'The more you know, the more you do not know.',
+
   base: '/',
   srcDir: 'src',
+  cleanUrls: true,
+  lastUpdated: true,
 
   head: [
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
   ],
 
   themeConfig: {
+    logo: '/logo.svg',
     nav: Nav,
     sidebar: {
       '/javascript/': SidebarJavaScript,

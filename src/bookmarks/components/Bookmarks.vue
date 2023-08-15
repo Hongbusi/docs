@@ -36,7 +36,6 @@ import bookmarks from './bookmarks'
 }
 
 .container {
-  padding: 0 24px;
   margin: 0 auto;
   max-width: 960px;
 }
@@ -48,10 +47,6 @@ import bookmarks from './bookmarks'
 @media (min-width: 768px) {
   .bookmarks {
     padding-bottom: 96px;
-  }
-
-  .container {
-    padding: 0 32px;
   }
 
   .bookmarks-hero {
