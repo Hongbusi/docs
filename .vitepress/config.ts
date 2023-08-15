@@ -305,7 +305,7 @@ export default defineConfig({
       '/interview/': SidebarInterview,
     },
     editLink: {
-      pattern: 'https://github.com/Hongbusi/docs/edit/main/:path',
+      pattern: 'https://github.com/Hongbusi/docs/edit/main/src/:path',
       text: 'Suggest changes to this page',
     },
     socialLinks: [
