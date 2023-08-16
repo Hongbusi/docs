@@ -3,5 +3,39 @@
 :root {
   animation: rainbow 15s ease 0s infinite;
   --vp-c-gutter: var(--vp-c-divider);
+  --vp-c-bg: var(--vp-sidebar-bg-color);
 }
 
+.VPNavBar {
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+}
+
+.VPSidebar {
+  top: var(--vp-nav-height) !important;
+}
+
+@media (min-width: 960px) {
+  .VPSidebar {
+    padding-top: 20px !important;
+  }
+}
+
+.VPNavBar .curtain {
+  display: none;
+}
+
+.VPSidebar {
+  border-right: 1px solid var(--vp-c-divider);
+}
+
+.group + .group {
+  border-top: none !important;
+}
+
+.VPSidebarItem.level-0 {
+  padding-bottom: 0 !important;
+}
+
+.VPNavBarTitle.has-sidebar .title {
+  border-bottom-color: transparent !important;
+}
