@@ -39,3 +39,8 @@
 .VPNavBarTitle.has-sidebar .title {
   border-bottom-color: transparent !important;
 }
+
+img {
+  /* background: linear-gradient(120deg, #fff 0%, var(--vp-c-brand-lighter) 100%); */
+  background-color: #D5D5D5;
+}

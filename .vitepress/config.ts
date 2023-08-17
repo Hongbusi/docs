@@ -73,6 +73,12 @@ const SidebarNode: DefaultTheme.SidebarItem[] = [
 
 const SidebarNest: DefaultTheme.SidebarItem[] = [
   {
+    text: 'MySQL',
+    items: [
+      { text: '快速开始', link: '/mysql/getting-started' },
+    ],
+  },
+  {
     text: 'Nest',
     items: [
       { text: '介绍', link: '/nestjs/' },
@@ -302,6 +308,7 @@ export default defineConfig({
       '/typescript/': SidebarTypeScript,
       '/vue/': SidebarVue,
       '/nodejs/': SidebarNode,
+      '/mysql/': SidebarNest,
       '/nestjs/': SidebarNest,
       '/algorithm/': SidebarAlgorithm,
       '/rust/': SidebarRust,
