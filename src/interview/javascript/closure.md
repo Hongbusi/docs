@@ -18,9 +18,9 @@
 
 ``` js
 function init() {
-  var name = 'Mozilla' // name 是一个被 init 创建的局部变量
+  const name = 'Mozilla' // name 是一个被 init 创建的局部变量
   function displayName() { // displayName() 是内部函数，一个闭包
-      alert(name) // 使用了父函数中声明的变量
+    alert(name) // 使用了父函数中声明的变量
   }
   displayName()
 }
@@ -44,14 +44,14 @@ init()
 
 ``` js
 function makeSizer(size) {
-  return function() {
-    document.body.style.fontSize = size + 'px'
+  return function () {
+    document.body.style.fontSize = `${size}px`
   }
 }
 
-var size12 = makeSizer(12)
-var size14 = makeSizer(14)
-var size16 = makeSizer(16)
+const size12 = makeSizer(12)
+const size14 = makeSizer(14)
+const size16 = makeSizer(16)
 
 document.getElementById('size-12').onclick = size12
 document.getElementById('size-14').onclick = size14
@@ -75,7 +75,7 @@ const area3 = getArea(10, 40)
 
 // 我们可以使用闭包柯里化这个计算面积的函数
 function getArea(width) {
-  return height => {
+  return (height) => {
     return width * height
   }
 }
@@ -93,23 +93,23 @@ const getTwentyWidthArea = getArea(20)
 在 `JavaScript` 中，没有支持声明私有变量，但我们可以使用闭包来模拟私有方法。
 
 ``` js
-var Counter = (function() {
-  var privateCounter = 0
+const Counter = (function () {
+  let privateCounter = 0
 
   function changeBy(val) {
     privateCounter += val
   }
 
   return {
-    increment: function() {
+    increment() {
       changeBy(1)
     },
 
-    decrement: function() {
+    decrement() {
       changeBy(-1)
     },
 
-    value: function() {
+    value() {
       return privateCounter
     }
   }
@@ -141,11 +141,11 @@ console.log(Counter.value()) // 1
 function MyObject(name, message) {
   this.name = name.toString()
   this.message = message.toString()
-  this.getName = function() {
+  this.getName = function () {
     return this.name
   }
 
-  this.getMessage = function() {
+  this.getMessage = function () {
     return this.message
   }
 }
@@ -159,10 +159,10 @@ function MyObject(name, message) {
   this.message = message.toString()
 }
 
-MyObject.prototype.getName = function() {
+MyObject.prototype.getName = function () {
   return this.name
 }
-MyObject.prototype.getMessage = function() {
+MyObject.prototype.getMessage = function () {
   return this.message
 }
 ```

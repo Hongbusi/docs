@@ -2,7 +2,10 @@
   "private": true,
   "type": "module",
   "eslintConfig": {
-    "extends": "@antfu"
+    "extends": "@antfu",
+    "rules": {
+      "no-prototype-builtins": "off"
+    }
   },
   "scripts": {
     "dev": "vitepress dev",

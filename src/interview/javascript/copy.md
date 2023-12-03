@@ -9,10 +9,9 @@
 ``` js
 function shallowClone(obj) {
   const newObj = {}
-  for(let prop in obj) {
-    if(obj.hasOwnProperty(prop)) {
-      newObj[prop] = obj[prop]
-    }
+  for (const key in obj) {
+    if (obj.hasOwnProperty(key))
+      newObj[key] = obj[key]
   }
   return newObj
 }
@@ -39,6 +38,7 @@ function shallowClone(obj) {
 
 ``` js
 const _ = require('lodash')
+
 const obj1 = {
   a: 1,
   b: { f: { g: 1 } },
@@ -51,6 +51,7 @@ const obj2 = _.cloneDeep(obj1)
 
 ``` js
 const $ = require('jquery')
+
 const obj1 = {
   a: 1,
   b: { f: { g: 1 } },
@@ -73,33 +74,28 @@ const obj2 = JSON.parse(JSON.stringify(obj1))
 ``` js
 function deepClone(obj, hash = new WeakMap()) {
   // 如果是 null 或者 undefined 就不进行拷贝操作
-  if (obj === null) {
+  if (obj === null)
     return obj
-  }
 
-  if (obj instanceof Date) {
+  if (obj instanceof Date)
     return new Date(obj)
-  }
 
-  if (obj instanceof RegExp) {
+  if (obj instanceof RegExp)
     return new RegExp(obj)
-  }
 
   // 如果是普通的值或函数的话是不需要深拷贝
-  if (typeof obj !== 'object') {
+  if (typeof obj !== 'object')
     return obj
-  }
 
   // 是对象的话就要进行深拷贝
-  if (hash.get(obj)) {
+  if (hash.get(obj))
     return hash.get(obj)
-  }
 
-  let cloneObj = new obj.constructor()
+  const cloneObj = new obj.constructor()
   // 找到的是所属类原型上的 constructor，而原型上的 constructor 指向的是当前类本身
   hash.set(obj, cloneObj)
 
-  for (let key in obj) {
+  for (const key in obj) {
     if (obj.hasOwnProperty(key)) {
       // 实现一个递归拷贝
       cloneObj[key] = deepClone(obj[key], hash)
