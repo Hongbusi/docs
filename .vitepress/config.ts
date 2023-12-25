@@ -169,6 +169,8 @@ const SidebarNotes: DefaultTheme.SidebarItem[] = [
     text: 'Linux',
     items: [
       { text: '免密登录', link: '/notes/linux/password-free-login' },
+      { text: 'Mac 下端口占用情况', link: '/notes/linux/port-occupancy-for-mac' },
+      { text: '常见问题', link: '/notes/linux/problem' },
     ],
   },
   {
