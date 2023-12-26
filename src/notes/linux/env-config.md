@@ -85,6 +85,9 @@ plugins=(
 
 ``` bash
 $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# 安装最新稳定版
+$ nvm install --lts
 ```
 
 ## docker
