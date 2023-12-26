@@ -62,7 +62,7 @@ $ vim ~/.gitconfig
 或通过命令：
 
 ``` bash
-git config --global includeIf."gitdir:~/Projects/".path ~/Projects/.gitconfig
+$ git config --global includeIf."gitdir:~/Projects/".path ~/Projects/.gitconfig
 ```
 
 检查是否生效：
