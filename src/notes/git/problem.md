@@ -32,3 +32,41 @@ git commit -m 'update .gitignore'
 ``` bash
 git commit --amend
 ```
+
+## 给不同目录配置不同 config
+
+全局配置：
+
+``` bash
+$ git config --global user.name Hongbusi
+$ git config --global user.email coderhbs@gmail.com
+```
+
+在 `Projects` 下新建 `.gitconfig` 文件，添加以下内容（此文件就作为当前目录下仓库的 git 配置）：
+
+``` bash
+[user]
+    name = Hongbusi
+    email = hi@hongbusi.com
+```
+
+在全局的 `.gitconfig` 文件添加以下内容：
+
+``` bash
+$ vim ~/.gitconfig
+
+[includeIf "gitdir:~/Projects/"]
+    path = ~/Projects/.gitconfig
+```
+
+或通过命令：
+
+``` bash
+git config --global includeIf."gitdir:~/Projects/".path ~/Projects/.gitconfig
+```
+
+检查是否生效：
+
+``` bash
+$ git config --show-origin --get user.email
+```
