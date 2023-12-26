@@ -4,6 +4,22 @@
 
 ``` bash
 $ yum install git
+
+# 基础配置
+$ git config --global user.name Hongbusi
+$ git config --global user.email coderhbs@gmail.com
+
+# 生成一个 ssh-key
+# -t: 可选择 dsa | ecdsa | ed25519 | rsa | rsa1，代表加密方式
+# -C: 注释，一般写自己的邮箱
+$ ssh-keygen -t rsa -C "coderhbs@gmail.com"
+
+# 生成 id_rsa/id_rsa.pub: 配对的私钥与公钥
+$ ls ~/.ssh
+authorized_keys  config  id_rsa  id_rsa.pub  known_hosts
+
+# 复制 ~/.ssh/id_rsa.pub 中文件内容，并粘贴到 github 的配置中
+$ cat ~/.ssh/id_rsa.pub
 ```
 
 ## zsh
