@@ -159,3 +159,14 @@ sudo docker run hello-world
 ```
 
 如果一切正常，你将看到一条提示消息，表明 Docker 已经正确安装并运行。
+
+## nginx
+
+``` bash
+$ yun install nginx
+
+$ systemctl enable nginx
+$ systemctl start nginx
+$ systemctl status nginx
+$ systemctl reload nginx
+```
