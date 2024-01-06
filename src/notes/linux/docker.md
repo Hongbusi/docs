@@ -8,7 +8,7 @@ $ docker images
 # 构建镜像
 $ docker build -t <name>:<tag> .
 # 删除镜像
-$ docker rmi <image-id>
+$ docker rmi <image_id_or_name>
 
 
 # 查看容器
@@ -16,16 +16,18 @@ $ docker ps -a
 # 运行一个容器
 $ docker run --net=server_default -p 3000:80 -d <name>:<tag>
 # 删除容器
-$ docker rm <container-id>
+$ docker rm <container_id_or_name>
 #在运行中的容器中执行命令：-it 表示要以交互模式（interactive）和终端模式（tty）运行容器内的命令
-$ docker exec -it <container-id> /bin/bash
-# 查看容器时间
-$ docker exec <container-id> date
+$ docker exec -it <container_id_or_name> /bin/bash
+# 停止运行容器
+$ docker stop <container_id_or_name>
+# 重启容器
+$ docker restart <container_id_or_name>
 
 # 列出所有的网络
 $ docker network ls
 # 查看网络详情
-$ docker network inspect <network-name>
+$ docker network inspect <network_id_or_name>
 ```
 
 ## 修改 Docker 时区
