@@ -52,15 +52,15 @@ $ ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
 3. 退出容器：
 
 ``` bash
-exit
+$ exit
 ```
 
 4. 重新启动容器：
 
 ``` bash
-docker restart <container_id_or_name>
+$ docker restart <container_id_or_name>
 ```
 
 请将 `<container_id_or_name>` 替换为你实际的容器 ID 或名称。
 
-完成上述步骤后，容器的时区应该已经被修改。
+以上步骤后，容器的时区就成功地被修改了。
