@@ -170,6 +170,7 @@ const SidebarNotes: DefaultTheme.SidebarItem[] = [
     items: [
       { text: '免密登录', link: '/notes/linux/password-free-login' },
       { text: '环境配置', link: '/notes/linux/env-config' },
+      { text: 'Nginx 服务器 SSL 证书安装', link: '/notes/linux/nginx-ssl' },
       { text: 'Docker 常用命令', link: '/notes/linux/docker' },
       { text: 'Mac 下端口占用情况', link: '/notes/linux/port-occupancy-for-mac' },
       { text: '常见问题', link: '/notes/linux/problem' },

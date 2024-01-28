@@ -23,8 +23,8 @@ $ ssh root@43.142.97.37
 # 修改 ssh 配置文件 ~/.ssh/config
 
 Host Hongbusi
-	HostName 43.142.97.37
-	User root
+  HostName 43.142.97.37
+  User root
 ```
 
 配置成功之后就可以直接通过 `ssh <hostname>` 登录：
@@ -76,8 +76,8 @@ Host *
 # 编辑 ~/.ssh/config
 
 Host *
-	ServerAliveInterval 30
-	TCPKeepAlive yes
-	ServerAliveCountMax 6
-	Compression yes
+  ServerAliveInterval 30
+  TCPKeepAlive yes
+  ServerAliveCountMax 6
+  Compression yes
 ```
