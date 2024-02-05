@@ -1,12 +1,6 @@
 {
-  "private": true,
   "type": "module",
-  "eslintConfig": {
-    "extends": "@antfu",
-    "rules": {
-      "no-prototype-builtins": "off"
-    }
-  },
+  "private": true,
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
@@ -15,9 +9,9 @@
     "lint:fix": "eslint --fix ."
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.40.2",
-    "eslint": "^8.47.0",
-    "typescript": "^5.1.6",
-    "vitepress": "1.0.0-rc.4"
+    "@antfu/eslint-config": "^2.6.4",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "vitepress": "1.0.0-rc.41"
   }
 }

@@ -294,8 +294,8 @@ const SidebarInterview: DefaultTheme.SidebarItem[] = [
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Hongbusi',
-  description: 'The more you know, the more you do not know.',
+  title: '洪布斯',
+  description: '知道的越多，不知道的越多。',
 
   base: '/',
   srcDir: 'src',
@@ -307,7 +307,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    logo: '/logo.svg',
     nav: Nav,
     sidebar: {
       '/javascript/': SidebarJavaScript,
@@ -321,6 +320,9 @@ export default defineConfig({
       '/notes/': SidebarNotes,
       '/interview/': SidebarInterview,
     },
+    search: {
+      provider: 'local',
+    },
     editLink: {
       pattern: 'https://github.com/Hongbusi/docs/edit/main/src/:path',
       text: 'Suggest changes to this page',
@@ -330,7 +332,7 @@ export default defineConfig({
       { icon: 'twitter', link: 'https://twitter.com/Hongbusi' },
     ],
     footer: {
-      copyright: 'Copyright © 2020-PRESENT Hongbusi',
+      copyright: 'Copyright © 2020-present Hongbusi',
     },
   },
 })

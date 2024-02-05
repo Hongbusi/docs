@@ -1,13 +1,7 @@
-@import url(./rainbow.css);
 
 :root {
-  animation: rainbow 15s ease 0s infinite;
   --vp-c-gutter: var(--vp-c-divider);
   --vp-c-bg: var(--vp-sidebar-bg-color);
-}
-
-.VPNavBar {
-  border-bottom: 1px solid var(--vp-c-divider) !important;
 }
 
 .VPSidebar {
@@ -37,10 +31,13 @@
 }
 
 .VPNavBarTitle.has-sidebar .title {
-  border-bottom-color: transparent !important;
+  border-bottom: none;
+}
+
+.VPNavBar.has-sidebar .divider {
+  padding-left: 0 !important;
 }
 
 img {
-  /* background: linear-gradient(120deg, #fff 0%, var(--vp-c-brand-lighter) 100%); */
   background-color: #D5D5D5;
 }
