@@ -319,6 +319,7 @@ export default defineConfig({
   ],
 
   themeConfig: {
+    logo: '/logo.svg',
     nav: Nav,
     sidebar: {
       '/javascript/': SidebarJavaScript,

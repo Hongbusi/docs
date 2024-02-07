@@ -1,25 +1,26 @@
-
 :root {
   --vp-c-gutter: var(--vp-c-divider);
   --vp-c-bg: var(--vp-sidebar-bg-color);
 }
 
-.VPSidebar {
-  top: var(--vp-nav-height) !important;
-}
-
 @media (min-width: 960px) {
   .VPSidebar {
+    top: var(--vp-nav-height) !important;
     padding-top: 20px !important;
+    border-right: 1px solid var(--vp-c-divider);
   }
+}
+
+.VPNavBar {
+  border-bottom-color: var(--vp-c-gutter) !important;
 }
 
 .VPNavBar .curtain {
   display: none;
 }
 
-.VPSidebar {
-  border-right: 1px solid var(--vp-c-divider);
+.VPNavBar.has-sidebar .divider {
+  padding-left: 0 !important;
 }
 
 .group + .group {
@@ -32,10 +33,6 @@
 
 .VPNavBarTitle.has-sidebar .title {
   border-bottom: none;
-}
-
-.VPNavBar.has-sidebar .divider {
-  padding-left: 0 !important;
 }
 
 img {
