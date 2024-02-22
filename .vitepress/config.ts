@@ -148,6 +148,7 @@ const SidebarNotes: DefaultTheme.SidebarItem[] = [
   {
     text: 'Books',
     items: [
+      { text: '重来 3：跳出疯狂的忙碌', link: '/notes/books/rework-3' },
       { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
       { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
     ],
