@@ -1,0 +1,25 @@
+{
+  "index": {
+    "type": "page",
+    "title": "首页"
+  },
+  "columns": {
+    "type": "page",
+    "title": "专栏"
+  },
+  "notes": {
+    "type": "page",
+    "title": "笔记"
+  },
+  "books": {
+    "type": "page",
+    "title": "读书笔记"
+  },
+  "404": {
+    "type": "page",
+    "theme": {
+      "timestamp": false,
+      "typesetting": "article"
+    }
+  }
+}
