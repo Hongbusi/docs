@@ -84,6 +84,7 @@ const SidebarNest: DefaultTheme.SidebarItem[] = [
       { text: '介绍', link: '/nestjs/' },
       { text: '开始使用', link: '/nestjs/getting-started' },
       { text: '内置 HTTP 异常', link: '/nestjs/built-in-http-exceptions' },
+      { text: '热更新', link: '/nestjs/hot-reload' },
     ],
   },
 ]
@@ -148,7 +149,9 @@ const SidebarNotes: DefaultTheme.SidebarItem[] = [
   {
     text: 'Books',
     items: [
+      { text: '单干：成为超级个体的49个关键动作',link:'/notes/books/go-it-alone' },
       { text: '重来 3：跳出疯狂的忙碌', link: '/notes/books/rework-3' },
+      { text: 'SaaS创业路线图',link:'/notes/books/saas-entrepreneurial-roadmap' },
       { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
       { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
     ],
