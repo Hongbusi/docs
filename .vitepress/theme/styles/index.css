@@ -1,0 +1,40 @@
+:root {
+  --vp-c-gutter: var(--vp-c-divider);
+  --vp-c-bg: var(--vp-sidebar-bg-color);
+}
+
+@media (min-width: 960px) {
+  .VPSidebar {
+    top: var(--vp-nav-height) !important;
+    padding-top: 20px !important;
+    border-right: 1px solid var(--vp-c-divider);
+  }
+}
+
+.VPNavBar {
+  border-bottom-color: var(--vp-c-gutter) !important;
+}
+
+.VPNavBar .curtain {
+  display: none;
+}
+
+.VPNavBar.has-sidebar .divider {
+  padding-left: 0 !important;
+}
+
+.group + .group {
+  border-top: none !important;
+}
+
+.VPSidebarItem.level-0 {
+  padding-bottom: 0 !important;
+}
+
+.VPNavBarTitle.has-sidebar .title {
+  border-bottom: none;
+}
+
+img {
+  background-color: #D5D5D5;
+}

@@ -1,14 +1,4 @@
-const antfu = require('@antfu/eslint-config').default
+// eslint.config.js
+import antfu from '@antfu/eslint-config'
 
-module.exports = antfu(
-  {
-    react: true,
-    rules: {
-      'node/prefer-global/process': 'off',
-      'react-refresh/only-export-components': 'off',
-    },
-  },
-  {
-    ignores: ['old-docs'],
-  },
-)
+export default antfu()
