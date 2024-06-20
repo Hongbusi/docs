@@ -10,7 +10,6 @@ $ docker build -t <name>:<tag> .
 # 删除镜像
 $ docker rmi <image_id_or_name>
 
-
 # 查看容器
 $ docker ps -a
 # 运行一个容器

@@ -41,9 +41,9 @@
 创建 `object` 常用方式为对象字面量表示法，属性名可以是字符串或数值。
 
 ``` js
-let person = {
+const person = {
   name: 'Hongbusi',
-  'age': 18,
+  age: 18,
   18: true
 }
 ```
@@ -53,7 +53,7 @@ let person = {
 `JavaScript` 数组是一组有序的数据，但跟其他语言不同的是，数组中每个槽位可以存储任意类型的数据。并且，数组也是动态大小的，会随着数据添加而自动增长。
 
 ``` js
-let array = ['red', { age: 18 }, 2]
+const array = ['red', { age: 18 }, 2]
 array.push(2)
 ```
 
@@ -66,7 +66,7 @@ array.push(2)
 - 函数声明
 
 ``` js
-function sum (num1, num2) {
+function sum(num1, num2) {
   return num1 + num2
 }
 ```
@@ -74,7 +74,7 @@ function sum (num1, num2) {
 - 函数表达式
 
 ``` js
-let sum = function(num1, num2) {
+const sum = function (num1, num2) {
   return num1 + num2
 }
 ```
@@ -82,7 +82,7 @@ let sum = function(num1, num2) {
 - 箭头函数
 
 ``` js
-let sum = (num1, num2) => {
+function sum(num1, num2) {
   return num1 + num2
 }
 ```

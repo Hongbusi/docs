@@ -5,7 +5,7 @@
 `typeof` 方法可以在类型上下文（type context）中使用，用于获取一个变量或者属性的类型。
 
 ``` ts
-let s = 'hello'
+const s = 'hello'
 let n: typeof s
 // let n: string
 ```
@@ -38,7 +38,7 @@ function f() {
   return { x: 10, y: 3 }
 }
 type P = ReturnType<typeof f>
-                    
+
 // type P = {
 //   x: number
 //   y: number

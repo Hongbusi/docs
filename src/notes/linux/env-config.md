@@ -163,7 +163,7 @@ sudo docker run hello-world
 ## nginx
 
 ``` bash
-$ yun install nginx
+$ yum install nginx
 
 $ systemctl enable nginx
 $ systemctl start nginx

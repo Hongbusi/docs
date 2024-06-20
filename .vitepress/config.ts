@@ -149,9 +149,9 @@ const SidebarNotes: DefaultTheme.SidebarItem[] = [
   {
     text: 'Books',
     items: [
-      { text: '单干：成为超级个体的49个关键动作',link:'/notes/books/go-it-alone' },
+      { text: '单干：成为超级个体的49个关键动作', link: '/notes/books/go-it-alone' },
       { text: '重来 3：跳出疯狂的忙碌', link: '/notes/books/rework-3' },
-      { text: 'SaaS创业路线图',link:'/notes/books/saas-entrepreneurial-roadmap' },
+      { text: 'SaaS创业路线图', link: '/notes/books/saas-entrepreneurial-roadmap' },
       { text: 'Vue.js 设计与实现', link: '/notes/books/vue-design-and-implementation' },
       { text: '你不知道的 JavaScript 上卷', link: '/notes/books/you-dont-know-js-1' },
     ],
@@ -310,7 +310,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }],
     [
       'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M0H8SV269C' }
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-M0H8SV269C' },
     ],
     [
       'script',
@@ -318,8 +318,8 @@ export default defineConfig({
       `window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-M0H8SV269C');`
-    ]
+      gtag('config', 'G-M0H8SV269C');`,
+    ],
   ],
 
   themeConfig: {

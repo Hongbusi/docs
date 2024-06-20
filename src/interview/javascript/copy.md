@@ -68,7 +68,6 @@ const obj2 = JSON.parse(JSON.stringify(obj1))
 
 但是这种方式存在弊端，会忽略 `undefined`、`symbol` 和 `function`。
 
-
 ### 循环递归
 
 ``` js

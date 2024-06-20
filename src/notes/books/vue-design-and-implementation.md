@@ -25,7 +25,8 @@ export default {
 function callWithErrorHandling(fn) {
   try {
     fn && fn()
-  } catch (e) {
+  }
+  catch (e) {
     handleError && handleError(e)
   }
 }
@@ -40,8 +41,8 @@ utils.registerErrorHandler((e) => {
   console.log(e)
 })
 
-utils.foo(() => { /*...*/ })
-utils.bar(() => { /*...*/ })
+utils.foo(() => { /* ... */ })
+utils.bar(() => { /* ... */ })
 ```
 
 ## `WeakMap` 和 `Map` 的区别（p48）
@@ -59,7 +60,7 @@ utils.bar(() => { /*...*/ })
 ``` js
 let finalData
 
-watch(obj, async(newValue, oldValue, onInvalidate) => {
+watch(obj, async (newValue, oldValue, onInvalidate) => {
   // 定义一个标志，代表当前副作用函数是否过期，默认为 `false`，代表没有过期
   let expired = false
   // 调用 `onInvalidate()` 函数注册一个过期回调
@@ -97,7 +98,7 @@ function mountComponent(vnode, container, anchor) {
   beforeCreate && beforeCreate()
 
   const state = reactive(data())
-  
+
   const instance = {
     state,
     isMounted: false,
@@ -117,7 +118,8 @@ function mountComponent(vnode, container, anchor) {
       instance.isMounted = true
       // 在这里调用 mounted 钩子
       mounted && mounted.call(state)
-    } else {
+    }
+    else {
       // 在这里调用 beforeUpdate 钩子
       beforeUpdate && beforeUpdate.call(state)
       patch(instance.subTree, subTree, container, anchor)
