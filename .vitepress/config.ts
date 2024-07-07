@@ -11,14 +11,14 @@ const TechnologyStack: DefaultTheme.NavItemWithLink[] = [
   { text: 'Rust', link: '/rust/' },
 ]
 
-const Notes: DefaultTheme.NavItemWithLink[] = [
-  { text: '读书笔记', link: '/notes/books/' },
-  { text: 'TypeScript', link: '/typescript/' },
-]
+// const Notes: DefaultTheme.NavItemWithLink[] = [
+//   { text: '读书笔记', link: '/notes/books/' },
+//   { text: 'TypeScript', link: '/typescript/' },
+// ]
 
 const Nav: DefaultTheme.NavItem[] = [
   { text: '技术栈', items: TechnologyStack },
-  { text: '笔记', items: Notes, activeMatch: '^/notes/' },
+  { text: '笔记', link: '/notes', activeMatch: '^/notes/' },
   { text: '面试', link: '/interview/css/box' },
   { text: '书签', link: '/bookmarks/' },
 ]

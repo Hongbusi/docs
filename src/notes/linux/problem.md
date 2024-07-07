@@ -5,3 +5,11 @@
 ``` bash
 vim /etc/sysconfig/network # 将 hostname=Hongbusi
 ```
+
+## 查看电脑出口 IP
+
+``` bash
+curl ifconfig.me
+# or
+curl ipinfo.io
+```

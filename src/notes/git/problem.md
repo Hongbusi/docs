@@ -70,3 +70,9 @@ $ git config --global includeIf."gitdir:~/Projects/".path ~/Projects/.gitconfig
 ``` bash
 $ git config --show-origin --get user.email
 ```
+
+## 查看本地 ssh 秘钥
+
+``` bash
+cat ~/.ssh/id_rsa.pub
+```
