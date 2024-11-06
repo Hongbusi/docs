@@ -25,6 +25,9 @@ export default defineConfig({
           autogenerate: { directory: 'reference' },
         },
       ],
+      editLink: {
+        baseUrl: 'https://github.com/Hongbusi/docs/edit/main/',
+      },
     }),
   ],
 })
