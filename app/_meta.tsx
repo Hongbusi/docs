@@ -5,7 +5,12 @@ export default {
   },
   bookmarks: {
     type: 'page',
-    title: '书签',
+    theme: {
+      typesetting: 'article',
+      layout: 'full',
+      timestamp: false,
+      toc: false,
+    },
   },
   prompts: {
     type: 'page',
