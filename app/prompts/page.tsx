@@ -143,7 +143,7 @@ export default function PromptsPage() {
       </div>
 
       {/* 提示词卡片网格 */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
         {filteredPrompts.map(prompt => (
           <PromptCard key={prompt.id} prompt={prompt} />
         ))}

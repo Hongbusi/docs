@@ -3,6 +3,7 @@ import { Layout, Navbar } from 'nextra-theme-docs'
 import { Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import { Footer } from '@/components/footer'
+import { TailwindIndicator } from '@/components/tailwind-indicator'
 import 'nextra-theme-docs/style.css'
 import './globals.css'
 import './theme.css'
@@ -38,6 +39,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           footer={Footer}
         >
           {children}
+          <TailwindIndicator />
         </Layout>
       </body>
     </html>

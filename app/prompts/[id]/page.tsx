@@ -1,8 +1,9 @@
 'use client'
 
-import { ArrowLeft, Copy, Share } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
+import React from 'react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
@@ -10,36 +11,17 @@ import { CopyButton } from '@/components/ui/copy-button'
 import { prompts } from '@/data'
 
 interface PromptDetailPageProps {
-  params: {
+  params: Promise<{
     id: string
-  }
+  }>
 }
 
 export default function PromptDetailPage({ params }: PromptDetailPageProps) {
-  const prompt = prompts.find(p => p.id === params.id)
+  const resolvedParams = React.use(params)
+  const prompt = prompts.find(p => p.id === resolvedParams.id)
 
   if (!prompt) {
     notFound()
-  }
-
-  const handleShare = async () => {
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: prompt.title,
-          text: prompt.description,
-          url: window.location.href,
-        })
-      }
-      catch (error) {
-        console.log('分享失败:', error)
-      }
-    }
-    else {
-      // 如果不支持原生分享，复制链接到剪贴板
-      navigator.clipboard.writeText(window.location.href)
-      // 这里可以添加一个提示用户链接已复制的通知
-    }
   }
 
   return (
@@ -67,12 +49,6 @@ export default function PromptDetailPage({ params }: PromptDetailPageProps) {
                   {prompt.description}
                 </p>
               )}
-            </div>
-            <div className="flex gap-2">
-              <Button variant="outline" size="sm" onClick={handleShare}>
-                <Share className="h-4 w-4 mr-2" />
-                分享
-              </Button>
             </div>
           </div>
 
@@ -113,8 +89,7 @@ export default function PromptDetailPage({ params }: PromptDetailPageProps) {
               <p>• 复制上面的提示词到您的AI工具中</p>
               <p>
                 • 根据提示词中的
-                {'{}'}
-                {' '}
+                {' {} '}
                 部分替换为您的具体需求
               </p>
               <p>• 可以根据实际情况调整和优化提示词内容</p>

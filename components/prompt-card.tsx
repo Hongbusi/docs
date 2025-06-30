@@ -13,7 +13,7 @@ interface PromptCardProps {
 export function PromptCard({ prompt }: PromptCardProps) {
   return (
     <Link href={`/prompts/${prompt.id}`}>
-      <Card className="flex flex-col h-120 hover:shadow-md transition-all duration-200 cursor-pointer group border-border hover:border-primary/20">
+      <Card className="flex flex-col gap-3 h-120 hover:shadow-md transition-all duration-200 cursor-pointer group border-border hover:border-primary/20">
         <CardHeader className="shrink-0">
           <div className="flex items-start justify-between gap-2">
             <CardTitle className="text-lg font-medium line-clamp-2">
@@ -30,9 +30,9 @@ export function PromptCard({ prompt }: PromptCardProps) {
           )}
         </CardHeader>
 
-        <CardContent className="flex-1 overflow-y-auto">
-          <div className="bg-muted/50 rounded-md p-4 text-sm">
-            <pre className="whitespace-pre-wrap break-words font-mono text-xs">
+        <CardContent className="flex-1 min-h-0">
+          <div className="p-3 w-full h-full bg-muted rounded-md text-sm overflow-y-auto">
+            <pre className="whitespace-pre-wrap break-words font-mono">
               {prompt.content}
             </pre>
           </div>
