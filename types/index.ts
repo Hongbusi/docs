@@ -8,3 +8,12 @@ export interface Product {
   tech: string[]
   platform: 'web' | 'miniprogram' | 'mobile' | 'desktop' | 'api' | 'chrome-extension'
 }
+
+export interface Prompt {
+  id: string
+  title: string
+  description: string
+  content: string
+  tags: string[]
+  category: string
+}
