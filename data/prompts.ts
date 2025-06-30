@@ -29,4 +29,12 @@ export const prompts: Prompt[] = [
     tags: ['产品设计', 'UI/UX', 'HTML5'],
     category: 'Web开发',
   },
+  {
+    id: '2',
+    title: 'AI助手工作交接提示词',
+    description: '用于在对话上下文过长时，帮助新的AI助手快速理解当前工作状态并顺利继续任务',
+    content: `本次对话的上下文已经太长了，我打算关掉并重新开一个新的会话。你有什么想对你的继任者说的，以便它能更好的理解你当前的工作并顺利继续？`,
+    tags: ['AI助手', '工作交接'],
+    category: '效率工具',
+  },
 ]
