@@ -2,6 +2,8 @@ import Image from 'next/image'
 import { Layout, Navbar } from 'nextra-theme-docs'
 import { Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
+import { GoogleAdSense } from '@/components/adsense'
+import { Analytics } from '@/components/analytics'
 import { Footer } from '@/components/footer'
 import { TailwindIndicator } from '@/components/tailwind-indicator'
 import 'nextra-theme-docs/style.css'
@@ -85,6 +87,8 @@ export default async function RootLayout({ children }: { children: React.ReactNo
           footer={Footer}
         >
           {children}
+          <GoogleAdSense />
+          <Analytics />
           <TailwindIndicator />
         </Layout>
       </body>
