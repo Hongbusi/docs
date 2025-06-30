@@ -64,7 +64,6 @@ export const metadata = {
     icon: '/favicon.svg',
     apple: '/favicon.svg',
   },
-  manifest: '/manifest.json', // 需要创建 manifest 文件
 }
 
 const navbar = (
