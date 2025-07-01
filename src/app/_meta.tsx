@@ -3,6 +3,10 @@ export default {
     type: 'page',
     display: 'hidden',
   },
+  notes: {
+    type: 'page',
+    title: '笔记',
+  },
   bookmarks: {
     type: 'page',
     title: '书签',
