@@ -1,5 +1,5 @@
 import type { MetadataRoute } from 'next'
-import { bookmarks, prompts } from '@/data'
+import { prompts } from '@/data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://docs.hongbusi.com'
