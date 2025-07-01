@@ -1,0 +1,58 @@
+import type { Bookmark } from '@/types'
+
+export const bookmarks: Bookmark[] = [
+  {
+    id: '1',
+    title: 'React Flow',
+    description: '用于构建交互式节点图的 React 库，支持拖拽、缩放等功能',
+    url: 'https://reactflow.dev',
+    image: 'https://reactflow.dev/img/og-image.png',
+    tags: ['React', '图表', '可视化'],
+    category: '开发工具',
+  },
+  {
+    id: '2',
+    title: 'Tailwind CSS',
+    description: '实用至上的 CSS 框架，快速构建现代化界面',
+    url: 'https://tailwindcss.com',
+    image: 'https://tailwindcss.com/_next/static/media/social-card-large.a6e71726.jpg',
+    tags: ['CSS', '框架', '样式'],
+    category: '开发工具',
+  },
+  {
+    id: '3',
+    title: 'Vercel',
+    description: '现代化的前端部署平台，支持 Next.js、React 等框架',
+    url: 'https://vercel.com',
+    image: 'https://vercel.com/api/og',
+    tags: ['部署', '云服务', 'Next.js'],
+    category: '部署平台',
+  },
+  {
+    id: '4',
+    title: 'shadcn/ui',
+    description: '基于 Radix UI 和 Tailwind CSS 的现代化组件库',
+    url: 'https://ui.shadcn.com',
+    image: 'https://ui.shadcn.com/og.jpg',
+    tags: ['组件库', 'UI', 'Tailwind'],
+    category: '开发工具',
+  },
+  {
+    id: '5',
+    title: 'MDN Web Docs',
+    description: 'Web 开发技术的权威文档和学习资源',
+    url: 'https://developer.mozilla.org',
+    image: 'https://developer.mozilla.org/mdn-social-share.cd6c4a5a.png',
+    tags: ['文档', '学习', 'Web'],
+    category: '学习资源',
+  },
+  {
+    id: '6',
+    title: 'GitHub',
+    description: '全球最大的代码托管平台和开发者社区',
+    url: 'https://github.com',
+    image: 'https://github.githubassets.com/images/modules/site/social-cards/github-social.png',
+    tags: ['代码托管', '开源', '协作'],
+    category: '开发工具',
+  },
+]
