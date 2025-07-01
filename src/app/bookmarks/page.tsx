@@ -49,7 +49,7 @@ export default function BookmarksPage() {
       {/* 书签卡片网格 */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-3">
         {filteredBookmarks.map(bookmark => (
-          <BookmarkCard key={bookmark.id} bookmark={bookmark} />
+          <BookmarkCard key={bookmark.url} bookmark={bookmark} />
         ))}
       </div>
 

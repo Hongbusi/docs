@@ -18,11 +18,10 @@ export interface Prompt {
 }
 
 export interface Bookmark {
-  id: string
   title: string
   description: string
   url: string
-  image: string
+  logo?: string
   tags: string[]
   category: string
 }

@@ -2,6 +2,7 @@
 
 import type { Bookmark } from '@/types'
 import { ExternalLink } from 'lucide-react'
+import { useState } from 'react'
 import { Card, CardContent } from '@/components/ui/card'
 import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
 
@@ -10,6 +11,18 @@ interface BookmarkCardProps {
 }
 
 export function BookmarkCard({ bookmark }: BookmarkCardProps) {
+  const [imageError, setImageError] = useState(false)
+
+  // 获取标题的首字母
+  const getInitials = (title: string) => {
+    return title
+      .split(' ')
+      .map(word => word.charAt(0))
+      .join('')
+      .toUpperCase()
+      .slice(0, 2)
+  }
+
   return (
     <Tooltip>
       <TooltipTrigger asChild>
@@ -21,11 +34,22 @@ export function BookmarkCard({ bookmark }: BookmarkCardProps) {
         >
           <Card className="h-20 hover:shadow-md transition-shadow cursor-pointer">
             <CardContent className="flex items-center gap-3 p-3 h-full">
-              <img
-                src={bookmark.image}
-                alt={bookmark.title}
-                className="w-10 h-10 rounded-lg object-contain bg-muted"
-              />
+              <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center overflow-hidden">
+                {!imageError && bookmark.logo
+                  ? (
+                      <img
+                        src={bookmark.logo}
+                        alt={bookmark.title}
+                        className="w-full h-full object-contain"
+                        onError={() => setImageError(true)}
+                      />
+                    )
+                  : (
+                      <span className="text-xs font-semibold text-muted-foreground">
+                        {getInitials(bookmark.title)}
+                      </span>
+                    )}
+              </div>
 
               <div className="flex-1 min-w-0">
                 <div className="flex items-center gap-1">
