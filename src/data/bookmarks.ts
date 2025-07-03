@@ -330,4 +330,11 @@ export const bookmarks: Bookmark[] = [
     tags: ['图标', '开源'],
     category: 'UI设计',
   },
+  {
+    title: 'Lovart AI',
+    description: 'AI 设计代理，支持人机协作、AI 生成、编辑与设计于一体的无缝画布，适合品牌、包装、插画等多场景创意设计。',
+    url: 'https://www.lovart.ai',
+    tags: ['AI', '设计'],
+    category: 'UI设计',
+  },
 ]
