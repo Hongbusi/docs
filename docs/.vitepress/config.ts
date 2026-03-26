@@ -19,11 +19,7 @@ export default defineConfig({
     logo: 'https://hongbusi.com/avatar.svg',
     siteTitle: '洪布斯',
 
-    nav: [
-      { text: '笔记', link: '/notes/' },
-      { text: '书签', link: '/bookmarks' },
-      { text: '提示词', link: '/prompts' },
-    ],
+    nav: [],
 
     sidebar: {
       '/notes/': [
