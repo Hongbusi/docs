@@ -1,6 +1,15 @@
-import type { Bookmark } from '@/types'
+<script setup lang="ts">
+import { ref, computed } from 'vue'
 
-export const bookmarks: Bookmark[] = [
+interface Bookmark {
+  title: string
+  description: string
+  url: string
+  tags: string[]
+  category: string
+}
+
+const bookmarks: Bookmark[] = [
   {
     title: 'React Bits',
     description: '一个开源的高质量、动画、交互式且完全可定制的 React 组件集合。',
@@ -87,7 +96,7 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: 'Happy Hues',
-    description: '不确定在设计中使用什么颜色或在哪里使用它们？Happy Hues 是一个调色板灵感网站，它作为现实世界的示例，说明如何在设计项目中使用这些颜色。',
+    description: '不确定在设计中使用什么颜色或在哪里使用它们？Happy Hues 是一个调色板灵感网站。',
     url: 'https://www.happyhues.co',
     tags: ['设计'],
     category: 'UI设计',
@@ -108,14 +117,14 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: '百度翻译',
-    description: '百度翻译提供即时免费200+语言翻译服务，拥有网页、APP、API产品，支持文本翻译、文档翻译、图片翻译等特色功能，满足用户查词翻译、文献翻译、合同翻译等需求，随时随地沟通全世界。',
+    description: '百度翻译提供即时免费200+语言翻译服务。',
     url: 'https://fanyi.baidu.com',
     tags: [],
     category: '实用工具',
   },
   {
     title: '谷歌翻译',
-    description: 'Google 免费提供的这项服务可在简体中文和其他 100 多种语言之间即时翻译字词、短语和网页。',
+    description: 'Google 免费提供的这项服务可在简体中文和其他 100 多种语言之间即时翻译。',
     url: 'https://translate.google.com',
     tags: [],
     category: '实用工具',
@@ -150,35 +159,35 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: '稿定',
-    description: '在线快速图片和视频编辑,不会PS也能搞定设计。海报、简历、PPT、公众号配图、电商等海量模板快速出图。三秒抠图实用便捷,抖音快手热门视频轻松搞定。海量正版授权资源,商用无忧。',
+    description: '在线快速图片和视频编辑,不会PS也能搞定设计。',
     url: 'https://www.gaoding.com',
     tags: ['设计'],
     category: 'UI设计',
   },
   {
     title: '滴答清单',
-    description: '滴答清单，一个帮你高效完成任务和规划时间的应用，是一款拥有跨设备云同步、周期提醒、清单管理、清晰分类、协作和集成日历的应用，你可以在Web、Android、iPhone等设备上使用它。',
+    description: '滴答清单，一个帮你高效完成任务和规划时间的应用。',
     url: 'https://www.dida365.com',
     tags: [],
     category: '实用工具',
   },
   {
     title: '即时设计',
-    description: '即时设计是一款在线可协作的UI设计工具，是可协作的在线sketch、国内版figma，拥有海量的设计资源与素材，支持导入sketch格式的源文件。支持创建交互原型、获取设计标注、快速切图、团队协作等工作。',
+    description: '即时设计是一款在线可协作的UI设计工具。',
     url: 'https://js.design',
     tags: ['设计'],
     category: 'UI设计',
   },
   {
     title: 'QQ邮箱',
-    description: 'QQ邮箱，为亿万用户提供高效稳定便捷的电子邮件服务。你可以在电脑网页、iOS/iPad客户端、及Android客户端上使用它，通过邮件发送3G的超大附件，体验文件中转站、日历、记事本、漂流瓶等特色功能。QQ邮箱，常联系。',
+    description: 'QQ邮箱，为亿万用户提供高效稳定便捷的电子邮件服务。',
     url: 'https://mail.qq.com',
     tags: [],
     category: '实用工具',
   },
   {
     title: 'Youtube',
-    description: '在 YouTube 上畅享你喜爱的视频和音乐，上传原创内容并与亲朋好友和全世界观众分享你的视频。',
+    description: '在 YouTube 上畅享你喜爱的视频和音乐。',
     url: 'https://www.youtube.com',
     tags: ['视频'],
     category: '娱乐媒体',
@@ -220,7 +229,7 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: '哔哩哔哩',
-    description: '哔哩哔哩是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到许多欢乐。',
+    description: '哔哩哔哩是国内知名的视频弹幕网站。',
     url: 'https://www.bilibili.com',
     tags: ['视频'],
     category: '娱乐媒体',
@@ -276,7 +285,7 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: 'LogoFast',
-    description: 'LogoFast 是一款免费的 AI 徽标制作工具。几秒钟内即可创建漂亮的徽标。无需任何设计技能。',
+    description: 'LogoFast 是一款免费的 AI 徽标制作工具。几秒钟内即可创建漂亮的徽标。',
     url: 'https://logofa.st',
     tags: ['AI', '设计'],
     category: 'UI设计',
@@ -297,7 +306,7 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: 'unDraw',
-    description: '浏览以找到符合您需求的图像并单击下载。使用即时彩色图像生成来匹配您的品牌标识。',
+    description: '浏览以找到符合您需求的图像并单击下载。',
     url: 'https://undraw.co/illustrations',
     tags: ['设计', '开源'],
     category: 'UI设计',
@@ -311,14 +320,14 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: 'Nest.js 中文文档',
-    description: 'NestJS 是一个用于构建高效、可扩展的 Node.js Web 应用程序的框架。它使用现代 JavaScript，由 TypeScript 构建，并结合了 OOP（面向对象编程）、FP（函数式编程）和 FRP（函数式响应式编程）的元素。',
+    description: 'NestJS 是一个用于构建高效、可扩展的 Node.js Web 应用程序的框架。',
     url: 'https://docs.nestjs.cn',
     tags: ['文档'],
     category: '开发工具',
   },
   {
     title: 'ChatGPT',
-    description: 'ChatGPT 可帮助您获得答案、找到灵感并提高工作效率。它免费使用且易于尝试。只需询问，ChatGPT 便可帮助您进行写作、学习、集思广益等。',
+    description: 'ChatGPT 可帮助您获得答案、找到灵感并提高工作效率。',
     url: 'https://chatgpt.com',
     tags: ['AI'],
     category: 'AI工具',
@@ -332,9 +341,54 @@ export const bookmarks: Bookmark[] = [
   },
   {
     title: 'Lovart AI',
-    description: 'AI 设计代理，支持人机协作、AI 生成、编辑与设计于一体的无缝画布，适合品牌、包装、插画等多场景创意设计。',
+    description: 'AI 设计代理，支持人机协作、AI 生成、编辑与设计于一体的无缝画布。',
     url: 'https://www.lovart.ai',
     tags: ['AI', '设计'],
     category: 'UI设计',
   },
 ]
+
+const search = ref('')
+
+const filteredBookmarks = computed(() => {
+  if (!search.value) return bookmarks
+  const q = search.value.toLowerCase()
+  return bookmarks.filter(
+    b =>
+      b.title.toLowerCase().includes(q) ||
+      b.description.toLowerCase().includes(q) ||
+      b.tags.some(t => t.toLowerCase().includes(q)) ||
+      b.category.toLowerCase().includes(q)
+  )
+})
+
+const groupedBookmarks = computed(() => {
+  const groups: Record<string, Bookmark[]> = {}
+  for (const b of filteredBookmarks.value) {
+    if (!groups[b.category]) groups[b.category] = []
+    groups[b.category].push(b)
+  }
+  return groups
+})
+</script>
+
+<template>
+  <div class="search-filter">
+    <input v-model="search" placeholder="搜索书签..." />
+  </div>
+
+  <template v-for="(items, category) in groupedBookmarks" :key="category">
+    <h2 class="category-heading">{{ category }}</h2>
+    <div class="cards-grid">
+      <div v-for="item in items" :key="item.url" class="card">
+        <div class="card-title">
+          <a :href="item.url" target="_blank" rel="noopener">{{ item.title }}</a>
+        </div>
+        <div class="card-description">{{ item.description }}</div>
+        <div class="card-tags">
+          <span v-for="tag in item.tags" :key="tag" class="tag">{{ tag }}</span>
+        </div>
+      </div>
+    </div>
+  </template>
+</template>
