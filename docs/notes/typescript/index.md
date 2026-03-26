@@ -1,8 +1,7 @@
 ---
-title: 介绍
-sidebar:
-  order: 1
 ---
+
+# 介绍
 
 ## 相关文档
 

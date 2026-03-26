@@ -1,8 +1,7 @@
 ---
-title: 热更新
-sidebar:
-  order: 3
 ---
+
+# 热更新
 
 ## 安装
 

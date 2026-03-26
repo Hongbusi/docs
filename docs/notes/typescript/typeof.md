@@ -1,8 +1,7 @@
 ---
-title: typeof
-sidebar:
-  order: 2
 ---
+
+# typeof
 
 `typeof` 类型操作符（`The typeof type operator`）。
 

@@ -1,7 +1,7 @@
 ---
-title: 好记性不如烂笔头
-description: 看似最笨的学习方法，偏偏造就了最高的开发效率。
 ---
+
+# 好记性不如烂笔头
 
 import { Callout } from 'nextra/components'
 

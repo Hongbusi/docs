@@ -1,6 +1,7 @@
 ---
-title: node-sass
 ---
+
+# node-sass
 
 ## Version
 

@@ -1,6 +1,7 @@
 ---
-title: Promise
 ---
+
+# Promise
 
 ## 异步任务的处理
 

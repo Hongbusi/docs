@@ -1,6 +1,7 @@
 ---
-title: Git 常见问题
 ---
+
+# Git 常见问题
 
 ## commit-msg 钩子被忽略
 

@@ -1,8 +1,7 @@
 ---
-title: 实现 Pick
-sidebar:
-  order: 3
 ---
+
+# 实现 Pick
 
 [4 · 实现 Pick](https://github.com/type-challenges/type-challenges/blob/master/questions/4-easy-pick/README.zh-CN.md)
 

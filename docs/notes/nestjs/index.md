@@ -1,8 +1,7 @@
 ---
-title: 介绍
-sidebar:
-  order: 1
 ---
+
+# 介绍
 
 Nest (NestJS) 是一个用于构建高效、可扩展的 Node.js 服务器端应用程序的框架。 它使用渐进式 JavaScript，构建并完全支持 TypeScript（但仍然允许开发人员使用纯 JavaScript 进行编码）并结合了 OOP（面向对象编程）、FP（函数式编程）和 FRP（函数式响应式编程）的元素。
 

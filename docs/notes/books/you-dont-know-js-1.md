@@ -1,6 +1,7 @@
 ---
-title: 你不知道的 JavaScript 上卷
 ---
+
+# 你不知道的 JavaScript 上卷
 
 《你不知道的 JavaScript 上卷》阅读笔记。
 

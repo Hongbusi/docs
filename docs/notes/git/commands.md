@@ -1,6 +1,7 @@
 ---
-title: Git 常用命令
 ---
+
+# Git 常用命令
 
 ## Initialize a new git repository
 

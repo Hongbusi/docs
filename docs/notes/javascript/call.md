@@ -1,6 +1,7 @@
 ---
-title: Function.prototype.call()
 ---
+
+# Function.prototype.call()
 
 `call()` 方法用于指定函数调用指向的 `this` 指针，并单独给出一个或多个参数作为指定函数的参数。
 

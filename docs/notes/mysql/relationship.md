@@ -1,8 +1,7 @@
 ---
-title: 表关系设计
-sidebar:
-  order: 2
 ---
+
+# 表关系设计
 
 ## 一对一（One-to-One）
 

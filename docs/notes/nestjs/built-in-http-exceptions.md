@@ -1,8 +1,7 @@
 ---
-title: 内置 HTTP 异常
-sidebar:
-  order: 4
 ---
+
+# 内置 HTTP 异常
 
 Nest 提供了一组继承自 base 的标准异常 `HttpException`。这些是从 `@nestjs/common` 包中公开的，代表许多最常见的 HTTP 异常。
 
